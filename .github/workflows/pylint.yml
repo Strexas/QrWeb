@@ -19,6 +19,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pylint
         pip install pylint-django
+        pip install django
     - name: Analysing the code with pylint
       run: |
         pylint -j 0 --load-plugins pylint_django $(git ls-files '*.py')
