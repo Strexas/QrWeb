@@ -7,10 +7,12 @@ from django.forms.widgets import PasswordInput, TextInput
 
 
 # Register a user
-class CreateUserForm(UserCreationForm):
-    class Meta:
+class UserRegisterForm(UserCreationForm):
+    email = forms.EmailField()
+
+    class Meta:  # Gives a nested namespace for configurations and keeps them in one place:
         model = User
-        fields = ['username', 'password1', 'password2']
+        fields = ['username', 'email', 'password1', 'password2']
 
 
 # Login a user
