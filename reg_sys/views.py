@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .forms import CreateUserForm, LoginForm
 from django.contrib.auth.models import auth
 from django.contrib.auth import authenticate, login, logout
+from django.contrib import messages
 # Create your views here.
 
 
@@ -16,8 +17,10 @@ def register(request):
     if request.method == 'POST':  # Checking if we are sending data to database
         form = CreateUserForm(request.POST)
         if form.is_valid():
-            form.save()
+            form.save()# saving a user
+            messages.success(request, f'Account created for {form.cleaned_data["username"]}')
             return redirect('login')
+
     context = {'form': form}
     return render(request, 'reg_sys/register.html', context=context)
 
@@ -31,6 +34,7 @@ def user_login(request):
             username = request.POST.get('username')
             password = request.POST.get('password')
             user = authenticate(request, username=username, password=password)
+            messages.success(request, f'{form.cleaned_data["username"]} successfully logged in')
             if user is not None:
                 auth.login(request, user)
                 return redirect('')
