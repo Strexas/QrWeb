@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=2">
         <title>QRWeb </title>
         {% if messages %}
             {% for message in messages %}
@@ -16,10 +16,10 @@
 
          </head>
     <body>
-        <div class="container">
-            <br>
-            {% block content %}
-            {% endblock %}
+        <div class="nav justify-content-center">
+            <div>
+                {% block content %}{% endblock %}
+            </div>
         </div>
     </body>
 </html>
