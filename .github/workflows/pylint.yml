@@ -22,7 +22,7 @@ jobs:
         pip install django
     - name: Analysing the code with pylint
       run: |
-        pylint -j 0\
+        pylint -j 0 $(git ls-files '*.py')
               --load-plugins=pylint_django \
-              --django-settings-module=qr_web.settings \
-              $(git ls-files '*.py')
+              --django-settings-module=QrWeb.settings \
+              $(git ls-files '*py')
