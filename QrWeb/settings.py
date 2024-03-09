@@ -1,4 +1,3 @@
-from __future__ import annotations
 """
 Django settings for QrWeb project.
 
@@ -26,7 +25,7 @@ SECRET_KEY = 'django-insecure-69mez*=oxw)h+a60&8-15kxz&xh%dh@&6k^mt&zre^g507aqt_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [] # type: List[str]
 
 
 # Application definition
