@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'QrWeb.urls'
+ROOT_URLCONF = 'qr_web.urls'
 
 TEMPLATES = [
     {
