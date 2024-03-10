@@ -40,3 +40,9 @@ def user_login(request):
                 return redirect('')
     context = {'form': form}
     return render(request, 'reg_sys/login.html', context=context)
+
+
+# - User logout
+def user_logout(request):
+    auth.logout(request)
+    return redirect('login')
