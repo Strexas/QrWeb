@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
 from .forms import UserRegisterForm, LoginForm
 from django.contrib.auth.models import auth
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import authenticate
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
 
@@ -37,7 +38,7 @@ def user_login(request):
             messages.success(request, f'{form.cleaned_data["username"]} successfully logged in')
             if user is not None:
                 auth.login(request, user)
-                return redirect('')
+                return redirect('profile')
     context = {'form': form}
     return render(request, 'reg_sys/login.html', context=context)
 
@@ -46,3 +47,9 @@ def user_login(request):
 def user_logout(request):
     auth.logout(request)
     return redirect('login')
+
+
+# - Profile page
+@login_required(login_url='login')
+def user_profile(request):
+    return render(request, 'reg_sys/profile.html')

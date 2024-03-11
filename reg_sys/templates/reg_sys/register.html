@@ -5,7 +5,6 @@
         <div class="container bg-light shadow-md p-5 form-layout" >
             <h3>Create your account</h3>
             <hr>
-            <br>
             <div>
                 <form method = "POST" autocomplete="off" >
                     {% csrf_token %}<!--prevents any csrf attacks-->
@@ -13,7 +12,6 @@
                     <br>
                     <button type="submit" class="btn btn-primary w-100 btn-block p-2">Create account</button>
                 </form>
-                <br>
             </div>
             <div class="text-center">
                 <p>Already have an account?</p><a href="{% url 'login'%}">Login</a>
