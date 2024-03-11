@@ -1,4 +1,5 @@
 {% extends 'reg_sys/base.html' %}
+{% load static %}
 {% load crispy_forms_filters %}
 {% block content %}
     <body>
@@ -13,6 +14,7 @@
                 <button type="submit" class="btn btn-primary w-100 btn-block p-2">Login</button>
             </form>
             <div class="text-center">
+                <a href="{% url "social:begin" "google-oauth2" %}">  <img src="{% static 'google-icon.jpeg' %}" width="20" height="20" alt="Join using Google Account"></a>
                 <p>Don`t have an account?</p><a href="{% url 'register'%}">Register</a>
             </div>
         </div>
