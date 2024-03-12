@@ -7,7 +7,7 @@ from django.forms.widgets import PasswordInput, TextInput
 
 
 # Register a user
-class UserRegisterForm(UserCreationForm): # pylint: disable=too-many-ancestors
+class UserRegisterForm(UserCreationForm):
     """UserRegister form"""
     email = forms.EmailField()
 
