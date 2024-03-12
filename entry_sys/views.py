@@ -1,4 +1,4 @@
-"""The file is a central place for organizing and managing view functions in entry_sys application."""
+"""Organizing and managing view functions in entry_sys application."""
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate
 from django.contrib import messages, auth
