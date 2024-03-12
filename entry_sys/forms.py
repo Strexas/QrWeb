@@ -16,8 +16,8 @@ class UserRegisterForm(UserCreationForm):
     Attributes:
     - email: An EmailField for the user's email address.
     - Meta: Inner class specifying metadata for the form.
-        - model: Specifies the model class to be used for the form, which is dynamically obtained using get_user_model().
-        - fields: Specifies the fields to be included in the form, including 'username', 'email', 'password1', and 'password2'.
+        - model: Model class to be used for the form, which is obtained using get_user_model().
+        - fields: Fields in the form, including 'username', 'email', 'password1', and 'password2'.
     """
     email = forms.EmailField()
 
