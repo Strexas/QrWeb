@@ -7,7 +7,7 @@ class RegSysConfig(AppConfig):
        AppConfig subclass representing configuration for the 'entry_sys' Django application.
 
        Attributes:
-       - default_auto_field: A string specifying the default primary key field type for models in the app.
+       - default_auto_field: String specify the default primary key type for models in the app.
                              In this case, it's set to 'django.db.models.BigAutoField'.
        - name: A string specifying the name of the Django application, in this case, 'entry_sys'.
     """
