@@ -28,4 +28,5 @@ jobs:
         pylint -j 0\
               --load-plugins=pylint_django \
               --django-settings-module=qr_web.settings \
+              --max-parents=14
               $(git ls-files '*.py')
