@@ -54,7 +54,7 @@ def user_login(request):
                Contains metadata about the request, such as headers and body content.
 
     Returns:
-    - If the request method is POST and the login form is valid, it attempts to authenticate the user,
+    - If the req_method is POST and the login form is valid, it attempts to authenticate the user,
       displays a success message, logs in the user, and redirects to the profile page.
     - If the request method is GET, it renders the login form.
     """
