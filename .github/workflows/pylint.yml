@@ -20,6 +20,9 @@ jobs:
         pip install pylint
         pip install pylint-django
         pip install django
+        pip install django-crispy-forms
+        pip install crispy-bootstrap4
+        pip install social-auth-app-django
     - name: Analysing the code with pylint
       run: |
         pylint -j 0\
