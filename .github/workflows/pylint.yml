@@ -27,6 +27,6 @@ jobs:
       run: |
         pylint -j 0\
               --load-plugins=pylint_django \
-              --load-plugins pylint_django
+              --load-plugins pylint_django \
               --django-settings-module=qr_web.settings \
               $(git ls-files '*.py')
