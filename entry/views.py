@@ -45,7 +45,7 @@ def register(request):
     return render(request, 'entry/register.html', context=context)
 
 
-def user_login(request):
+def login(request):
     """
     View function for user login process.
 
@@ -73,7 +73,7 @@ def user_login(request):
     return render(request, 'entry/login.html', context=context)
 
 
-def user_logout(request):
+def logout(request):
     """
     View function for logging out a user.
 
@@ -89,7 +89,7 @@ def user_logout(request):
 
 
 @login_required(login_url='login')
-def user_profile(request):
+def profile(request):
     """
     View function for displaying user profile.
 
