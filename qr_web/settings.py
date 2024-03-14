@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'entry_sys',
+    'entry',
     'social_django',
 ]
 
@@ -61,7 +61,7 @@ ROOT_URLCONF = 'qr_web.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'entry_sys/templates'],
+        'DIRS': [BASE_DIR / 'entry/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -1,4 +1,4 @@
-"""Organizing and managing view functions in entry_sys application."""
+"""Organizing and managing view functions in entry application."""
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate
 from django.contrib import messages, auth
@@ -17,7 +17,7 @@ def home(request):
     Returns:
     - Rendered response containing the homepage content.
     """
-    return render(request, 'reg_sys/startpage.html')
+    return render(request, 'entry/startpage.html')
 
 
 def register(request):
@@ -42,7 +42,7 @@ def register(request):
     else:
         form = UserRegisterForm()
     context = {'form': form}
-    return render(request, 'reg_sys/register.html', context=context)
+    return render(request, 'entry/register.html', context=context)
 
 
 def user_login(request):
@@ -70,7 +70,7 @@ def user_login(request):
                 auth.login(request, user)
                 return redirect('')
     context = {'form': form}
-    return render(request, 'reg_sys/login.html', context=context)
+    return render(request, 'entry/login.html', context=context)
 
 
 def user_logout(request):
@@ -100,4 +100,4 @@ def user_profile(request):
     Returns:
     - Rendered response containing the user profile page.
     """
-    return render(request, 'reg_sys/startpage.html')
+    return render(request, 'entry/startpage.html')
