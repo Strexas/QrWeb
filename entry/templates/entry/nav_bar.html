@@ -12,15 +12,15 @@
         <span class="navbar-toggler-icon"></span>
     </button>
       <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
-          {% if user.is_authenticated %}
+        {% if user.is_authenticated %}
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{% url '' %}">Create new page <i class="fa fa-home" aria-hidden="true"></i> </a>
+              <a class="nav-link" href="{% url '' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{% url 'logout' %}">Sign out <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
             </li>
-        </ul>
+          </ul>
         {% endif %}
       </div>
   </nav>
