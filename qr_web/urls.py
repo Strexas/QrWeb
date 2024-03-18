@@ -16,9 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static
+from django.conf import  settings
+from user_profile import views as user_profile_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('entry.urls')),
     path('social-auth/', include('social_django.urls', namespace='social')),
+    path('profile/', user_profile_views.profile, name='profile'),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
