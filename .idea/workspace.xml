@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1c1d4e8-2136-4664-8ee6-ad4b9e538678" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_profile/templates/user_profile/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/templates/user_profile/change_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/templates/user_profile/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_profile/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qr_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qr_web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/Screenshot_2024-02-24_010941.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/profile_pic.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qr_web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/qr_web/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_profile/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/templates/user_profile/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/templates/user_profile/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_profile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -39,17 +51,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "RH/QRW-71",
-    "last_opened_file_path": "C:/Users/TUF/QrWeb/qr_web"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;RH/QRW-71&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TUF/QrWeb/qr_web&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TUF\QrWeb\qr_web\user_profile\templates\user_profile" />
+      <recent name="C:\Users\TUF\QrWeb\qr_web\user_profile\templates" />
       <recent name="C:\Users\TUF\QrWeb\qr_web\media" />
     </key>
   </component>
