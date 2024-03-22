@@ -1,18 +1,19 @@
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
 from django.contrib.auth.forms import PasswordChangeForm
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect,get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .forms import UpdateImageForm
 from PIL import Image
-
+from .models import Page
 @login_required
 def profile(request):
-
+    user_pages = Page.objects.filter(user=request.user)
     context = {
         'username': request.user.username,
         'email': request.user.email,
-        'image_url': request.user.profile.image.url
+        'image_url': request.user.profile.image.url,
+        'user_pages':user_pages
     }
     return render(request,'user_profile/profile.html',context)
 
@@ -53,9 +54,6 @@ def change_image(request):
         return render(request, 'user_profile/change_image.html', context)
 
 
-
-
-
 def delete_image(request):
     if request.method == 'POST':
         profile = request.user.profile
@@ -64,3 +62,19 @@ def delete_image(request):
         return redirect('profile')
 
 
+def create_page(request):
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        content = request.POST.get('content')
+        user = request.user
+        page = Page.objects.create(title = title,content = content,user = user)
+        return redirect('profile')
+    else:
+        return render(request,'user_profile/create_page.html')
+
+
+def delete_page(request,page_id):
+    page = get_object_or_404(Page,id = page_id)
+    if request.method == 'POST':
+        page.delete()
+    return redirect('profile')
