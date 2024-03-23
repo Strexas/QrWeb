@@ -19,13 +19,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install mypy
         pip install django
+        pip install django-stubs[compatible-mypy]
     - name: Analysing the code with mypy
       run: |
-        stubgen -m django.core.wsgi
-        stubgen -m django.contrib
-        stubgen -m django.urls
-        stubgen -m django.core.asgi
-        stubgen -m django.core.management
-        stubgen qr_web
-        stubgen entry
+        stubgen .
         mypy $(git ls-files '*.py')
