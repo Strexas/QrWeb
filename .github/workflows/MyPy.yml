@@ -21,5 +21,5 @@ jobs:
         pip install django
     - name: Analysing the code with mypy
       run: |
-        stubgen -o .. .
-        mypy --install-types $(git ls-files '*.py')
+        stubgen -o ../qr_web .
+        mypy $(git ls-files '*.py')
