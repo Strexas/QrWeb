@@ -22,5 +22,5 @@ jobs:
         pip install django-stubs
     - name: Analysing the code with mypy
       run: |
-        stubgen -o . .
+        stubgen --output ../../.. ../../..
         mypy $(git ls-files '*.py')
