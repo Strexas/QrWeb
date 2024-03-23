@@ -22,4 +22,4 @@ jobs:
     - name: Analysing the code with mypy
       run: |
         stubgen .
-        mypy --install types $(git ls-files '*.py')
+        mypy --install-types $(git ls-files '*.py')
