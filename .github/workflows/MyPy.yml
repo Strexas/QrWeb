@@ -21,6 +21,11 @@ jobs:
         pip install django
     - name: Analysing the code with mypy
       run: |
+        stubgen -m django.core.wsgi
+        stubgen -m django.contrib
+        stubgen -m django.urls
+        stubgen -m django.core.asgi
+        stubgen -m django.core.management
         stubgen qr_web
         stubgen entry
         mypy $(git ls-files '*.py')
