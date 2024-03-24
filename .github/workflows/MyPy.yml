@@ -19,7 +19,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install mypy
         pip install django   
+        pip install django-stubs
     - name: Analysing the code with mypy
       run: |
         stubgen -o ../qr_web .
-        mypy -v $(git ls-files '*.py')
+        mypy $(git ls-files '*.py')
