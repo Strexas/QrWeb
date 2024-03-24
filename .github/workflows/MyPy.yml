@@ -22,4 +22,4 @@ jobs:
     - name: Analysing the code with mypy
       run: |
         stubgen -o . .
-        mypy $(git ls-files '*.py')
+        mypy -v $(git ls-files '*.py')
