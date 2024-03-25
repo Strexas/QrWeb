@@ -19,7 +19,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install mypy
+        pip install django-stubs
     - name: Analysing the code with mypy
       run: |
-        mypy --install-types .
+        mypy --install-types --non-interactive $(git ls-files '*.py')
         mypy $(git ls-files '*.py')
