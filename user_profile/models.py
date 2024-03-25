@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from django.db import models
 from django.contrib.auth.models import User
 import os
@@ -30,6 +32,11 @@ class Page(models.Model):
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)
+    user: User
+    title: str
+    content: str
+    created_at: datetime
+    last_updated: datetime
 
     def __str__(self):
         return self.title
