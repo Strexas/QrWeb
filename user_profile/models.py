@@ -27,16 +27,12 @@ class Profile(models.Model):
 
 
 class Page(models.Model):
-    user = models.ForeignKey(User, on_delete = models.CASCADE)
+    user : User = models.ForeignKey(User, on_delete = models.CASCADE)
     title = models.CharField(max_length=100)
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)
-    user: User
-    title: str
-    content: str
-    created_at: datetime
-    last_updated: datetime
+
 
     def __str__(self):
         return self.title
