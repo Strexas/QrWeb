@@ -1,10 +1,12 @@
+# Django #
+*.log
+*.pot
 *.pyc
-venv/
-.idea/
-__pycache__/
-*.sqlite3
-*.pyo
-*.pyd
-*.env
+__pycache__
+db.sqlite3
+
+.idea
+venv
+.mypy_cache/
 
 
