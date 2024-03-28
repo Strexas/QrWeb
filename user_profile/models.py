@@ -27,11 +27,11 @@ class Profile(models.Model):
 
 
 class Page(models.Model):
-    user : User = models.ForeignKey(User, on_delete = models.CASCADE)
-    title = models.CharField(max_length=100)
-    content = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    last_updated = models.DateTimeField(auto_now=True)
+    user : models.ForeignKey = models.ForeignKey(User, on_delete = models.CASCADE)
+    title : models.CharField = models.CharField(max_length=100)
+    content : models.TextField = models.TextField()
+    created_at : models.DateTimeField  = models.DateTimeField(auto_now_add=True)
+    last_updated : models.DateTimeField = models.DateTimeField(auto_now=True)
 
 
     def __str__(self):
