@@ -1,10 +1,23 @@
 {% extends 'entry/base.html' %}
 {% block content %}
-<div class="text-center">
-    <h2>QRWeb</h2>
-    <br>
-    <h5>Everything for your needs</h5>
-    <br>
-    <a class="btn btn-primary button" type="button" href="{% url 'register' %}">Create your account</a>
-</div>
+    
+
+<body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
+    <div class="ts-page-wrapper" id="page-top">
+
+        <!--************ HERO ***************************************************************************************-->
+        <header id="ts-hero" class="d-block py-5 ts-separate-bg-element" data-bg-blend-mode="multiply">
+            
+            <div class="container align-self-center py-5">
+                <div class="align-items-center text-center py-3">
+                    <h1>Web QR code generator&nbsp;</h1>
+                    <div class="text-center py-5">
+                       <a href="{% url 'register' %}" class="btn btn-primary btn-lg m-2 ts-width__200px" >Create your account</a>
+                    </div>
+                </div>
+            </div>
+            </header>
+            </div>
+</body>
+
 {% endblock %}
