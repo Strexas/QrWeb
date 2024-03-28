@@ -892,50 +892,6 @@ form.ts-labels-inside-input .form-group label.focused,
 .form-group label {
     font-size: 1rem;
 }
-/*.container{
-    width: 680px;
-}
-/*.entryarea{
-    position: relative;
-    height: 80px;
-    line-height: 80px;
-}*/
-/*input{
-    position: absolute;
-    width: 100%;
-    outline: none;
-    font-size: 2.2em;
-    padding: 0 30px;
-    line-height: 80px;
-    border-radius: 10px;
-    border : 2px solid #3883c8;
-    background: transparent;
-    transition: 0.1s ease;
-    z-index: 1111;
-}
-.labelline{
-    position: absolute;
-    font-size: 1.6em;
-    color: #0a1016;
-    padding: 0 25px;
-    margin: 0 20px;
-    background-color: #ffffff;
-    transition: 0.2s ease;
-}
-input:focus,
-input:valid{
-    color: #5ca4e7;
-    border: 4px solid #5ca4e7;
-}
-input:focus + .labelline,
-input:valid + .labelline{
-    color: #0a1016;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 12px;
-    transform: translate(-15px, -16px) scale(0.9);
-    z-index: 1111;
-}*/
 
 /*-------------------------------------------
   -- Navbar
