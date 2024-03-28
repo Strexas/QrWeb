@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.9", "3.10"]
+        python-version: ["3.10", "3.11"]
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
@@ -17,9 +17,10 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install -r requirements.txt
         pip install mypy
-        pip install django
-        pip install django-stubs[compatible-mypy]
+        pip install django-stubs
     - name: Analysing the code with mypy
       run: |
+        mypy --install-types --non-interactive $(git ls-files '*.py')
         mypy $(git ls-files '*.py')
