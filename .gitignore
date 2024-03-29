@@ -8,5 +8,7 @@ db.sqlite3
 .idea
 venv
 .mypy_cache/
+user_profile/migrations
+
 
 

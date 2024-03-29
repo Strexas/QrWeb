@@ -1,15 +1,13 @@
-from datetime import datetime
-
+"""Database models for profile page"""
 from django.db import models
-from django.contrib.auth.models import User
-import os
-from django.conf import settings
+from django.contrib.auth import models as auth_models
 from PIL import Image
 
 # Create your models here.
 
 class Profile(models.Model):
-    user : models.OneToOneField = models.OneToOneField(User, on_delete=models.CASCADE)
+    """"Profile model"""
+    user : models.OneToOneField = models.OneToOneField(auth_models.User, on_delete=models.CASCADE)
     image : models.ImageField = models.ImageField(default='default.png',upload_to='profile_pics')
 
     def __str__(self):
@@ -27,7 +25,8 @@ class Profile(models.Model):
 
 
 class Page(models.Model):
-    user : models.ForeignKey = models.ForeignKey(User, on_delete = models.CASCADE)
+    """Page model"""
+    user : models.ForeignKey = models.ForeignKey(auth_models.User, on_delete = models.CASCADE)
     title : models.CharField = models.CharField(max_length=100)
     content : models.TextField = models.TextField()
     created_at : models.DateTimeField  = models.DateTimeField(auto_now_add=True)
@@ -36,14 +35,3 @@ class Page(models.Model):
 
     def __str__(self):
         return self.title
-
-
-
-
-
-
-
-
-
-
-

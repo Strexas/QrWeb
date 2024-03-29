@@ -1,13 +1,14 @@
+"""Views for profile page"""
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
 from django.contrib.auth.forms import PasswordChangeForm
 from django.shortcuts import render, redirect,get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .forms import UpdateImageForm
-from PIL import Image
 from .models import Page
 @login_required
 def profile(request):
+    """Profile view"""
     user_pages = Page.objects.filter(user=request.user)
     context = {
         'username': request.user.username,
@@ -19,6 +20,7 @@ def profile(request):
 
 
 def change_password(request):
+    """change password view"""
     if request.method == 'POST':
         form = PasswordChangeForm(request.user, request.POST)
         print("print 1")
@@ -37,12 +39,14 @@ def change_password(request):
 
 
 def change_image(request):
+    """change image view"""
     if request.method == 'POST':
-        update_image_form = UpdateImageForm(request.POST,request.FILES,instance=request.user.profile)
+        update_image_form = UpdateImageForm(
+            request.POST,request.FILES,instance=request.user.profile)
 
         if update_image_form.is_valid():
             update_image_form.save()
-            messages.success(request,f'Your profile image has been updated!')
+            messages.success(request,'Your profile image has been updated!')
             return redirect('profile')
 
     else:
@@ -55,6 +59,7 @@ def change_image(request):
 
 
 def delete_image(request):
+    """delete_image view"""
     if request.method == 'POST':
         profile = request.user.profile
         profile.image = 'default.png'
@@ -63,17 +68,19 @@ def delete_image(request):
 
 
 def create_page(request):
+    """create_page view"""
     if request.method == 'POST':
         title = request.POST.get('title')
         content = request.POST.get('content')
         user = request.user
-        page = Page.objects.create(title = title,content = content,user = user)
+        Page.objects.create(title=title, content=content, user=user)
         return redirect('profile')
-    else:
-        return render(request,'user_profile/create_page.html')
+
+    return render(request,'user_profile/create_page.html')
 
 
 def delete_page(request,page_id):
+    """delete_page view"""
     page = get_object_or_404(Page,id = page_id)
     if request.method == 'POST':
         page.delete()

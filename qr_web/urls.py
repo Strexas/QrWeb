@@ -20,9 +20,8 @@ from django.contrib import admin
 from django.urls import path, include,URLResolver,URLPattern
 from django.conf.urls.static import static
 from django.conf import  settings
-from user_profile import views as user_profile_views
-URL = typing.Union[URLPattern, URLResolver]
-URLList = typing.List[URL]
+Url = typing.Union[URLPattern, URLResolver]
+URLList = typing.List[Url]
 urlpatterns: URLList = [
     path('admin/', admin.site.urls),
     path('', include('entry.urls')),
