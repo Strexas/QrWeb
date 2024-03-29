@@ -9,6 +9,7 @@ db.sqlite3
 venv
 .mypy_cache/
 user_profile/migrations
-
+user_profile/__pycache__
+user_profile/tests.py
 
 
