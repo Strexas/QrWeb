@@ -8,8 +8,11 @@ db.sqlite3
 .idea
 venv
 .mypy_cache/
-user_profile/migrations
-user_profile/__pycache__
-user_profile/tests.py
+*/__pycache__
+*/tests.py
+*/migrations
+
+
+
 
 
