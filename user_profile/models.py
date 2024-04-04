@@ -8,7 +8,7 @@ from PIL import Image
 
 class Profile(models.Model):
     """"Profile model"""
-    user: auth_models.User = models.OneToOneField(auth_models.User, on_delete=models.CASCADE)
+    user: models.OneToOneField = models.OneToOneField(auth_models.User, on_delete=models.CASCADE)
     image: models.ImageField = models.ImageField(default='default.png',upload_to='profile_pics')
 
     def __str__(self):
