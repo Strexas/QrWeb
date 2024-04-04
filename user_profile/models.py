@@ -12,6 +12,7 @@ class Profile(models.Model):
     image: models.ImageField = models.ImageField(default='default.png',upload_to='profile_pics')
 
     def __str__(self):
+        # pylint : disable=no-member
         return f'{self.user.username} Profile'
 
     def save(self,*args, **kwargs):
