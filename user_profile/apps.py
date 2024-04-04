@@ -1,4 +1,4 @@
-import user_profile.signals
+
 """This is apps file to register automatically profile pages"""
 from django.apps import AppConfig
 
@@ -9,4 +9,5 @@ class UserProfileConfig(AppConfig):
     name = 'user_profile'
 
     def ready(self):
+        import user_profile.signals
         var = user_profile.signals
