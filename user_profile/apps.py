@@ -9,6 +9,5 @@ class UserProfileConfig(AppConfig):
     name = 'user_profile'
 
     def ready(self):
-        # pylint: disable=import-outside-toplevel
-        # pylint : disable=unused-import
+        # pylint: disable=import-outside-toplevel, unused-import
         import user_profile.signals
