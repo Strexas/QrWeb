@@ -3,12 +3,13 @@ from django.db import models
 from django.contrib.auth import models as auth_models
 from PIL import Image
 
+
 # Create your models here.
 
 class Profile(models.Model):
     """"Profile model"""
-    user : models.OneToOneField = models.OneToOneField(auth_models.User, on_delete=models.CASCADE)
-    image : models.ImageField = models.ImageField(default='default.png',upload_to='profile_pics')
+    user: auth_models.User = models.OneToOneField(auth_models.User, on_delete=models.CASCADE)
+    image: models.ImageField = models.ImageField(default='default.png',upload_to='profile_pics')
 
     def __str__(self):
         return f'{self.user.username} Profile'
@@ -26,11 +27,11 @@ class Profile(models.Model):
 
 class Page(models.Model):
     """Page model"""
-    user : models.ForeignKey = models.ForeignKey(auth_models.User, on_delete = models.CASCADE)
-    title : models.CharField = models.CharField(max_length=100)
-    content : models.TextField = models.TextField()
-    created_at : models.DateTimeField  = models.DateTimeField(auto_now_add=True)
-    last_updated : models.DateTimeField = models.DateTimeField(auto_now=True)
+    user: models.ForeignKey = models.ForeignKey(auth_models.User, on_delete = models.CASCADE)
+    title: models.CharField = models.CharField(max_length=100)
+    content: models.TextField = models.TextField()
+    created_at: models.DateTimeField  = models.DateTimeField(auto_now_add=True)
+    last_updated: models.DateTimeField = models.DateTimeField(auto_now=True)
 
 
     def __str__(self):

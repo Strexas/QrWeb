@@ -1,4 +1,5 @@
-"""This file is to make communication when user is created it will have profile page automatically"""
+"""This file is to make communication when user is created it
+ will have profile page automatically"""
 from  django.db.models.signals import post_save
 from django.contrib.auth import models as auth_models
 from django.dispatch import receiver
