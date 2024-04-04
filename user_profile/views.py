@@ -55,16 +55,17 @@ def change_image(request):
             'update_image_form': update_image_form
         }
 
-        return render(request, 'user_profile/change_image.html', context)
+    return render(request, 'user_profile/change_image.html', context)
 
 
 def delete_image(request):
     """delete_image view"""
     if request.method == 'POST':
-        profile = request.user.profile
-        profile.image = 'default.png'
-        profile.save()
-        return redirect('profile')
+        profile1 = request.user.profile
+        profile1.image = 'default.png'
+        profile1.save()
+
+    return redirect('profile')
 
 
 def create_page(request):
