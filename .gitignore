@@ -11,6 +11,8 @@ venv
 */__pycache__
 */tests.py
 media/profile_pics/*
+*/migrations/*
+!*/migrations/__init__.py
 
 
 
