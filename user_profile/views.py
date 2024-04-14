@@ -6,6 +6,8 @@ from django.shortcuts import render, redirect,get_object_or_404
 from django.contrib.auth.decorators import login_required
 from .forms import UpdateImageForm
 from .models import Page
+
+
 @login_required
 def profile(request):
     """Profile view"""

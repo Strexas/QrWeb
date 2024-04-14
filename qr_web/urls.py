@@ -17,9 +17,10 @@ Including another URLconf
 import typing
 
 from django.contrib import admin
-from django.urls import path, include,URLResolver,URLPattern
+from django.urls import path, include, URLResolver, URLPattern
 from django.conf.urls.static import static
-from django.conf import  settings
+from django.conf import settings
+
 Url = typing.Union[URLPattern, URLResolver]
 URLList = typing.List[Url]
 urlpatterns: URLList = [
