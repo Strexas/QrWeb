@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+</head>
+<body>
+    <h1>Profile Page</h1>
+    <div>
+        <h2>User Information</h2>
+        <p><strong>Username:</strong> {{ username }}</p>
+        <p><strong>Email:</strong> {{ email }}</p>
+    </div>
+    <div>
+        <h2>Profile Image</h2>
+        <img src="{{ image_url }}" alt="Profile Image">
+    </div>
+    <div>
+        <!-- Form for changing the profile image -->
+        <h2>Change Profile Image</h2>
+        <form method="get" action="{% url 'change_image' %}" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ update_image_form.as_p }}
+            <button type="submit">Change Image</button>
+        </form>
+    </div>
+    <div>
+        <!-- Delete Image Button -->
+        <h2>Delete Profile Image</h2>
+        <form method="post" action="{% url 'delete_image' %}">
+            {% csrf_token %}
+            <button type="submit">Delete Image</button>
+        </form>
+    </div>
+    <div>
+        <!-- Form for changing the password -->
+        <h2>Change Password</h2>
+        <form method="get" action="{% url 'change_password' %}">
+            {% csrf_token %}
+            {{ password_change_form.as_p }}
+            <button type="submit">Change Password</button>
+        </form>
+    </div>
+    <div>
+        <a href="{% url 'create_page' %}" class="btn btn-primary">Create New Page</a>
+    </div>
+<!-- In profile.html -->
+<h1>Profile Page</h1>
+
+<div class="page-list">
+    <h2>Your Pages</h2>
+    <ul>
+        {% for page in user_pages %}
+            <li>
+                <form method="post" action="{% url 'delete_page' page.id %}">
+                    {% csrf_token %}
+                    <p>{{ page.title }} - {{ page.created_at }}</p>
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+</body>
+</html>

@@ -1,2 +1,15 @@
-db.sqlite3
+# Django #
+*.log
+*.pot
+*.pyc
 __pycache__
+db.sqlite3
+
+.idea
+venv
+.mypy_cache/
+*/__pycache__
+*/tests.py
+media/profile_pics/*
+*/migrations/*
+!*/migrations/__init__.py
