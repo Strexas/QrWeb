@@ -84,8 +84,6 @@ def create_page(request):
             Page.objects.create(title=title, content=content, user=user)
             messages.success(request, 'You created new page!')
             return redirect('profile')
-        else:
-            messages.error(request, "Form is not valid. Please check your inputs.")
     else:
         form = PageForm()
 

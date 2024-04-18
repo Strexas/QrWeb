@@ -1,9 +1,9 @@
 """Database models for profile page"""
 from django.db import models
 from django.contrib.auth import models as auth_models
-from PIL import Image
 from django.urls import reverse
 from django_editorjs_fields import EditorJsJSONField
+from PIL import Image
 
 
 class Profile(models.Model):
