@@ -71,4 +71,4 @@ class Page(models.Model):
         Returns:
             str: The absolute URL of a page detail view.
         """
-        return reverse('page_detail', kwargs={'pk': self.id})
+        return reverse('page_detail', kwargs={'page_id': self.id})
