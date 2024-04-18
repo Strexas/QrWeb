@@ -2,9 +2,9 @@
 from django.db import models
 from django.contrib.auth import models as auth_models
 from PIL import Image
+from django.urls import reverse
+from django_editorjs_fields import EditorJsJSONField
 
-
-# Create your models here.
 
 class Profile(models.Model):
     """"Profile model"""
@@ -30,9 +30,45 @@ class Page(models.Model):
     """Page model"""
     user: models.ForeignKey = models.ForeignKey(auth_models.User, on_delete=models.CASCADE)
     title: models.CharField = models.CharField(max_length=100)
-    content: models.TextField = models.TextField()
+    objects = models.Manager()
+    content = EditorJsJSONField(
+        plugins=[
+            '@editorjs/paragraph',
+            '@editorjs/image',
+            '@editorjs/header',
+            '@editorjs/list',
+            '@editorjs/code',
+            '@editorjs/inline-code',
+            '@editorjs/embed',
+            '@editorjs/link',
+            '@editorjs/marker',
+            '@editorjs/table',
+            'header-with-alignment',
+        ],
+        tools={
+            "Image": {
+                'class': 'ImageTool',
+                "config": {
+                    "endpoints": {
+                        "byFile": "/editorjs/image_upload/"
+                    }
+                }
+            },
+        },
+        null=True,
+        blank=True,
+    )
     created_at: models.DateTimeField = models.DateTimeField(auto_now_add=True)
     last_updated: models.DateTimeField = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        """
+        Return the absolute URL of a page detail view.
+
+        Returns:
+            str: The absolute URL of a page detail view.
+        """
+        return reverse('page_detail', kwargs={'pk': self.id})

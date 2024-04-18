@@ -1,17 +1,17 @@
 """This module defines a Django form class called TestForm, which is used to
-create and handle forms for the Post
+create and handle forms for the Page
 model."""
 from django import forms
 from django_editorjs_fields import EditorJsWidget
-from .models import Post
+from user_profile.models import Page
 
 
 class TestForm(forms.ModelForm):
     """TestForm (forms.ModelForm): A subclass of Django's ModelForm class,
-     customized for the Post model.
+     customized for the Page model.
      - Meta (nested class):
      Contains metadata options for the TestForm class, including:
-     - model: Specifies the model associated with the form (Post).
+     - model: Specifies the model associated with the form (Page).
      - exclude: Specifies which fields from the model should be excluded from the form.
      - widgets: Specifies custom widgets for form fields,
      where keys are field names and values are widget instances.
@@ -30,11 +30,12 @@ class TestForm(forms.ModelForm):
         Metadata options for the TestForm class.
 
         Attributes:
-            model (Post): The model associated with the form.
+            model (Page): The model associated with the form.
             widgets (dict): Custom widgets for form fields.
         """
-        model = Post
-        exclude = []
+        model = Page
+        exclude: list[str] = []
+        fields = ['content']
         widgets = {
             'body_editorjs': EditorJsWidget(config={'minHeight': 100}),
             'body_editorjs_text': EditorJsWidget(plugins=["@editorjs/image", "@editorjs/header"])
