@@ -2,8 +2,8 @@
 from django.db import models
 from django.contrib.auth import models as auth_models
 from django.urls import reverse
-from django_editorjs_fields import EditorJsJSONField
 from PIL import Image
+from django_editorjs_fields import EditorJsJSONField
 
 
 class Profile(models.Model):

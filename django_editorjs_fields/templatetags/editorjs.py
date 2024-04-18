@@ -157,34 +157,30 @@ def editorjs(value):
             return value
 
     html_list = []
-    for item in value['blocks']:
+    type_handlers = {
+        'paragraph': generate_paragraph,
+        'header': generate_header,
+        'list': generate_list,
+        'image': generate_image,
+        'delimiter': generate_delimiter,
+        'warning': generate_warning,
+        'table': generate_table,
+        'code': generate_code,
+        'raw': generate_raw,
+        'embed': generate_embed,
+        'quote': generate_quote,
+        'linktool': generate_link,
+    }
 
+    # Iterate over items in value['blocks']
+    for item in value['blocks']:
         types, data = item.get('type'), item.get('data')
         types = types.lower()
 
-        if types == 'paragraph':
-            html_list.append(generate_paragraph(data))
-        elif types == 'header':
-            html_list.append(generate_header(data))
-        elif types == 'list':
-            html_list.append(generate_list(data))
-        elif types == 'image':
-            html_list.append(generate_image(data))
-        elif types == 'delimiter':
-            html_list.append(generate_delimiter())
-        elif types == 'warning':
-            html_list.append(generate_warning(data))
-        elif types == 'table':
-            html_list.append(generate_table(data))
-        elif types == 'code':
-            html_list.append(generate_code(data))
-        elif types == 'raw':
-            html_list.append(generate_raw(data))
-        elif types == 'embed':
-            html_list.append(generate_embed(data))
-        elif types == 'quote':
-            html_list.append(generate_quote(data))
-        elif types == 'linktool':
-            html_list.append(generate_link(data))
+        # Check if the type is in the dictionary
+        if types in type_handlers:
+            # Call the corresponding generator function
+            html_list.append(type_handlers[types](data))
 
+    # Join the html_list and return the result
     return mark_safe(''.join(html_list))
