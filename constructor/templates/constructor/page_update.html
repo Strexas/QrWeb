@@ -1,10 +1,5 @@
 {% extends 'entry/base.html' %}
 {% block content %}
-<style>
-     .container {
-        width:60%
-     }
-</style>
 <body>
     <div class="container bg-light shadow-md p-5 form-layout">
         {% if form %}
@@ -21,6 +16,7 @@
                 {% csrf_token %}
                 <!--prevents any csrf attacks-->
                 {% for field in form %}
+                    <br>
                     <div class="mydiv">
                         {{ field }}
                     </div>
