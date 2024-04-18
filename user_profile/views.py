@@ -105,20 +105,3 @@ def delete_page(request, page_id):
     return redirect('profile')
 
 
-def edit_page(request, page_id):
-    """edit_page view"""
-    page = Page.objects.get(id=page_id)
-    if request.method == 'POST':
-        form = PageForm(request.POST, instance=page)
-        if form.is_valid():
-            title = form.cleaned_data['title']
-            content = form.cleaned_data['content']
-            user = request.user
-            Page.objects.create(title=title, content=content, user=user)
-            form.save()
-            return redirect('profile')
-    else:
-        form = PageForm(instance=page)
-
-    return render(request, 'constructor/page_update.html', {'form': form, 'page': page})
-
