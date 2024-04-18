@@ -1,3 +1,4 @@
+"""Module containing functions for generating HTML elements from Editor.js data."""
 import json
 
 from django import template
@@ -7,23 +8,27 @@ register = template.Library()
 
 
 def generate_paragraph(data):
+    """Generate HTML paragraph element."""
     text = data.get('text').replace('&nbsp;', ' ')
     return f'<p>{text}</p>'
 
 
 def generate_list(data):
+    """Generate HTML list element."""
     list_li = ''.join([f'<li>{item}</li>' for item in data.get('items')])
     tag = 'ol' if data.get('style') == 'ordered' else 'ul'
     return f'<{tag}>{list_li}</{tag}>'
 
 
 def generate_header(data):
+    """Generate HTML header element."""
     text = data.get('text').replace('&nbsp;', ' ')
     level = data.get('level')
     return f'<h{level}>{text}</h{level}>'
 
 
 def generate_image(data):
+    """Generate HTML image element."""
     url = data.get('file', {}).get('url')
     caption = data.get('caption')
     classes = []
@@ -41,10 +46,12 @@ def generate_image(data):
 
 
 def generate_delimiter():
+    """Generate HTML delimiter element."""
     return '<div class="delimiter"></div>'
 
 
 def generate_table(data):
+    """Generate HTML table element."""
     rows = data.get('content', [])
     table = ''
 
@@ -58,6 +65,7 @@ def generate_table(data):
 
 
 def generate_warning(data):
+    """Generate HTML warning element."""
     title, message = data.get('title'), data.get('message')
 
     if title:
@@ -69,6 +77,7 @@ def generate_warning(data):
 
 
 def generate_quote(data):
+    """Generate HTML quote element."""
     alignment = data.get('alignment')
     caption = data.get('caption')
     text = data.get('text')
@@ -82,15 +91,18 @@ def generate_quote(data):
 
 
 def generate_code(data):
+    """Generate HTML code element."""
     code = data.get('code')
     return f'<code class="code">{code}</code>'
 
 
 def generate_raw(data):
+    """Generate HTML raw element."""
     return data.get('html')
 
 
 def generate_embed(data):
+    """Generate HTML embed element."""
     service = data.get('service')
     caption = data.get('caption')
     embed = data.get('embed')
@@ -100,6 +112,7 @@ def generate_embed(data):
 
 
 def generate_link(data):
+    """Generate HTML link element."""
 
     link, meta = data.get('link'), data.get('meta')
 
@@ -110,11 +123,13 @@ def generate_link(data):
     description = meta.get('description')
     image = meta.get('image')
 
-    wrapper = f'<div class="link-block"><a href="{ link }" target="_blank" rel="nofollow noopener noreferrer">'
+    wrapper = (f'<div class="link-block"><a href="{ link }" '
+               f'target="_blank" rel="nofollow noopener noreferrer">')
 
     if image.get('url'):
         image_url = image.get('url')
-        wrapper += f'<div class="link-block__image" style="background-image: url(\'{image_url}\');"></div>'
+        wrapper += (f'<div class="link-block__image"'
+                    f' style="background-image: url(\'{image_url}\');"></div>')
 
     if title:
         wrapper += f'<p class="link-block__title">{title}</p>'
@@ -129,6 +144,7 @@ def generate_link(data):
 
 @register.filter(is_safe=True)
 def editorjs(value):
+    """Convert Editor.js data to HTML."""
     if not value or value == 'null':
         return ""
 
@@ -143,32 +159,32 @@ def editorjs(value):
     html_list = []
     for item in value['blocks']:
 
-        type, data = item.get('type'), item.get('data')
-        type = type.lower()
+        types, data = item.get('type'), item.get('data')
+        types = types.lower()
 
-        if type == 'paragraph':
+        if types == 'paragraph':
             html_list.append(generate_paragraph(data))
-        elif type == 'header':
+        elif types == 'header':
             html_list.append(generate_header(data))
-        elif type == 'list':
+        elif types == 'list':
             html_list.append(generate_list(data))
-        elif type == 'image':
+        elif types == 'image':
             html_list.append(generate_image(data))
-        elif type == 'delimiter':
+        elif types == 'delimiter':
             html_list.append(generate_delimiter())
-        elif type == 'warning':
+        elif types == 'warning':
             html_list.append(generate_warning(data))
-        elif type == 'table':
+        elif types == 'table':
             html_list.append(generate_table(data))
-        elif type == 'code':
+        elif types == 'code':
             html_list.append(generate_code(data))
-        elif type == 'raw':
+        elif types == 'raw':
             html_list.append(generate_raw(data))
-        elif type == 'embed':
+        elif types == 'embed':
             html_list.append(generate_embed(data))
-        elif type == 'quote':
+        elif types == 'quote':
             html_list.append(generate_quote(data))
-        elif type == 'linktool':
+        elif types == 'linktool':
             html_list.append(generate_link(data))
 
     return mark_safe(''.join(html_list))

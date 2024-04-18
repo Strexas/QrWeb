@@ -1,4 +1,4 @@
-import json
+"""Custom widget for Editor.js."""
 
 from django.core.serializers.json import DjangoJSONEncoder
 from django.forms import Media, widgets
@@ -10,19 +10,39 @@ from django.utils.safestring import mark_safe
 
 from .config import CONFIG_TOOLS, PLUGINS, PLUGINS_KEYS, VERSION
 
-
 class LazyEncoder(DjangoJSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, Promise):
-            return force_str(obj)
-        return super().default(obj)
+    """Custom JSON encoder to handle Promise objects."""
 
+    def default(self, o):
+        """
+        Serialize objects to a JSON format.
 
+        Args:
+            o: Object to be serialized.
+
+        Returns:
+            str: Serialized JSON string.
+        """
+        if isinstance(o, Promise):
+            return force_str(o)
+        return super().default(o)
+
+# Instantiate the LazyEncoder
 json_encode = LazyEncoder().encode
 
-
 class EditorJsWidget(widgets.Textarea):
+    """
+    Custom widget for Editor.js integration.
+
+    Args:
+        plugins (list): List of plugins.
+        tools (dict): Dictionary of tools.
+        config (dict): Configuration options.
+        **kwargs: Additional keyword arguments.
+    """
+
     def __init__(self, plugins=None, tools=None, config=None, **kwargs):
+        """Initialize the EditorJsWidget."""
         self.plugins = plugins
         self.tools = tools
         self.config = config
@@ -37,6 +57,12 @@ class EditorJsWidget(widgets.Textarea):
         super().__init__(**kwargs)
 
     def configuration(self):
+        """
+        Generate the configuration for the widget.
+
+        Returns:
+            dict: Configuration options.
+        """
         tools = {}
         config = self.config or {}
 
@@ -76,6 +102,12 @@ class EditorJsWidget(widgets.Textarea):
 
     @cached_property
     def media(self):
+        """
+        Define the media files required by the widget.
+
+        Returns:
+            Media: Media assets required by the widget.
+        """
         js_list = [
             '//cdn.jsdelivr.net/npm/@editorjs/editorjs@' + VERSION  # lib
         ]
@@ -97,6 +129,18 @@ class EditorJsWidget(widgets.Textarea):
         )
 
     def render(self, name, value, attrs=None, renderer=None):
+        """
+        Render the widget.
+
+        Args:
+            name (str): The name of the widget.
+            value (str): The value of the widget.
+            attrs (dict): Additional attributes for the widget.
+            renderer: The renderer for the widget.
+
+        Returns:
+            str: Rendered HTML of the widget.
+        """
         if value is None:
             value = ''
 

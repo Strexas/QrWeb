@@ -1,3 +1,5 @@
+"""This module provides custom Django fields for integrating Editor.js into Django models."""
+
 import json
 
 from django.core import checks
@@ -19,14 +21,18 @@ else:
 
 __all__ = ['EditorJsTextField', 'EditorJsJSONField']
 
-
 class FieldMixin(Field):
+    """Mixin class for providing internal type 'TextField'."""
+
     def get_internal_type(self):
+        """Returns the internal type of the field."""
         return 'TextField'
 
-
 class EditorJsFieldMixin:
+    """Mixin class for Editor.js fields."""
+
     def __init__(self, plugins, tools, **kwargs):
+        """Initialize EditorJsFieldMixin."""
         self.use_editorjs = kwargs.pop('use_editorjs', True)
         self.plugins = plugins
         self.tools = tools
@@ -56,9 +62,10 @@ class EditorJsFieldMixin:
         super().__init__(**kwargs)
 
     def validate_embed(self, value):
+        """Validate embed value."""
         for item in value.get('blocks', []):
-            type = item.get('type', '').lower()
-            if type == 'embed':
+            types = item.get('type', '').lower()
+            if types == 'embed':
                 embed = item['data']['embed']
                 hostname = get_hostname_from_url(embed)
 
@@ -67,6 +74,7 @@ class EditorJsFieldMixin:
                         hostname + ' is not allowed in EDITORJS_EMBED_HOSTNAME_ALLOWED')
 
     def clean(self, value, model_instance):
+        """Clean and validate the field value."""
         if value and value != 'null':
             if not isinstance(value, dict):
                 try:
@@ -84,6 +92,7 @@ class EditorJsFieldMixin:
         return super().clean(value, model_instance)
 
     def formfield(self, **kwargs):
+        """Return form field for the current configuration."""
         if self.use_editorjs:
             kwargs['widget'] = EditorJsWidget(
                 self.plugins, self.tools, self.config, **kwargs)
@@ -93,30 +102,35 @@ class EditorJsFieldMixin:
         # pylint: disable=no-member
         return super().formfield(**kwargs)
 
-
 class EditorJsTextField(EditorJsFieldMixin, FieldMixin):
-    # pylint: disable=useless-super-delegation
+    """Custom TextField for storing text content created using Editor.js."""
+
     def __init__(self, plugins=None, tools=None, **kwargs):
+        """Initialize EditorJsTextField."""
         super().__init__(plugins, tools, **kwargs)
 
     def clean(self, value, model_instance):
+        """Clean and validate the field value."""
         if value == 'null':
             value = None
 
         return super().clean(value, model_instance)
 
-
 class EditorJsJSONField(EditorJsFieldMixin, JSONField if HAS_JSONFIELD else FieldMixin):
-    # pylint: disable=useless-super-delegation
+    """Custom JSONField for storing JSON content created using Editor.js."""
+
     def __init__(self, plugins=None, tools=None, **kwargs):
+        """Initialize EditorJsJSONField."""
         super().__init__(plugins, tools, **kwargs)
 
     def check(self, **kwargs):
+        """Check if JSONField is supported."""
         errors = super().check(**kwargs)
         errors.extend(self._check_supported_json())
         return errors
 
     def _check_supported_json(self):
+        """Check if JSONField is supported and return errors if not."""
         if not HAS_JSONFIELD and DEBUG:
             return [
                 checks.Warning(

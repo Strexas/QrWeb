@@ -1,5 +1,38 @@
-from secrets import token_urlsafe
+"""Configuration module for Editor.js integration in Django.
 
+This module defines various configuration settings for integrating Editor.js,
+a block-style editor for rich content creation, into Django projects.
+
+Attributes:
+    DEBUG (bool): Indicates whether the application is in debug mode.
+    VERSION (str): The version of Editor.js being used.
+    EMBED_HOSTNAME_ALLOWED (str): List of allowed hostnames for embedded content.
+    IMAGE_UPLOAD_PATH (str): The path where uploaded images are stored.
+    IMAGE_UPLOAD_PATH_DATE (str): The format for organizing uploaded images by date.
+    IMAGE_NAME_ORIGINAL (bool): Indicates whether to keep the original image name when uploading.
+    IMAGE_NAME (function): Function to generate a unique name for uploaded images.
+    PLUGINS (tuple): List of default plugins for Editor.js.
+    CONFIG_TOOLS (dict): Configuration settings for Editor.js tools.
+    PLUGINS_KEYS (dict): Mapping of Editor.js plugin names to their corresponding tool names.
+
+Usage:
+- Import the necessary settings from this module to configure
+Editor.js integration in your Django project.
+- Customize the settings as needed based on your project requirements.
+
+Example:
+    from django.conf import settings
+
+    DEBUG = getattr(settings, "DEBUG", False)
+    VERSION = getattr(settings, "EDITORJS_VERSION", '2.25.0')
+    EMBED_HOSTNAME_ALLOWED = getattr(settings, "EDITORJS_EMBED_HOSTNAME_ALLOWED", (
+        'player.vimeo.com',
+        'www.youtube.com',
+        # Add more allowed hostnames as needed
+    ))
+    # Configure other settings similarly as needed
+"""
+from secrets import token_urlsafe
 from django.conf import settings
 from django.urls import reverse_lazy
 

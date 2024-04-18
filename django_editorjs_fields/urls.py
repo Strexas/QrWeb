@@ -1,3 +1,4 @@
+"""URL configuration for Editor.js related views."""
 from django.contrib.admin.views.decorators import staff_member_required
 from django.urls import path
 
