@@ -5,6 +5,7 @@ import json
 from django.core import checks
 from django.core.exceptions import ValidationError
 from django.db.models import Field
+from django.db import models
 from django.forms import Textarea
 
 from .config import DEBUG, EMBED_HOSTNAME_ALLOWED
@@ -21,12 +22,14 @@ else:
 
 __all__ = ['EditorJsTextField', 'EditorJsJSONField']
 
+
 class FieldMixin(Field):
     """Mixin class for providing internal type 'TextField'."""
 
     def get_internal_type(self):
         """Returns the internal type of the field."""
         return 'TextField'
+
 
 class EditorJsFieldMixin:
     """Mixin class for Editor.js fields."""
@@ -102,6 +105,7 @@ class EditorJsFieldMixin:
         # pylint: disable=no-member
         return super().formfield(**kwargs)
 
+
 class EditorJsTextField(EditorJsFieldMixin, FieldMixin):
     """Custom TextField for storing text content created using Editor.js."""
 
@@ -116,7 +120,8 @@ class EditorJsTextField(EditorJsFieldMixin, FieldMixin):
 
         return super().clean(value, model_instance)
 
-class EditorJsJSONField(EditorJsFieldMixin, JSONField if HAS_JSONFIELD else FieldMixin):
+
+class EditorJsJSONField(EditorJsFieldMixin, JSONField if HAS_JSONFIELD else models.TextField):
     """Custom JSONField for storing JSON content created using Editor.js."""
 
     def __init__(self, plugins=None, tools=None, **kwargs):
