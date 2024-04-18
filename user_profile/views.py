@@ -104,5 +104,3 @@ def delete_page(request, page_id):
     if request.method == 'POST':
         page.delete()
     return redirect('profile')
-
-
