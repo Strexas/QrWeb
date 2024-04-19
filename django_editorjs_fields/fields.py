@@ -1,11 +1,9 @@
 """This module provides custom Django fields for integrating Editor.js into Django models."""
 
 import json
-
 from django.core import checks
 from django.core.exceptions import ValidationError
 from django.db.models import Field
-from django.db import models
 from django.forms import Textarea
 
 from .config import DEBUG, EMBED_HOSTNAME_ALLOWED
@@ -94,7 +92,7 @@ class EditorJsFieldMixin:
 
         return super().clean(value, model_instance)
 
-    def formfield(self, **kwargs):
+    def formfield(self, form_class=None, choices_form_class=None, **kwargs):
         """Return form field for the current configuration."""
         if self.use_editorjs:
             kwargs['widget'] = EditorJsWidget(
@@ -102,7 +100,6 @@ class EditorJsFieldMixin:
         else:
             kwargs['widget'] = Textarea(**kwargs)
 
-        # pylint: disable=no-member
         return super().formfield(**kwargs)
 
 
@@ -121,7 +118,7 @@ class EditorJsTextField(EditorJsFieldMixin, FieldMixin):
         return super().clean(value, model_instance)
 
 
-class EditorJsJSONField(EditorJsFieldMixin, JSONField if HAS_JSONFIELD else models.TextField):
+class EditorJsJSONField(EditorJsFieldMixin, JSONField):
     """Custom JSONField for storing JSON content created using Editor.js."""
 
     def __init__(self, plugins=None, tools=None, **kwargs):
