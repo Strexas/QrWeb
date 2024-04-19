@@ -92,7 +92,7 @@ class EditorJsFieldMixin:
 
         return super().clean(value, model_instance)
 
-    def formfield(self, form_class=None, choices_form_class=None, **kwargs):
+    def formfield(self, form_class=None, choices_form_class=None, **kwargs):  # pylint: disable=W0613
         """Return form field for the current configuration."""
         if self.use_editorjs:
             kwargs['widget'] = EditorJsWidget(
