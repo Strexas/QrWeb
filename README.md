@@ -10,6 +10,10 @@ Install the dependencies:
 
 `pip install -r requirements.txt`
 
+Make migrations:
+
+`python manage.py makemigrations`
+
 Migrate:
 
 `python manage.py migrate`
