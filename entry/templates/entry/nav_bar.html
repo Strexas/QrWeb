@@ -15,10 +15,13 @@
         {% if user.is_authenticated %}
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{% url '' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+              <a class="nav-link" href="{% url 'create_page' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{% url 'logout' %}">Sign out <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'profile' %}">Profile <i class="fa fa-person" aria-hidden="true"></i> </a>
             </li>
           </ul>
         {% endif %}
