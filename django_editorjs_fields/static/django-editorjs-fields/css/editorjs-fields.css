@@ -6,6 +6,40 @@ div[data-editorjs-holder] {
 	border-radius: 4px;
 	background-color: #fcfeff;
 }
+input[name="title"] {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the element horizontally */
+    display: block; /* Ensures the input takes up the full width */
+	padding: 1em 1em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fcfeff;
+	font-size: 20px;
+	 font-family: "Franklin Gothic", sans-serif;
+	text-align: center;
+}
+.codex-editor .ce-paragraph.cdx-block {
+	font-size: 17px;
+	 font-family: "Franklin Gothic", sans-serif;
+}
+.codex-editor .ce-toolbar__plus {
+	width: 4000%;
+	position: absolute;
+	transform: translateX(110%);
+}
+.codex-editor .ce-popover.ce-popover--opened {
+	position: absolute;
+	margin-left: 14500%;
+}
+.codex-editor .ce-toolbar__settings-btn {
+	position: absolute;
+	transform: translateX(2800%);
+}
+.codex-editor .cdx-list__item{
+	font-size: 17px;
+	 font-family: "Franklin Gothic", sans-serif;
+}
+
 
 .ce-block__content {
 	width: 100%; /* Adjusted for mobile */
@@ -50,10 +84,7 @@ div[data-editorjs-holder] {
 	text-transform: initial;
 }
 
-.codex-editor .ce-paragraph.cdx-block {
-	font-size: 17px; /* Applied font size */
-	font-family: "Franklin Gothic", sans-serif; /* Applied font family */
-}
+
 
 .codex-editor h2.ce-header {
 	font-size: 1.5em;
@@ -85,36 +116,94 @@ div[data-editorjs-holder] {
 	padding: initial;
 }
 
-@media (max-width: 724px) {
+@media (max-width: 767px) {
 	div[data-editorjs-holder] {
-		width: auto; /* Adjusted for mobile */
-		padding: 1em; /* Adjusted for mobile */
+		width: auto;
+	}
+
+	.aligned .form-row,
+	.aligned .form-row>div {
+		flex-direction: column;
 	}
 }
-.codex-editor .ce-paragraph.cdx-block {
-	font-size: 17px;
-	 font-family: "Franklin Gothic", sans-serif;
-}
-.codex-editor .ce-toolbar__plus {
-	background: #ffffff;
-	width: 200px;
-	border: 1px solid #706e6e;
-	border-radius: 20px;
-	position: absolute;
-	transform: translateX(110%);
-}
-.codex-editor .ce-popover.ce-popover--opened {
-	width: 200px;
-	position: absolute;
-	margin-left: 17000%;
-}
-.codex-editor .ce-toolbar__settings-btn {
-	background: transparent;
-	width: 200px;
-	position: absolute;
-	transform: translateX(300%);
-}
-.codex-editor .cdx-list__item{
-	font-size: 17px;
-	 font-family: "Franklin Gothic", sans-serif;
+
+@media (prefers-color-scheme: dark) {
+
+	.tc-popover,
+	.tc-wrap {
+		--color-border: #4c6b7a !important;
+		--color-background: #264b5d !important;
+		--color-background-hover: #162a34 !important;
+		--color-text-secondary: #fbfbfb !important;
+	}
+
+	.change-form #container #content-main div[data-editorjs-holder] {
+		border: 1px solid var(--border-color);
+		background-color: var(--body-bg);
+	}
+
+	.change-form #container #content-main .link-tool__input {
+		color: var(--primary);
+	}
+
+	.change-form #container #content-main .codex-editor .ce-header,
+	.change-form #container #content-main .codex-editor blockquote {
+		color: var(--body-fg);
+	}
+
+	.change-form #container #content-main .codex-editor .ce-rawtool__textarea {
+		background-color: #264b5d;
+		color: #fbfbfb;
+	}
+
+	.change-form #container #content-main .cdx-marker {
+		background: #fff03b;
+	}
+
+	.change-form #container #content-main .ce-inline-toolbar {
+		color: #000;
+	}
+
+	.change-form #container #content-main ::-moz-selection,
+	.change-form #container #content-main ::selection {
+		color: #fff;
+		background: #616161;
+	}
+
+	.change-form #container #content-main .ce-block--selected .ce-block__content {
+		background: #426b8a;
+	}
+
+	.change-form #container #content-main .codex-editor svg {
+		fill: #fff
+	}
+
+	.change-form #container #content-main .ce-toolbar__plus:hover,
+	.change-form #container #content-main .ce-toolbar__settings-btn:hover {
+		background-color: #264b5d;
+	}
+
+	.change-form #container #content-main .ce-popover__item-icon,
+	.change-form #container #content-main .ce-conversion-tool__icon {
+		background: #2fa9a9;
+	}
+
+	.change-form #container #content-main .ce-popover,
+	.change-form #container #content-main .ce-settings,
+	.change-form #container #content-main .ce-inline-toolbar,
+	.change-form #container #content-main .ce-conversion-toolbar {
+		background-color: #264b5d;
+		border-color: #4c6b7a;
+		color: #fbfbfb
+	}
+
+	.change-form #container #content-main .ce-popover__item:hover,
+	.change-form #container #content-main .ce-settings__button:hover,
+	.change-form #container #content-main .cdx-settings-button:hover,
+	.change-form #container #content-main .ce-inline-toolbar__dropdown:hover,
+	.change-form #container #content-main .ce-inline-tool:hover,
+	.change-form #container #content-main .ce-conversion-tool:hover {
+		background-color: #162a34;
+		color: #fff
+	}
 }

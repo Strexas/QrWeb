@@ -14,16 +14,17 @@ from .models import Page
 @login_required
 def profile(request):
     """Profile view"""
-    user_pages = Page.objects.filter(user=request.user)
+    user_pages = Page.objects.filter()
     context = {
         'username': request.user.username,
         'email': request.user.email,
         'image_url': request.user.profile.image.url,
-        'user_pages':user_pages
+        'user_pages': user_pages
     }
-    return render(request,'user_profile/profile.html',context)
+    return render(request, 'user_profile/profile.html', context)
 
 
+@login_required
 def change_password(request):
     """change password view"""
     if request.method == 'POST':
@@ -43,15 +44,16 @@ def change_password(request):
     })
 
 
+@login_required
 def change_image(request):
     """change image view"""
     if request.method == 'POST':
         update_image_form = UpdateImageForm(
-            request.POST,request.FILES,instance=request.user.profile)
+            request.POST, request.FILES, instance=request.user.profile)
 
         if update_image_form.is_valid():
             update_image_form.save()
-            messages.success(request,'Your profile image has been updated!')
+            messages.success(request, 'Your profile image has been updated!')
             return redirect('profile')
 
     else:
@@ -63,6 +65,7 @@ def change_image(request):
     return render(request, 'user_profile/change_image.html', context)
 
 
+@login_required
 def delete_image(request):
     """delete_image view"""
     if request.method == 'POST':
@@ -73,6 +76,7 @@ def delete_image(request):
     return redirect('profile')
 
 
+@login_required
 def create_page(request):
     """create_page view"""
     if request.method == 'POST':
@@ -92,13 +96,17 @@ def create_page(request):
 
 def view_page(request, page_id):
     """view_page view"""
-    page = Page.objects.get(id=page_id)
+    page = Page.objects.get(upid=page_id)
     return render(request, 'constructor/page_view.html', {'post': page})
 
 
+@login_required
 def delete_page(request, page_id):
     """delete_page view"""
-    page = get_object_or_404(Page, id=page_id)
+    page = get_object_or_404(Page, upid=page_id)
+    if request.user != page.user:
+        messages.warning(request, 'Your are not authorized to delete this page')
+        return redirect('profile')
     if request.method == 'POST':
         page.delete()
     return redirect('profile')
