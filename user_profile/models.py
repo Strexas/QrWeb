@@ -58,15 +58,6 @@ class Page(models.Model):
                     }
                 }
             },
-            'Header': {
-                'class': 'Header',
-                'inlineToolbar': True,
-                'config': {
-                    'placeholder': 'Enter a header',
-                    'levels': [1, 2, 3, 4],
-                    'defaultLevel': 2,
-                },
-            },
             'underline': {
                 'class': 'Underline'
             },

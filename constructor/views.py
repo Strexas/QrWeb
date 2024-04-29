@@ -7,7 +7,6 @@ Classes:
     PageUpdate: A view for updating a page.
     PageView: A view for viewing a page.
 """
-from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.contrib import messages
 from django.views import View
@@ -35,9 +34,8 @@ class PageUpdate(View):
         bound_form = PageForm(instance=page)
         if page.user == request.user:
             return render(request, 'constructor/update.html', {'form': bound_form, 'post': page})
-        else:
-            messages.error(request, 'Your are not authorized to change this page')
-            return render(request, 'constructor/view.html', {'post': page})
+        messages.error(request, 'Your are not authorized to change this page')
+        return render(request, 'constructor/view.html', {'post': page})
 
     def post(self, request, page_id):
         """
