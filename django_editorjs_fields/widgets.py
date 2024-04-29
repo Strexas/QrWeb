@@ -126,7 +126,7 @@ class EditorJsWidget(widgets.Textarea):
             js=js_list,
             css={
                 'all': [
-                    'django-editorjs-fields/css/editorjs-fields.css',
+
                 ]
             },
         )

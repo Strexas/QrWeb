@@ -34,10 +34,10 @@ class PageUpdate(View):
         page = Page.objects.get(upid=page_id)
         bound_form = PageForm(instance=page)
         if page.user == request.user:
-            return render(request, 'constructor/page_update.html', {'form': bound_form, 'post': page})
+            return render(request, 'constructor/update.html', {'form': bound_form, 'post': page})
         else:
             messages.error(request, 'Your are not authorized to change this page')
-            return render(request, 'constructor/page_view.html', {'post': page})
+            return render(request, 'constructor/view.html', {'post': page})
 
     def post(self, request, page_id):
         """
@@ -57,7 +57,7 @@ class PageUpdate(View):
         if bound_form.is_valid():
             new_page = bound_form.save()
             return redirect(new_page)
-        return render(request, 'constructor/page_update.html', {'form': bound_form, 'post': page})
+        return render(request, 'constructor/update.html', {'form': bound_form, 'post': page})
 
 
 class PageView(View):
@@ -78,4 +78,4 @@ class PageView(View):
         """
         # pylint: disable=E1101
         page = Page.objects.get(upid=page_id)
-        return render(request, 'constructor/page_view.html', {'post': page})
+        return render(request, 'constructor/view.html', {'post': page})

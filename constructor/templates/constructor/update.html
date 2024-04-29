@@ -15,7 +15,7 @@
             <form method="POST">
                 {% csrf_token %}
                 <!--prevents any csrf attacks-->
-                <div class="title">
+                <div class="inputtitle">
                     {{form.title}}
                 </div>
                 {% for field in form %}

@@ -14,7 +14,7 @@ from .models import Page
 @login_required
 def profile(request):
     """Profile view"""
-    user_pages = Page.objects.filter()
+    user_pages = Page.objects.filter(user=request.user)
     context = {
         'username': request.user.username,
         'email': request.user.email,
@@ -91,13 +91,13 @@ def create_page(request):
     else:
         form = PageForm()
 
-    return render(request, 'constructor/page_update.html', {'form': form})
+    return render(request, 'constructor/update.html', {'form': form})
 
 
 def view_page(request, page_id):
     """view_page view"""
     page = Page.objects.get(upid=page_id)
-    return render(request, 'constructor/page_view.html', {'post': page})
+    return render(request, 'constructor/view.html', {'post': page})
 
 
 @login_required
