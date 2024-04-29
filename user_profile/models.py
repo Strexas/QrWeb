@@ -32,7 +32,7 @@ class Page(models.Model):
     """Page model"""
     user: models.ForeignKey = models.ForeignKey(auth_models.User, on_delete=models.CASCADE)
     title: models.CharField = models.CharField(max_length=100)
-    upid = models.UUIDField(default=uuid.uuid4, unique=True)
+    upid: models.UUIDField = models.UUIDField(default=uuid.uuid4, unique=True)
     objects = models.Manager()
     content = EditorJsJSONField(
         plugins=[
