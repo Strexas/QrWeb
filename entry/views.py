@@ -68,7 +68,7 @@ def login(request):
             messages.success(request, f'{form.cleaned_data["username"]} successfully logged in')
             if user is not None:
                 auth.login(request, user)
-                return redirect('')
+                return redirect('profile')
     context = {'form': form}
     return render(request, 'entry/login.html', context=context)
 
