@@ -74,6 +74,6 @@ class PageView(View):
         Returns:
             HttpResponse: The HTTP response containing the details of the page.
         """
-        # pylint: disable=E1101
+        # pylint: disable=no-member
         page = Page.objects.get(upid=page_id)
         return render(request, 'constructor/view.html', {'post': page})
