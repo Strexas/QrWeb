@@ -1,5 +1,11 @@
+<!-- Navigation bar with Bootstrap styling -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
-    <a class="navbar-brand main-heading" href="{% url '' %}"><p>QRWeb</p></a>
+    <!-- Brand/logo link to main page-->
+    <a class="navbar-brand main-heading" href="{% url '' %}">
+        <!-- Brand/logo text -->
+        <p>QRWeb</p>
+    </a>
+    <!-- Button to toggle collapsible content -->
     <button
       class="navbar-toggler"
       type="button"
@@ -11,22 +17,25 @@
     >
         <span class="navbar-toggler-icon"></span>
     </button>
-      <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+        <!-- Check if user is authenticated -->
         {% if user.is_authenticated %}
+          <!-- Navigation items for authenticated user -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
+              <!-- Link to create new page -->
               <a class="nav-link" href="{% url 'create_page' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
             </li>
             <li class="nav-item">
+              <!-- Link to sign out -->
               <a class="nav-link" href="{% url 'logout' %}">Sign out <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
             </li>
             <li class="nav-item">
+              <!-- Link to user profile -->
               <a class="nav-link" href="{% url 'profile' %}">Profile <i class="fa fa-person" aria-hidden="true"></i> </a>
             </li>
           </ul>
         {% endif %}
-      </div>
-  </nav>
-
-
-
+    </div>
+</nav>
