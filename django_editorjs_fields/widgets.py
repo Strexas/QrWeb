@@ -122,14 +122,7 @@ class EditorJsWidget(widgets.Textarea):
         js_list.append('django-editorjs-fields/js/django-editorjs-fields.js')
         js_list.append('django-editorjs-fields/js/image_settings.js')
 
-        return Media(
-            js=js_list,
-            css={
-                'all': [
-
-                ]
-            },
-        )
+        return Media(js=js_list)
 
     def render(self, name, value, attrs=None, renderer=None):
         """
