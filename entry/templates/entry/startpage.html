@@ -2,22 +2,705 @@
 {% block content %}
     
 
-<body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
-    <div class="ts-page-wrapper" id="page-top">
 
+<body data-spy="scroll" data-target=".navbar" class="has-loading-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+    <div class="ts-page-wrapper" id="page-top">
+        <!--*********************************************************************************************************-->
         <!--************ HERO ***************************************************************************************-->
-        <header id="ts-hero" class="d-block py-5 ts-separate-bg-element" data-bg-blend-mode="multiply">
+        <!--*********************************************************************************************************-->
+        <header id="ts-hero" class="ts-full-screen">
+
+
+
+            <!--HERO CONTENT ****************************************************************************************-->
+            <div class="container align-self-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-7">
+                        <h3 class="ts-opacity__50">Create Pages!</h3>
+                        <h1>Create Pages And Link QR Codes To Them In One Place</h1>
+                        <a href="#how-it-works" class="btn btn-light btn-lg ts-scroll">Learn More</a>
+                    </div>
+                    <!--end col-sm-7 col-md-7-->
+                    <!--
+                    <div class="col-sm-5 d-none d-sm-block">
+                        <div class="owl-carousel text-center" data-owl-nav="1" data-owl-loop="1">
+                            <img src="static/assets/img/img-phone-1st-screen.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt="">
+                            <img src="static/assets/img/img-phone-2nd-screen.png" class="d-inline-block mw-100 p-md-5 p-lg-0 ts-width__auto" alt="">
+                        </div>
+                    </div>
+                    -->
+                    <!--end col-sm-5 col-md-5 col-xl-5-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+
+            <div id="ts-dynamic-waves" class="ts-background" data-bg-color="#81b5e5">
+                <svg class="ts-svg ts-parallax-element" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <path class="ts-dynamic-wave" d="" data-wave-color="#3883c8" data-wave-height=".6" data-wave-bones="4" data-wave-speed="0.15"/>
+                </svg>
+                <svg class="ts-svg" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <defs></defs>
+                    <path class="ts-dynamic-wave" d="" data-wave-color="#f0f5fa" data-wave-height=".2" data-wave-bones="6" data-wave-speed="0.2"/>
+                </svg>
+            </div>
+
+        </header>
+        <!--end #hero-->
+
+        <!--*********************************************************************************************************-->
+        <!--************ CONTENT ************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <main id="ts-content">
+
+            <!--HOW IT WORKS ****************************************************************************************-->
+            <section id="how-it-works" class="ts-block text-center">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>How It Works</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="static/assets/img/page-creation.jpg" alt="">
+                                    <div class="ts-svg ts-svg__organic-shape-01" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Create Your Page</h4>
+                                <p>
+                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 col-md-4 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="static/assets/img/qr-code.png" size="100px" alt="">
+                                    <div class="ts-svg ts-svg__organic-shape-02" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Link It To QR</h4>
+                                <p>
+                                    Curabitur tellus enim, aliquet et porttitor id, accumsan at nulla. Praesent vestibulum
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
+                        <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
+                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
+                                <figure class="icon mb-5 p-2">
+                                    <img src="static/assets/img/share-it.jpg" alt="">
+                                    <div class="ts-svg ts-svg__organic-shape-03" data-animate="ts-zoomInShort"></div>
+                                </figure>
+                                <h4>Share It</h4>
+                                <p>
+                                    In non turpis convallis nunc fermentum porttitor sed quis sapien. Etiam et neque
+                                </p>
+                            </figure>
+                        </div>
+                        <!--end col-xl-4-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--END HOW IT WORKS ************************************************************************************-->
             
-            <div class="container align-self-center py-5">
-                <div class="align-items-center text-center py-3">
-                    <h1>Web QR code generator&nbsp;</h1>
-                    <div class="text-center py-5">
-                       <a href="{% url 'register' %}" class="btn btn-primary btn-lg m-2 ts-width__200px" >Create your account</a>
+            <!--HOW IT LOOKS ****************************************************************************************-->
+      <!--      <section id="how-it-looks" class="pb-0 ts-block text-center ts-overflow__hidden ts-shape-mask__down" data-bg-color="#ededed" data-bg-image="static/assets/img/bg-shapes-02.png" data-bg-repeat="no-repeat" data-bg-position="bottom" data-bg-size="inherit">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>How It Looks</h2>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                    </div>
+
+                    <ul class="nav nav-tabs justify-content-center my-5" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="desktop-tab" data-toggle="tab" href="#desktop" role="tab" aria-controls="desktop" aria-selected="true">
+                                <h4>Desktop</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tablet-tab" data-toggle="tab" href="#tablet" role="tab" aria-controls="tablet" aria-selected="false">
+                                <h4>Tablet</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab" aria-controls="mobile" aria-selected="false">
+                                <h4>Mobile</h4>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content pt-5 ts-tabs-presentation" id="myTabContent" data-animate="ts-fadeInUp">
+                        <div class="tab-pane fade show active" id="desktop" role="tabpanel" aria-labelledby="desktop">
+                            <img src="static/assets/img/img-desktop.png" class="mw-100" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="tablet" role="tabpanel" aria-labelledby="tablet">
+                            <img src="static/assets/img/img-tablet.png" class="mw-100" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile">
+                            <img src="static/assets/img/img-phone.png" class="mw-100" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </section> -->
+            <!--END HOW IT LOOKS ************************************************************************************-->
+
+            <!--WHAT IS QRWEB ************************************************************************************-->
+            <section id="what-is-qrweb" class="ts-block">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>What Is QRWeb?</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
+                            <p>
+                               QRWeb offers a hassle-free solution for website creation and sharing, catering to entrepreneurs, bloggers, small businesses, and creatives. With a user-friendly interface and intuitive features, users of all skill levels can effortlessly build stunning websites that reflect their unique style. 
+                                From personal portfolios to business sites, QRWeb provides the tools you need to succeed in the digital world.
+                            </p>
+                            <p>
+                                Join the QRWeb community and take control of your online presence today.
+                            </p>
+                            <a href="#download" class="btn btn-primary mb-4 ts-scroll">Download Now!</a>
+                        </div>
+                        <!--end col-xl-5-->
+                        <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
+                            <div class="px-3">
+                                <img src="static/assets/img/constructor.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
+                            </div>
+                        </div>
+                        <!--end col-xl-7-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--END WHAT IS QRWeb ********************************************************************************-->
+
+            <!--FEATURES ********************************************************************************************-->
+            <section id="features" class="ts-block" data-bg-image="static/assets/img/features.png" data-bg-size="inherit" data-bg-position="left" data-bg-repeat="no-repeat">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-xl-7 text-center">
+                             <div class="position-relative">
+                           <!--   <figure class="position-absolute text-center w-100 ts-z-index__1" data-animate="ts-zoomInShort">
+                                   <img src="static/assets/img/img-screen-small-01.jpg" class="mw-100 d-inline-block ts-shadow__lg" alt="">  
+                                </figure>
+                                <figure class="p-5" data-animate="ts-zoomInShort" data-delay="0.1s">
+                                    <img src="static/assets/img/img-screen-desktop.jpg" class="mw-100 ts-shadow__lg" alt="">  
+                                </figure>
+                                <figure class="position-absolute ts-bottom__0 ts-left__0 ts-z-index__2" data-animate="ts-zoomInShort" data-delay="0.2s">
+                                   <img src="static/assets/img/img-screen-small-02.jpg" class="mw-100 d-inline-block ts-shadow__lg" alt="">  
+                                </figure> 
+                          -->  </div>
+                        </div>
+                       
+                        <!--end col-xl-7-->
+                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
+                            <div class="ts-title">
+                                <h2>Features</h2>
+                            </div>
+                            <!--end ts-title-->
+                            <p>
+                                We've designed our tools to be simple, fast, and convenient, so you can focus on bringing your vision to life without unnecessary complexity. 
+                                
+                            </p>
+                            <!--features list-->
+                            <ul class="list-unstyled ts-list-divided">
+                                <li>
+                                    <a href="#feature-1" class="ts-font-color__black" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="feature-1">
+                                        <h6 class="my-2">Simple To Use</h6>
+                                    </a>
+                                    <div class="collapse" id="feature-1">
+                                        <p>
+                                            Experience effortless website creation with our user-friendly interface, tailored for both beginners and experts alike.
+                                            Craft your ideal website smoothly and intuitively, without the need for extensive technical knowledge.
+                                        </p>
+                                    </div>
+                                    <!--end collapse-->
+                                </li>
+                                <li>
+                                    <a href="#feature-2" class="ts-font-color__black" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="feature-2">
+                                        <h6 class="my-2">Fast</h6>
+                                    </a>
+                                    <div class="collapse" id="feature-2">
+                                        <p>
+                                            Build your website swiftly and efficiently with our streamlined platform, ensuring prompt delivery and updates.
+                                            Enjoy rapid page creation and updates, keeping your site responsive and dynamic at all times.
+                                        </p>
+                                    </div>
+                                    <!--end collapse-->
+                                </li>
+                                <li>
+                                    <a href="#feature-3" class="ts-font-color__black" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="feature-3">
+                                        <h6 class="my-2">Convenient</h6>
+                                    </a>
+                                    <div class="collapse" id="feature-3">
+                                        <p>
+                                            Manage and update your website hassle-free, with easy access to all the tools and features you need, anytime, anywhere.
+                                           Experience the convenience of centralized website management, allowing you to focus on your content without distractions.
+                                        </p>
+                                    </div>
+                                    <!--end collapse-->
+                                </li>
+                            </ul>
+                            <!--end features list-->
+                        </div>
+                        <!--end col-xl-5-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--FEATURES ********************************************************************************************-->
+            
+
+            <!--PRICING *********************************************************************************************-->
+            <section id="pricing" class="ts-block">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>Affordable Prices</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row no-gutters ts-cards-same-height">
+                        <!--Price Box-->
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="card text-center ts-price-box" data-animate="ts-fadeInUp">
+                                <div class="card-header p-0">
+                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#5ca4e7">Basic</h5>
+                                    <div class="ts-title py-5 mb-0">
+                                        <h3 class="mb-0 font-weight-normal">Free</h3>
+                                        <small class="ts-opacity__50">forever</small >
+                                    </div>
+                                </div>
+                                <!--end card-header-->
+                                <div class="card-body p-0">
+                                    <ul class="list-unstyled ts-list-divided">
+                                        <li>3 Pages</li>
+                                        <li><s class="ts-opacity__50">Cloud Backup</s></li>
+                                        <li><s class="ts-opacity__50">Ads Removed</s></li>
+                                    </ul>
+                                    <!--end list-->
+                                </div>
+                                <!--end card-body-->
+                                <div class="card-footer bg-transparent pt-0 ts-border-none">
+                                    <a href="#" class="btn btn-outline-primary">Select Now</a>
+                                </div>
+                            </div>
+                            <!--end card-->
+                        </div>
+                        <!--end price-box col-md-4-->
+
+                        <!--Price Box Promoted-->
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="card text-center ts-price-box ts-price-box__promoted" data-animate="ts-fadeInUp" data-delay="0.1s">
+                                <div class="card-header p-0" data-bg-color="#387ebf">
+                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#3883c8">Premium</h5>
+                                    <div class="ts-title text-white py-5 mb-0">
+                                        <h3 class="mb-0 font-weight-normal">
+                                            <sup>$</sup>9,99
+                                        </h3>
+                                        <small class="ts-opacity__50">per month</small >
+                                    </div>
+                                </div>
+                                <!--end card-header-->
+                                <div class="card-body p-0">
+                                    <ul class="list-unstyled ts-list-divided">
+                                        <li>60 Pages</li>
+                                        <li>Cloud Backup</li>
+                                        <li>Ads Removed</li>
+                                    </ul>
+                                    <!--end list-->
+                                </div>
+                                <!--end card-body-->
+                                <div class="card-footer bg-transparent pt-0 ts-border-none">
+                                    <a href="#" class="btn btn-primary">Select Now</a>
+                                </div>
+                            </div>
+                            <!--end card-->
+                        </div>
+                        <!--end price-box col-md-4-->
+
+                        <!--Price Box-->
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="card text-center ts-price-box" data-animate="ts-fadeInUp" data-delay="0.2s">
+                                <div class="card-header p-0">
+                                    <h5 class="mb-0 py-3 text-white" data-bg-color="#5ca4e7">Premium</h5>
+                                    <div class="ts-title py-5 mb-0">
+                                        <h3 class="mb-0 font-weight-normal">
+                                            <sup>$</sup>19,99
+                                        </h3>
+                                        <small class="ts-opacity__50">per month</small >
+                                    </div>
+                                </div>
+                                <!--end card-header-->
+                                <div class="card-body p-0">
+                                    <ul class="list-unstyled ts-list-divided">
+                                        <li>Unlimited Pages</li>
+                                        <li>Cloud Backup</li>
+                                        <li>Ads Removed</li>
+                                    </ul>
+                                    <!--end list-->
+                                </div>
+                                <!--end card-body-->
+                                <div class="card-footer bg-transparent pt-0 ts-border-none">
+                                    <a href="#" class="btn btn-outline-primary">Select Now</a>
+                                </div>
+                            </div>
+                            <!--end card-->
+                        </div>
+                        <!--end price-box col-md-4-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--END PRICING *****************************************************************************************-->
+            
+             <!--CLIENTS *********************************************************************************************-->
+            <section id="our-clients" class="ts-block text-center">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Our Clients</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
+                                <blockquote class="blockquote">
+                                    <!--person image-->
+                                    <figure>
+                                        <aside>
+                                            <i class="fa fa-quote-right"></i>
+                                        </aside>
+                                        <div class="ts-circle__lg" data-bg-image="static/assets/img/person1.jpg"></div>
+                                    </figure>
+                                    <!--end person image-->
+                                    <!--cite-->
+                                    <p>
+                                        QRWeb exceeded our expectations, offering a seamless website creation experience that truly empowered us to showcase our brand online.
+                                    </p>
+                                    <!--end cite-->
+                                    <!--person name-->
+                                    <footer class="blockquote-footer">
+                                        <h4>Alexander Mitchell</h4>
+                                        <h6>CTO at Horizon Dynamics</h6>
+                                    </footer>
+                                    <!--end person name-->
+                                </blockquote>
+                                <!--end blockquote-->
+                                <blockquote class="blockquote">
+                                    <!--person image-->
+                                    <figure>
+                                        <aside>
+                                            <i class="fa fa-quote-right"></i>
+                                        </aside>
+                                        <div class="ts-circle__lg" data-bg-image="static/assets/img/person2.jpg"></div>
+                                    </figure>
+                                    <!--end person image-->
+                                    <!--cite-->
+                                    <p>
+                                        QRWeb simplifies website creation and sharing like no other platform. It's a game-changer!
+                                    </p>
+                                    <!--end cite-->
+                                    <!--person name-->
+                                    <footer class="blockquote-footer">
+                                        <h4>Lucas Anderson</h4>
+                                        <h6>CEO at Nova Solutions</h6>
+                                    </footer>
+                                    <!--end person name-->
+                                </blockquote>
+                                <!--end blockquote-->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--end #our-clients.ts-block-->
+
+             <!--GALLERY *********************************************************************************************-->
+ <!--           <section id="gallery" class="ts-block ts-shape-mask__up" data-bg-color="#f7f7f7" data-bg-image="static/assets/img/bg-shapes.png" data-bg-size="contain" data-bg-repeat="no-repeat">
+                <div class="ts-title text-center">
+                    <h2>Gallery</h2>
+                </div>
+                <div class="owl-carousel ts-carousel-centered py-2 mb-5" data-owl-loop="1" data-owl-nav="1" data-owl-items="3" data-owl-margin="30" data-owl-center="1">
+                    <div class="slide">
+                        <img src="static/assets/img/img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="static/assets/img/img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="static/assets/img/img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="static/assets/img/img-screen-desktop.jpg" class="ts-shadow__md ts-border-radius__md" alt="">
                     </div>
                 </div>
-            </div>
-            </header>
-            </div>
+            </section> -->
+            <!--end #gallery.ts-block-->
+
+            <!--CREATE ANYTHING *********************************************************************************************-->
+{#            <section id="create_anything" class="ts-block mt-5">#}
+{#                <div class="container">#}
+{#                    <div class="ts-title text-center">#}
+{#                        <h2>Create Anything!</h2>#}
+{#                    </div>#}
+{#                    <!--end ts-title-->#}
+{#                    <div class="row align-items-center">#}
+{#                        <div class="col-md-4">#}
+{#                            <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp">#}
+{#                                <figure class="icon">#}
+{#                                    <img src="static/assets/img/icon-watch-heart.png" class="" alt="">#}
+{#                                </figure>#}
+{#                                <h4 class="mb-2">A Page For A Brand</h4>#}
+{#                                <p>#}
+{#                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis#}
+{#                                </p>#}
+{#                            </figure>#}
+{#                            <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".1s">#}
+{#                                <figure class="icon">#}
+{#                                    <img src="static/assets/img/icon-lcd-chart.png" class="" alt="">#}
+{#                                </figure>#}
+{#                                <h4 class="mb-2">A Page For Your Grandma</h4>#}
+{#                                <p>#}
+{#                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis#}
+{#                                </p>#}
+{#                            </figure>#}
+{#                            <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".3s">#}
+{#                                <figure class="icon">#}
+{#                                    <img src="static/assets/img/icon-cup-winner.png" class="" alt="">#}
+{#                                </figure>#}
+{#                                <h4 class="mb-2">A Page For A Wiki</h4>#}
+{#                                <p>#}
+{#                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis#}
+{#                                </p>#}
+{#                            </figure>#}
+{#                        </div>#}
+{#                        <!--end col-md-4-->#}
+{##}
+{#                        <div class="col-md-4 my-5 d-flex justify-content-center align-items-center">#}
+{#                            <div class="image position-relative">#}
+{#                                <img src="static/assets/img/img-phone-1st-screen.png" class="mw-100" alt="" data-animate="ts-zoomInShort" data-delay=".1s">#}
+{#                                <aside class="ts-svg ts-svg__organic-shape-01 ts-background-size-contain" data-animate="ts-zoomInShort" data-delay=".4s"></aside>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <!--end col-md-4-->#}
+{##}
+{#                        <div class="col-md-4">#}
+{#                            <figure class="ts-xs-text-center" data-animate="ts-fadeInUp">#}
+{#                                <figure class="icon">#}
+{#                                    <img src="static/assets/img/icon-watch-heart.png" class="" alt="">#}
+{#                                </figure>#}
+{#                                <h4 class="mb-2">A Page With Your Style</h4>#}
+{#                                <p>#}
+{#                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis#}
+{#                                </p>#}
+{#                            </figure>#}
+{#                            <figure class="ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".1s">#}
+{#                                <figure class="icon">#}
+{#                                    <img src="static/assets/img/icon-lcd-chart.png" class="" alt="">#}
+{#                                </figure>#}
+{#                                <h4 class="mb-2">A Page With Images</h4>#}
+{#                                <p>#}
+{#                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis#}
+{#                                </p>#}
+{#                            </figure>#}
+{#                            <figure class="ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".3s">#}
+{#                                <figure class="icon">#}
+{#                                    <img src="static/assets/img/icon-cup-winner.png" class="" alt="">#}
+{#                                </figure>#}
+{#                                <h4 class="mb-2">A Page With Paragraphs</h4>#}
+{#                                <p>#}
+{#                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis#}
+{#                                </p>#}
+{#                            </figure>#}
+{#                        </div>#}
+{#                        <!--end col-md-4-->#}
+{#                    </div>#}
+{#                    <!--end row-->#}
+{#                </div>#}
+{#                <!--end container-->#}
+{#            </section>#}
+            <!--end #CREATE ANYTHING-->
+
+           
+            <!--OUR TEAM ********************************************************************************************-->
+            <section id="our-team" class="ts-block">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Our Team</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="static/assets/img/dainius.jpg" alt="Card image cap">
+                                </div>
+                                <!--end ts-card__image-->
+                                <div class="card-body">
+                                    <h5 class="mb-1">Dainius</h5>
+                                    <h6 class="ts-opacity__50">Team Leader</h6>
+                                </div>
+                                <!--end card-body-->
+                               
+                            </div>
+                            <!--end card-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp" data-delay=".1s">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="static/assets/img/nojus.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="mb-1">Nojus</h5>
+                                    <h6 class="ts-opacity__50">Frontend</h6>
+                                </div>
+                               
+                            </div>
+                            <!--end card-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp" data-delay=".2s">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="static/assets/img/vlad.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="mb-1">Vlad</h5>
+                                    <h6 class="ts-opacity__50">Backend</h6>
+                                </div>
+                                
+                            </div>
+                            <!--end card-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp" data-delay=".3s">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="static/assets/img/rustam.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="mb-1">Rustam</h5>
+                                    <h6 class="ts-opacity__50">Backend</h6>
+                                </div>
+                               
+                            </div>
+                            <!--end card-->
+                        </div>
+                        <!--end col-md-3-->
+                         <!--end col-md-3-->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card" data-animate="ts-fadeInUp" data-delay=".3s">
+                                <div class="ts-card__image ts-img-into-bg">
+                                    <img class="card-img-top" src="static/assets/img/anna.jpg" alt="Card image cap">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="mb-1">Anna</h5>
+                                    <h6 class="ts-opacity__50">Testing</h6>
+                                </div>
+                                
+                            </div>
+                            <!--end card-->
+                        </div>
+                        <!--end col-md-3-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--END OUR TEAM ****************************************************************************************-->
+
+
+        </main>
+        <!--end #content-->
+
+        <!--*********************************************************************************************************-->
+        <!--************ FOOTER *************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <footer id="ts-footer">
+
+            <div class="map ts-height__600px" id="map"></div>
+
+            <section id="contact" class="ts-separate-bg-element" data-bg-image="static/assets/img/bg-footer.jpg" data-bg-image-opacity=".1" data-bg-color="#81b5e5">
+                <div class="container">
+                    <div class="ts-box mb-0 p-5 ts-mt__n-10">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3>Contact Us</h3>
+                                <address>
+                                    <figure>
+                                        Studentų g. 50, Kaunas, Lithuania
+                                    </figure>
+                                    <br>
+                                    <figure>
+                                        <div class="font-weight-bold">Email:</div>
+                                        <a href="mailto:daikir@ktu.lt">daikir@ktu.lt</a>
+                                        <br>
+                                        <a href="mailto:nojbut@ktu.lt">nojbut@ktu.lt</a>
+                                    </figure>
+                                </address>
+                                <!--end address-->
+                            </div>
+                            <!--end col-md-4-->
+                            </div>
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end ts-box-->
+                    <div class="text-center text-white py-4">
+                        <small>© 2024 QRWeb, All Rights Reserved</small>
+                    </div>
+                </div>
+                <!--end container-->
+            </section>
+
+        </footer>
+        <!--end #footer-->
+    </div>
+    <!--end page-->
+
+    <script>
+        if( document.getElementsByClassName("ts-full-screen").length ) {
+            document.getElementsByClassName("ts-full-screen")[0].style.height = window.innerHeight + "px";
+        }
+    </script>
+	<script src="static/assets/js/jquery-3.3.1.min.js"></script>
+	<script src="static/assets/js/popper.min.js"></script>
+	<script src="static/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAepBgQm-2gtHaFD4wnsnAWxcnnpbmiNKc"></script>
+	<script src="static/assets/js/isInViewport.jquery.js"></script>
+	<script src="static/assets/js/jquery.particleground.min.js"></script>
+	<script src="static/assets/js/owl.carousel.min.js"></script>
+	<script src="static/assets/js/scrolla.jquery.min.js"></script>
+	<script src="static/assets/js/jquery.validate.min.js"></script>
+	<script src="static/assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+    <script src="static/assets/js/jquery.wavify.js"></script>
+    <script src="static/assets/js/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--Google map-->
+    <script>
+        var latitude = 54.90398464081294;
+        var longitude = 23.957797163056874;
+        var markerImage = "static/assets/img/map-marker.png";
+        var mapElement = "map";
+        var mapStyle = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"on"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#97DBDB"},{"visibility":"on"}]}];
+        google.maps.event.addDomListener(window, 'load', simpleMap(latitude, longitude, markerImage, mapStyle, mapElement));
+    </script>
+
 </body>
+</html>
+
 
 {% endblock %}

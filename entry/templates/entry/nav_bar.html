@@ -1,41 +1,34 @@
-<!-- Navigation bar with Bootstrap styling -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
-    <!-- Brand/logo link to main page-->
-    <a class="navbar-brand main-heading" href="{% url '' %}">
-        <!-- Brand/logo text -->
-        <p>QRWeb</p>
-    </a>
-    <!-- Button to toggle collapsible content -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
-        <!-- Check if user is authenticated -->
-        {% if user.is_authenticated %}
-          <!-- Navigation items for authenticated user -->
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <!-- Link to create new page -->
-              <a class="nav-link" href="{% url 'create_page' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
-            </li>
-            <li class="nav-item">
-              <!-- Link to sign out -->
-              <a class="nav-link" href="{% url 'logout' %}">Sign out <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
-            </li>
-            <li class="nav-item">
-              <!-- Link to user profile -->
-              <a class="nav-link" href="{% url 'profile' %}">Profile <i class="fa fa-person" aria-hidden="true"></i> </a>
-            </li>
-          </ul>
-        {% endif %}
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#81b5e5">
+    <div class="container">
+        <a class="navbar-brand" href="#page-top">
+            <img src="static/assets/img/logo-w.png" alt="">
+        </a>
+        <!--end navbar-brand-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--end navbar-toggler-->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                 
+                <a class="nav-item nav-link active ts-scroll" href="{% url '' %}">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link ts-scroll" href="#what-is-qrweb">About</a>
+                <a class="nav-item nav-link ts-scroll" href="#pricing">Pricing</a>
+                <a class="nav-item nav-link ts-scroll" href="#contact">Contact</a>
+                {% if user.is_authenticated %} 
+                     <a class="nav-item nav-link ts-scroll" href="{% url 'create_page' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+                     <a class="nav-item nav-link ts-scroll" href="{% url 'logout' %}">Sign out <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
+                {% else %}
+                    <a class="nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto" href="{% url 'login' %}">Log in</a>
+                {% endif %} 
+                
+                
+                
+            </div>
+            <!--end navbar-nav-->
+        </div>
+        <!--end collapse-->
     </div>
+    <!--end container-->
 </nav>
+<!--end navbar-->
