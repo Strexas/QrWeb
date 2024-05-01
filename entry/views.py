@@ -17,7 +17,8 @@ def home(request):
     Returns:
     - Rendered response containing the homepage content.
     """
-    return render(request, 'entry/startpage.html')
+    is_main_page = request.path == '/'  # Assuming the main page URL is '/'
+    return render(request, 'entry/startpage.html', {'is_main_page': is_main_page, 'user': request.user})
 
 
 def register(request):
