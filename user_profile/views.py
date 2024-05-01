@@ -2,8 +2,11 @@
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
 from django.contrib.auth.forms import PasswordChangeForm
-from django.shortcuts import render, redirect,get_object_or_404
 from django.contrib.auth.decorators import login_required
+
+from django.shortcuts import render, redirect, get_object_or_404
+
+from constructor.forms import PageForm
 from .forms import UpdateImageForm
 from .models import Page
 
@@ -73,18 +76,29 @@ def delete_image(request):
 def create_page(request):
     """create_page view"""
     if request.method == 'POST':
-        title = request.POST.get('title')
-        content = request.POST.get('content')
-        user = request.user
-        Page.objects.create(title=title, content=content, user=user)
-        return redirect('profile')
+        form = PageForm(request.POST)
+        if form.is_valid():
+            title = form.cleaned_data['title']
+            content = form.cleaned_data['content']
+            user = request.user
+            Page.objects.create(title=title, content=content, user=user)
+            messages.success(request, 'You created new page!')
+            return redirect('profile')
+    else:
+        form = PageForm()
 
-    return render(request,'user_profile/create_page.html')
+    return render(request, 'constructor/page_update.html', {'form': form})
 
 
-def delete_page(request,page_id):
+def view_page(request, page_id):
+    """view_page view"""
+    page = Page.objects.get(id=page_id)
+    return render(request, 'constructor/page_view.html', {'post': page})
+
+
+def delete_page(request, page_id):
     """delete_page view"""
-    page = get_object_or_404(Page,id = page_id)
+    page = get_object_or_404(Page, id=page_id)
     if request.method == 'POST':
         page.delete()
     return redirect('profile')

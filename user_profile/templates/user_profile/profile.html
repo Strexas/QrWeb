@@ -57,6 +57,10 @@
                     <p>{{ page.title }} - {{ page.created_at }}</p>
                     <button type="submit">Delete</button>
                 </form>
+                <form method="post" action="{% url 'view_page' page.pk %}">
+                    {% csrf_token %}
+                    <button type="submit">Open</button>
+                </form>
             </li>
         {% endfor %}
     </ul>

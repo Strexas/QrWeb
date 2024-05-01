@@ -1,0 +1,120 @@
+div[data-editorjs-holder] {
+	display: inline-block;
+	width: 100%;
+	padding: 1.5em 1em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fcfeff;
+}
+
+.ce-block__content {
+	width: 100%; /* Adjusted for mobile */
+}
+
+.codex-editor .ce-rawtool__textarea {
+	background-color: #010e15;
+	color: #ccced2;
+}
+
+.editorjs-holder {
+	width: 100%; /* Adjusted for mobile */
+}
+
+.codex-editor .cdx-list {
+	margin: 0;
+	padding-left: 32px;
+	outline: none;
+}
+
+.codex-editor .cdx-list__item {
+	padding: 2px;
+	line-height: 2em;
+	list-style: inherit;
+	font-size: 17px; /* Applied font size */
+	font-family: "Franklin Gothic", sans-serif; /* Applied font family */
+}
+
+.codex-editor .cdx-checklist__item-text {
+	align-self: center;
+}
+
+.codex-editor .ce-header {
+	padding: 1em 0;
+	margin: 0;
+	margin-bottom: -1em;
+	line-height: 1.4em;
+	outline: none;
+	background: transparent;
+	color: #000;
+	font-weight: 800;
+	text-transform: initial;
+}
+
+.codex-editor .ce-paragraph.cdx-block {
+	font-size: 17px; /* Applied font size */
+	font-family: "Franklin Gothic", sans-serif; /* Applied font family */
+}
+
+.codex-editor h2.ce-header {
+	font-size: 1.5em;
+}
+
+.codex-editor h3.ce-header {
+	font-size: 1.3em;
+}
+
+.codex-editor h4.ce-header {
+	font-size: 1.1em;
+}
+
+.codex-editor blockquote {
+	border: initial;
+	margin: initial;
+	color: initial;
+	font-size: inherit;
+}
+
+.codex-editor .wrapper .cdx-button {
+	display: none;
+}
+
+.codex-editor .link-tool__progress {
+	float: initial;
+	width: 100px;
+	line-height: initial;
+	padding: initial;
+}
+
+@media (max-width: 724px) {
+	div[data-editorjs-holder] {
+		width: auto; /* Adjusted for mobile */
+		padding: 1em; /* Adjusted for mobile */
+	}
+}
+.codex-editor .ce-paragraph.cdx-block {
+	font-size: 17px;
+	 font-family: "Franklin Gothic", sans-serif;
+}
+.codex-editor .ce-toolbar__plus {
+	background: #ffffff;
+	width: 200px;
+	border: 1px solid #706e6e;
+	border-radius: 20px;
+	position: absolute;
+	transform: translateX(110%);
+}
+.codex-editor .ce-popover.ce-popover--opened {
+	width: 200px;
+	position: absolute;
+	margin-left: 17000%;
+}
+.codex-editor .ce-toolbar__settings-btn {
+	background: transparent;
+	width: 200px;
+	position: absolute;
+	transform: translateX(300%);
+}
+.codex-editor .cdx-list__item{
+	font-size: 17px;
+	 font-family: "Franklin Gothic", sans-serif;
+}
