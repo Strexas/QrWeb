@@ -9,14 +9,16 @@ register = template.Library()
 
 def generate_paragraph(data):
     """Generate HTML paragraph element."""
+
     text = data.get('text').replace('&nbsp;', ' ')
-    return f'<p>{text}</p>'
+    return f'<p class="ce-paragraph cdx-block" >{text}</p>'
 
 
 def generate_list(data):
     """Generate HTML list element."""
     list_li = ''.join([f'<li>{item}</li>' for item in data.get('items')])
-    tag = 'ol' if data.get('style') == 'ordered' else 'ul'
+    tag = 'ol class="cdx-block cdx-list cdx-list--ordered"' if data.get('style') == 'ordered' else\
+        'ul class="cdx-block cdx-list cdx-list--unordered"'
     return f'<{tag}>{list_li}</{tag}>'
 
 
@@ -24,14 +26,14 @@ def generate_header(data):
     """Generate HTML header element."""
     text = data.get('text').replace('&nbsp;', ' ')
     level = data.get('level')
-    return f'<h{level}>{text}</h{level}>'
+    return f'<h{level} class="ce-header">{text}</h{level}>'
 
 
 def generate_image(data):
     """Generate HTML image element."""
     url = data.get('file', {}).get('url')
     caption = data.get('caption')
-    classes = []
+    classes = ['image-tool__image-picture']
 
     if data.get('stretched'):
         classes.append('stretched')
@@ -56,12 +58,12 @@ def generate_table(data):
     table = ''
 
     for row in rows:
-        table += '<tr>'
+        table += '<tr class="tc-row">'
         for cell in row:
-            table += f'<td>{cell}</td>'
+            table += f'<td class="tc-cell">{cell}</td>'
         table += '</tr>'
 
-    return f'<table>{table}</table>'
+    return f'<table class="tc-table">{table}</table>'
 
 
 def generate_warning(data):

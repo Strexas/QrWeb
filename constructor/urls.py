@@ -10,6 +10,6 @@ from django.urls import path
 from .views import PageUpdate, PageView
 
 urlpatterns = [
-    path('pages/<int:page_id>/edit', PageUpdate.as_view(), name='page_edit'),
-    path('pages/<int:page_id>', PageView.as_view(), name='page_detail'),
+    path('pages/<str:page_id>/edit', PageUpdate.as_view(), name='page_edit'),
+    path('pages/<str:page_id>', PageView.as_view(), name='page_detail'),
 ]

@@ -52,12 +52,12 @@
     <ul>
         {% for page in user_pages %}
             <li>
-                <form method="post" action="{% url 'delete_page' page.id %}">
+                <form method="post" action="{% url 'delete_page' page.upid %}">
                     {% csrf_token %}
                     <p>{{ page.title }} - {{ page.created_at }}</p>
                     <button type="submit">Delete</button>
                 </form>
-                <form method="post" action="{% url 'view_page' page.pk %}">
+                <form method="post" action="{% url 'view_page' page.upid %}">
                     {% csrf_token %}
                     <button type="submit">Open</button>
                 </form>

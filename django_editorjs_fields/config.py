@@ -94,7 +94,7 @@ PLUGINS = getattr(
         '@editorjs/link',
         '@editorjs/marker',
         '@editorjs/table',
-        'header-with-alignment',
+        '@editorjs/underline',
     )
 )
 
@@ -115,7 +115,7 @@ CONFIG_TOOLS = getattr(
             'inlineToolbar': True,
             'config': {
                 'placeholder': 'Enter a header',
-                'levels': [1, 2, 3, 4, 5],
+                'levels': [1, 2, 3, 4],
                 'defaultLevel': 2,
             }
         },
@@ -141,22 +141,25 @@ CONFIG_TOOLS = getattr(
         },
         'Marker': {'class': 'Marker', 'inlineToolbar': True},
         'Table': {'class': 'Table', 'inlineToolbar': True},
+        'Underline': {'class': 'UnderLine', 'inlineToolbar': True},
     }
 )
 
-PLUGINS_KEYS = {
-    '@editorjs/image': 'Image',
-    '@editorjs/header': 'Header',
-    '@editorjs/checklist': 'Checklist',
-    '@editorjs/list': 'List',
-    '@editorjs/quote': 'Quote',
-    '@editorjs/raw': 'Raw',
-    '@editorjs/code': 'Code',
-    '@editorjs/inline-code': 'InlineCode',
-    '@editorjs/embed': 'Embed',
-    '@editorjs/delimiter': 'Delimiter',
-    '@editorjs/warning': 'Warning',
-    '@editorjs/link': 'LinkTool',
-    '@editorjs/marker': 'Marker',
-    '@editorjs/table': 'Table',
-}
+PLUGINS_KEYS = getattr(
+    settings, "EDITORJS_PLUGINS_KEYS", {
+        '@editorjs/image': 'Image',
+        '@editorjs/header': 'Header',
+        '@editorjs/checklist': 'Checklist',
+        '@editorjs/list': 'List',
+        '@editorjs/quote': 'Quote',
+        '@editorjs/raw': 'Raw',
+        '@editorjs/code': 'Code',
+        '@editorjs/inline-code': 'InlineCode',
+        '@editorjs/embed': 'Embed',
+        '@editorjs/delimiter': 'Delimiter',
+        '@editorjs/warning': 'Warning',
+        '@editorjs/link': 'LinkTool',
+        '@editorjs/marker': 'Marker',
+        '@editorjs/table': 'Table',
+    }
+)

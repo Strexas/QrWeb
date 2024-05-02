@@ -17,7 +17,9 @@ def home(request):
     Returns:
     - Rendered response containing the homepage content.
     """
-    return render(request, 'entry/startpage.html')
+    is_main_page = request.path == '/'  # Assuming the main page URL is '/'
+    return render(request, 'entry/startpage.html',
+                  {'is_main_page': is_main_page, 'user': request.user})
 
 
 def register(request):
@@ -68,7 +70,7 @@ def login(request):
             messages.success(request, f'{form.cleaned_data["username"]} successfully logged in')
             if user is not None:
                 auth.login(request, user)
-                return redirect('')
+                return redirect('profile')
     context = {'form': form}
     return render(request, 'entry/login.html', context=context)
 

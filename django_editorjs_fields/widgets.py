@@ -10,6 +10,7 @@ from django.utils.safestring import mark_safe
 
 from .config import CONFIG_TOOLS, PLUGINS, PLUGINS_KEYS, VERSION
 
+
 class LazyEncoder(DjangoJSONEncoder):
     """Custom JSON encoder to handle Promise objects."""
 
@@ -27,8 +28,10 @@ class LazyEncoder(DjangoJSONEncoder):
             return force_str(o)
         return super().default(o)
 
+
 # Instantiate the LazyEncoder
 json_encode = LazyEncoder().encode
+
 
 class EditorJsWidget(widgets.Textarea):
     """
@@ -83,7 +86,6 @@ class EditorJsWidget(widgets.Textarea):
                 plugin_class = plugin_tools.get('class')
 
                 if plugin_class:
-
                     tools[plugin_key] = custom_tools.get(
                         plugin_key, CONFIG_TOOLS.get(plugin_key)
                     )
@@ -118,15 +120,9 @@ class EditorJsWidget(widgets.Textarea):
             js_list += ['//cdn.jsdelivr.net/npm/' + p for p in plugins]
 
         js_list.append('django-editorjs-fields/js/django-editorjs-fields.js')
+        js_list.append('django-editorjs-fields/js/image_settings.js')
 
-        return Media(
-            js=js_list,
-            css={
-                'all': [
-                    'django-editorjs-fields/css/editorjs-fields.css'
-                ]
-            },
-        )
+        return Media(js=js_list)
 
     def render(self, name, value, attrs=None, renderer=None):
         """

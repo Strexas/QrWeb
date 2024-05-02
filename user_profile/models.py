@@ -1,4 +1,6 @@
 """Database models for profile page"""
+import uuid
+
 from django.db import models
 from django.contrib.auth import models as auth_models
 from django.urls import reverse
@@ -30,6 +32,7 @@ class Page(models.Model):
     """Page model"""
     user: models.ForeignKey = models.ForeignKey(auth_models.User, on_delete=models.CASCADE)
     title: models.CharField = models.CharField(max_length=100)
+    upid: models.UUIDField = models.UUIDField(default=uuid.uuid4, unique=True)
     objects = models.Manager()
     content = EditorJsJSONField(
         plugins=[
@@ -43,16 +46,20 @@ class Page(models.Model):
             '@editorjs/link',
             '@editorjs/marker',
             '@editorjs/table',
-            'header-with-alignment',
+            '@editorjs/underline',
+            'editorjs-undo',
         ],
         tools={
             "Image": {
                 'class': 'ImageTool',
                 "config": {
                     "endpoints": {
-                        "byFile": "/editorjs/image_upload/"
+                        "byFile": "/editorjs/image_upload/",
                     }
                 }
+            },
+            'underline': {
+                'class': 'Underline'
             },
         },
         null=True,
@@ -71,4 +78,4 @@ class Page(models.Model):
         Returns:
             str: The absolute URL of a page detail view.
         """
-        return reverse('page_detail', kwargs={'page_id': self.id})
+        return reverse('page_detail', kwargs={'page_id': self.upid})

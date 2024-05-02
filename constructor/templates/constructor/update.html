@@ -15,11 +15,16 @@
             <form method="POST">
                 {% csrf_token %}
                 <!--prevents any csrf attacks-->
+                <div class="inputtitle">
+                    {{form.title}}
+                </div>
                 {% for field in form %}
-                    <br>
-                    <div class="mydiv">
-                        {{ field }}
-                    </div>
+                    {% if forloop.counter > 1 %}
+                        <br>
+                        <div class="mydiv">
+                            {{ field }}
+                        </div>
+                    {% endif %}
                 {% endfor %}
                 <br>
                 <button type="submit" class="btn btn-primary w-100 btn-block p-2">Save page</button>

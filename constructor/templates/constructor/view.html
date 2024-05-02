@@ -1,0 +1,30 @@
+{% extends 'entry/base.html' %}
+{% block content %}
+<body>
+    <div class="container bg-light shadow-md p-5 form-layout">
+        <br>
+        {% load editorjs %}
+             <div class="title">
+                     {{ post.title}}
+             </div>
+            Created by: {{ post.user}}
+        <br>
+        <div class ="viewform">
+            <br>
+            <div class ="testform">
+            {{ post.content | editorjs}}
+            <br>
+            </div>
+        </div>
+        <br>
+        <br>
+        {% if user.is_authenticated %}
+            {% if request.user == post.user %}
+                <a href="{% url 'page_edit' page_id=post.upid %}" class="btn btn-primary w-100 btn-block p-2">Edit page</a>
+                 <br>
+            {% endif %}
+            <a href="{% url 'profile' %}" class="btn btn-secondary w-100 btn-block p-2">Back to profile</a>
+        {% endif %}
+    </div>
+</body>
+{%endblock%}
