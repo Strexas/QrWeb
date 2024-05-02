@@ -11,6 +11,9 @@
 		font-family: "Franklin Gothic", sans-serif;
 		text-align: center;
 	}
+	textarea[data-editorjs-textarea]{
+    	display: none;
+	}
 	.withBorder{
 		border: 1px solid #ccc;
 		border-radius: 6px;
@@ -22,7 +25,7 @@
 	}
 	.viewform{
 		display: inline-block;
-		width: 84%;
+		width: 100%;
 		padding-left: 10em;
 		padding-right: 5em;
 		border: 1px solid #ccc;
@@ -32,7 +35,7 @@
 	}
 
 	.testform{
-		width: 84%;
+		width: 100%;
 		background-color: #fcfeff;
 	}
 	.ce-paragraph.cdx-block {
@@ -60,7 +63,7 @@
 	/* ->> For edit page */
 	div[data-editorjs-holder] {
 		display: inline-block;
-		width: 98%;
+		width: 100%;
 		padding: 1.5em 1em;
 		border: 1px solid #ccc;
 		border-radius: 4px;
