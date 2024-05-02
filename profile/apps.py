@@ -6,8 +6,8 @@ from django.apps import AppConfig
 class UserProfileConfig(AppConfig):
     """Class representing UserProfile"""
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'user_profile'
+    name = 'profile'
 
     def ready(self):
         # pylint: disable=import-outside-toplevel, unused-import
-        import user_profile.signals
+        import profile.signals

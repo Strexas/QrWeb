@@ -3,7 +3,7 @@ create and handle forms for the Page
 model."""
 from django import forms
 from django_editorjs_fields import EditorJsWidget
-from user_profile.models import Page
+from profile.models import Page
 
 
 class PageForm(forms.ModelForm):

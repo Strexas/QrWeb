@@ -10,7 +10,7 @@ Classes:
 from django.shortcuts import redirect, render
 from django.contrib import messages
 from django.views import View
-from user_profile.models import Page
+from profile.models import Page
 from .forms import PageForm
 
 

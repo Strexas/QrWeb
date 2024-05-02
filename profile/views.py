@@ -18,7 +18,7 @@ def profile(request):
     context = {
         'username': request.user.username,
         'email': request.user.email,
-        'image_url': request.user.profile.image.url,
+        # 'image_url': request.user.profile.image.url,
         'user_pages': user_pages
     }
     return render(request, 'user_profile/profile.html', context)
