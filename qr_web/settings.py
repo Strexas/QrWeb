@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'entry',
     'social_django',
-    'user_profile',
+    'profile',
     'django_editorjs_fields',
     'constructor',
 ]

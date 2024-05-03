@@ -7,10 +7,11 @@ Classes:
     PageUpdate: A view for updating a page.
     PageView: A view for viewing a page.
 """
+from profile.models import Page
+
 from django.shortcuts import redirect, render
 from django.contrib import messages
 from django.views import View
-from user_profile.models import Page
 from .forms import PageForm
 
 

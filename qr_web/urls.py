@@ -26,7 +26,7 @@ urlpatterns: URLList = [
     path('admin/', admin.site.urls),
     path('', include('entry.urls')),
     path('social-auth/', include('social_django.urls', namespace='social')),
-    path('profile/', include('user_profile.urls')),
+    path('profile/', include('profile.urls')),
     path('editorjs/', include('django_editorjs_fields.urls')),
     path('constructor/', include('constructor.urls')),
 ]

@@ -1,9 +1,10 @@
 """This module defines a Django form class called PageForm, which is used to
 create and handle forms for the Page
 model."""
+from profile.models import Page
+
 from django import forms
 from django_editorjs_fields import EditorJsWidget
-from user_profile.models import Page
 
 
 class PageForm(forms.ModelForm):
