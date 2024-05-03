@@ -12,10 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os.path
 from pathlib import Path
 import environ
-env = environ.Env()
-environ.Env.read_env()
 
-SECRET_KEY = env("SECRET_KEY")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-69mez*=oxw)h+a60&8-15kxz&xh%dh@&6k^mt&zre^g507aqt_'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -89,6 +86,10 @@ WSGI_APPLICATION = 'qr_web.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+env = environ.Env()
+environ.Env.read_env()
+
+SECRET_KEY = env("SECRET_KEY")
 
 DATABASES = {
     'default': {
