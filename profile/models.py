@@ -3,7 +3,7 @@ import uuid
 
 from django.db import models
 from django.contrib.auth import models as auth_models
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 from PIL import Image
 from django_editorjs_fields import EditorJsJSONField
 
@@ -40,27 +40,64 @@ class Page(models.Model):
             '@editorjs/image',
             '@editorjs/header',
             '@editorjs/list',
-            '@editorjs/code',
             '@editorjs/inline-code',
             '@editorjs/embed',
             '@editorjs/link',
             '@editorjs/marker',
             '@editorjs/table',
+            '@editorjs/raw',
             '@editorjs/underline',
             'editorjs-undo',
+            'editorjs-text-alignment-blocktune'
         ],
         tools={
-            "Image": {
+            'Image': {
                 'class': 'ImageTool',
+                'inlineToolbar': True,
                 "config": {
                     "endpoints": {
-                        "byFile": "/editorjs/image_upload/",
-                    }
+                        "byFile": reverse_lazy('editorjs_image_upload'),
+                        "byUrl": reverse_lazy('editorjs_image_by_url')
+                    },
+
+                },
+            },
+            'Header': {
+                'class': 'Header',
+                'tunes': ['BlockTune'],
+                'inlineToolbar': True,
+                'config': {
+                    'placeholder': 'Enter a header',
+                    'levels': [2, 3, 4],
+                    'defaultLevel': 2,
+                },
+            },
+            'Raw': {'class': 'RawTool'},
+            'Embed': {'class': 'Embed'},
+            'LinkTool': {
+                'class': 'LinkTool',
+                'config': {
+                    'endpoint': reverse_lazy('editorjs_linktool'),
                 }
+            },
+            'BlockTune': {
+                'class': 'AlignmentBlockTune',
+                'config': {
+                    'default': "left",
+                    'blocks': {
+                        'header': 'center',
+                        'list': 'right'
+                    }
+                },
+            },
+            'paragraph': {
+                'class': 'Paragraph',
+                'inlineToolbar': True,
+                'tunes': ['BlockTune'],
             },
             'underline': {
                 'class': 'Underline'
-            },
+            }
         },
         null=True,
         blank=True,
