@@ -59,8 +59,7 @@ class Page(models.Model):
                         "byFile": reverse_lazy('editorjs_image_upload'),
                         "byUrl": reverse_lazy('editorjs_image_by_url')
                     },
-
-                },
+                }
             },
             'Header': {
                 'class': 'Header',
@@ -68,9 +67,9 @@ class Page(models.Model):
                 'inlineToolbar': True,
                 'config': {
                     'placeholder': 'Enter a header',
-                    'levels': [2, 3, 4],
                     'defaultLevel': 2,
-                },
+                    'levels': [2, 3, 4],
+                }
             },
             'Raw': {'class': 'RawTool'},
             'Embed': {'class': 'Embed'},
