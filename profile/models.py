@@ -51,26 +51,6 @@ class Page(models.Model):
             'editorjs-text-alignment-blocktune'
         ],
         tools={
-            'Image': {
-                'class': 'ImageTool',
-                'inlineToolbar': True,
-                "config": {
-                    "endpoints": {
-                        "byFile": reverse_lazy('editorjs_image_upload'),
-                        "byUrl": reverse_lazy('editorjs_image_by_url')
-                    },
-                }
-            },
-            'Header': {
-                'class': 'Header',
-                'tunes': ['BlockTune'],
-                'inlineToolbar': True,
-                'config': {
-                    'placeholder': 'Enter a header',
-                    'defaultLevel': 2,
-                    'levels': [2, 3, 4],
-                }
-            },
             'Raw': {'class': 'RawTool'},
             'Embed': {'class': 'Embed'},
             'LinkTool': {
