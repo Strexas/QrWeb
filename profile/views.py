@@ -5,6 +5,7 @@ from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth.decorators import login_required
 
 from django.shortcuts import render, redirect, get_object_or_404
+from social_django.models import UserSocialAuth  # type: ignore
 
 from constructor.forms import PageForm
 from .forms import UpdateImageForm
@@ -15,28 +16,34 @@ from .models import Page
 def profile(request):
     """Profile view"""
     user_pages = Page.objects.filter(user=request.user)
+    # Check if the user logged in via Google OAuth 2
+    user_logged_in_with_google = (UserSocialAuth.objects.filter
+                                  (user=request.user, provider='google-oauth2').exists())
     context = {
         'username': request.user.username,
         'email': request.user.email,
         # 'image_url': request.user.profile.image.url,
-        'user_pages': user_pages
+        'user_pages': user_pages,
+        'user_logged_in_with_google': user_logged_in_with_google
     }
     return render(request, 'user_profile/profile.html', context)
 
 
 @login_required
 def change_password(request):
-    """change password view"""
+    """Change password view"""
+    # Check if the user logged in via Google OAuth 2
+    if request.user.social_auth.filter(provider='google-oauth2').exists():
+        messages.error(request, "You cannot change your password because you logged in via Google.")
+        return redirect('profile')  # Or wherever you want to redirect
+
     if request.method == 'POST':
         form = PasswordChangeForm(request.user, request.POST)
-        print("print 1")
         if form.is_valid():
-            print("is valid")
             user = form.save()
             update_session_auth_hash(request, user)  # Important!
             messages.success(request, 'Your password was successfully updated!')
             return redirect('profile')
-
     else:
         form = PasswordChangeForm(request.user)
     return render(request, 'user_profile/change_password.html', {
