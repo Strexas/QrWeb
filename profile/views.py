@@ -16,10 +16,9 @@ from .models import Page
 def profile(request):
     """Profile view"""
     user_pages = Page.objects.filter(user=request.user)
-
     # Check if the user logged in via Google OAuth 2
-    user_logged_in_with_google = UserSocialAuth.objects.filter(user=request.user, provider='google-oauth2').exists()
-
+    user_logged_in_with_google = (UserSocialAuth.objects.filter
+                                  (user=request.user, provider='google-oauth2').exists())
     context = {
         'username': request.user.username,
         'email': request.user.email,
