@@ -121,25 +121,33 @@ def generate_link(data):
     if not link or not meta:
         return ''
 
+    # Limit for link display
+    max_link_length = 30
+    display_link = link[:max_link_length] + ('...' if len(link) > max_link_length else '')
+
     title = meta.get('title')
     description = meta.get('description')
     image = meta.get('image')
 
-    wrapper = (f'<div class="link-block"><a href="{ link }" '
+    wrapper = (f'<div class="link-tool">'
+               f'<a class="link-tool__content link-tool__content--rendered--view" href="{link}" '
                f'target="_blank" rel="nofollow noopener noreferrer">')
 
     if image.get('url'):
         image_url = image.get('url')
-        wrapper += (f'<div class="link-block__image"'
-                    f' style="background-image: url(\'{image_url}\');"></div>')
+        wrapper += (f'<div class="link-tool__image" '
+                    f'style="background-image: url(\'{image_url}\');"></div>')
+
+    wrapper += '<div class="link-tool__info">'
 
     if title:
-        wrapper += f'<p class="link-block__title">{title}</p>'
+        wrapper += f'<p class="link-tool__title">{title}</p>'
 
     if description:
-        wrapper += f'<p class="link-block__description">{description}</p>'
+        wrapper += f'<p class="link-tool__description">{description}</p>'
 
-    wrapper += f'<p class="link-block__link">{link}</p>'
+    wrapper += f'<p class="link-tool__anchor">{display_link}</p>'
+    wrapper += '</div>'
     wrapper += '</a></div>'
     return wrapper
 
