@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://127.0.0.1:8000/#page-top')
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_QRWeb/input__username'), 'user7')
+WebUI.setText(findTestObject('Object Repository/Page_QRWeb/input__username'), 'user6')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_QRWeb/input__password'), 'RigbBhfdqOALcqUsFYWzlQ==')
 
