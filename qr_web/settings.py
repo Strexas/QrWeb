@@ -9,11 +9,12 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-import os
+# pylint: skip-file
+
 import os.path
 from pathlib import Path
 import environ  # type: ignore[import-untyped]
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "qr_web.settings")
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
