@@ -27,4 +27,5 @@ jobs:
         pylint -j 0\
               --load-plugins=pylint_django \
               --max-parents='14' \
+              --disable=E0401 \
               $(git ls-files '*.py')
