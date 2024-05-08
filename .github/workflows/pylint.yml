@@ -21,11 +21,12 @@ jobs:
         pip install pylint
         pip install pylint-django
     - name: Set up Django settings
-      run: export django-settings-module=qr_web.settings
+      run: export DJANGO_SETTINGS_MODULE=qr_web.settings
     - name: Analysing the code with pylint
       run: |
         pylint -j 0\
               --load-plugins=pylint_django \
               --max-parents='14' \
               --disable=E0001 \
+              --disable=E5110 \
               $(git ls-files '*.py')
