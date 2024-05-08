@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AnimalsAdd row aboveAdd row belowDelete_6e0c9d</name>
+   <tag></tag>
+   <elementGuidId>6668ef7f-8bec-4395-bab8-c0bdba598f9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='id_content_editorjs_holder']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.codex-editor__redactor</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;AnimalsAdd row aboveAdd row belowDelete rowAdd column to leftAdd column to right&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>264a6f17-0f69-4cd6-8b45-0facbc6ec953</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>codex-editor__redactor</value>
+      <webElementGuid>0fff618e-10fb-41b6-a591-5015ace1f037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AnimalsAdd row aboveAdd row belowDelete rowAdd column to leftAdd column to rightDelete column1 row1 colum2 row2 column3 row3 columnCatDogLion</value>
+      <webElementGuid>88ab731a-a3f5-4da3-b2f7-afcffdd38460</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]</value>
+      <webElementGuid>efaf0edf-9b7e-4c65-8764-3f351aa66045</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='id_content_editorjs_holder']/div/div</value>
+      <webElementGuid>2ce53ff2-c8e8-46c6-9562-600f8e146dee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='null'])[1]/following::div[3]</value>
+      <webElementGuid>f96089bf-edfe-40f2-a35d-f8569119fb18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign out'])[1]/following::div[7]</value>
+      <webElementGuid>a945513d-f65b-4b6b-895d-24edf9be3a01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>76329f08-5353-46ed-b129-5702fc33b2a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AnimalsAdd row aboveAdd row belowDelete rowAdd column to leftAdd column to rightDelete column1 row1 colum2 row2 column3 row3 columnCatDogLion' or . = 'AnimalsAdd row aboveAdd row belowDelete rowAdd column to leftAdd column to rightDelete column1 row1 colum2 row2 column3 row3 columnCatDogLion')]</value>
+      <webElementGuid>792fcd66-89a6-4a8d-a113-987d6bb3c4b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

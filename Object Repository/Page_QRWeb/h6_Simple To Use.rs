@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Simple To Use</name>
+   <tag></tag>
+   <elementGuidId>f627f5c6-5300-40f0-a7ad-e067cc390f60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='features']/div/div/div[2]/ul/li/a/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.my-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Simple To Use&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>88c20ba7-b00a-4dd9-b43a-30a875488ca1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-2</value>
+      <webElementGuid>2cd7421f-bf92-4b7c-b740-719d96c5d0a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Simple To Use</value>
+      <webElementGuid>e2077b21-5985-4a0f-a9e9-8d4e34f8acc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;features&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5 col-xl-5 ts-fadeInUp animated&quot;]/ul[@class=&quot;list-unstyled ts-list-divided&quot;]/li[1]/a[@class=&quot;ts-font-color__black&quot;]/h6[@class=&quot;my-2&quot;]</value>
+      <webElementGuid>6f0e6fef-a372-4ce9-bc77-39c7b23d6416</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='features']/div/div/div[2]/ul/li/a/h6</value>
+      <webElementGuid>bf2a9439-97e3-4342-86b7-bfd7fa51ca85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Features'])[1]/following::h6[1]</value>
+      <webElementGuid>7080d6b3-1d9a-4d08-b687-881a85231669</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Now!'])[1]/following::h6[1]</value>
+      <webElementGuid>f973a1d5-7d1b-400e-a956-73f9d5aa1625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fast'])[1]/preceding::h6[1]</value>
+      <webElementGuid>e403ef3a-9b21-483b-96b0-b0ac9eb636b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Convenient'])[1]/preceding::h6[2]</value>
+      <webElementGuid>96859a9c-cc60-478a-a334-ab9631f0add0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Simple To Use']/parent::*</value>
+      <webElementGuid>35319f36-efc4-4a4b-994c-a372f31f0e72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h6</value>
+      <webElementGuid>658437a4-61de-4061-89a9-ceb4ba7408b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Simple To Use' or . = 'Simple To Use')]</value>
+      <webElementGuid>a0bf0ff2-3e20-4a44-924e-2f3eefe8bccd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
