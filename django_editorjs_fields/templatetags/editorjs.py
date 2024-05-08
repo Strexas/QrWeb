@@ -115,7 +115,6 @@ def generate_embed(data):
 
 def generate_link(data):
     """Generate HTML link element."""
-
     link, meta = data.get('link'), data.get('meta')
 
     if not link or not meta:
@@ -133,7 +132,7 @@ def generate_link(data):
                f'<a class="link-tool__content link-tool__content--rendered--view" href="{link}" '
                f'target="_blank" rel="nofollow noopener noreferrer">')
 
-    if image.get('url'):
+    if image and image.get('url'):
         image_url = image.get('url')
         wrapper += (f'<div class="link-tool__image" '
                     f'style="background-image: url(\'{image_url}\');"></div>')
