@@ -39,10 +39,11 @@ DEBUG = 'RENDER' not in os.environ
 STATIC_URL = '/static/'
 # This production code might break development mode, so we check whether we're in DEBUG mode
 if not DEBUG:    # Tell Django to copy static assets into a path called `staticfiles` (this is specific to Render)
-    STATIC_ROOT = os.path.join(BASE_DIR, 'media')
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
     # Enable the WhiteNoise storage backend, which compresses static files to reduce disk use
     # and renames the files with unique names for each version to support long-term caching
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    EDITORJS_IMAGE_UPLOAD_PATH = STATIC_ROOT + '/constructor/'
 
 
 ALLOWED_HOSTS: list[str] = []
@@ -203,5 +204,7 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ('951729000938-jr93mh2el80iko1g7a68qh1'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
 EDITORJS_VERSION = '2.27.0'
-EDITORJS_IMAGE_UPLOAD_PATH = MEDIA_ROOT+'/constructor/'
+if DEBUG:
+    EDITORJS_IMAGE_UPLOAD_PATH = MEDIA_ROOT + '/constructor/'
+
 EDITORJS_IMAGE_UPLOAD_PATH_DATE = '%Y/%m/%d/%I_%M_%S'
