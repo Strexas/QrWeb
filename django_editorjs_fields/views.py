@@ -4,7 +4,6 @@ import json
 import logging
 import os
 from io import BytesIO
-from datetime import datetime
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
