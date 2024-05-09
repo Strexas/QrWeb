@@ -22,16 +22,9 @@ jobs:
         pip install pylint-django
     - name: Set up Django settings
       run: export DJANGO_SETTINGS_MODULE=qr_web.settings
-    - name: Analysing the code with pylint (all files except settings.py)
+    - name: Analysing the code with pylint
       run: |
         pylint -j 0 \
               --load-plugins=pylint_django \
               --max-parents='14' \
-              $(git ls-files '*.py' | grep -v "qr_web/settings.py")
-    - name: Analysing the code with pylint (settings.py)
-      run: |
-        pylint -j 0 \
-              --load-plugins=pylint_django \
-              --max-parents='14' \
-              --disable=E0001,E5110 \
-              qr_web/settings.py
+              qr_web/ constructor/
