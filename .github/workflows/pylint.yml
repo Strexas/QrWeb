@@ -22,7 +22,7 @@ jobs:
         pip install pylint-django
     - name: Set up Django settings
       run: |
-        export DJANGO_SETTINGS_MODULE=qr_web.settings
+        export DJANGO_SETTINGS_MODULE=qr_web.settings\
         --load-plugins=pylint_django \
     - name: Analysing the code with pylint (all files except settings.py)
       run: |
