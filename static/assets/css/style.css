@@ -94,6 +94,7 @@ body {
     font-size: .9375rem;
     margin: 0;
     padding: 0;
+    padding-top: 75px;
 }
 
 html {
@@ -1432,9 +1433,10 @@ body.has-loading-screen.loading-done:after {
 .navbar {
     font-size: .875rem;
     font-weight: 500;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     transition: .3s ease;
+    background-color: #81b5e5;
 }
 
 .navbar.in {
@@ -1454,6 +1456,8 @@ body.has-loading-screen.loading-done:after {
     padding-top: .3125rem;
     padding-bottom: .3125rem;
 }
+
+
 
 /*XL*/
 

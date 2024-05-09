@@ -1,7 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-{% include 'entry/nav_bar.html' %}
 {% if messages %}
             {% for message in messages %}
                 <!-- ID should be message-timer for proper work of js file linked with it-->
@@ -10,7 +9,6 @@
                 </div>
             {% endfor %}
 {% endif %}
-<br>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -36,4 +34,40 @@
     </div>
     <br>
     </body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" >
+        <div class="container">
+        <a class="navbar-brand" href="{% url '' %}">
+            <img src="{% static 'assets/img/logo-w.png' %}" alt="">
+        </a>
+        <!--end navbar-brand-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--end navbar-toggler-->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                {% if request.path != "/login/" and request.path != "/register/" %}
+
+                    <a class="nav-item nav-link active ts-scroll" href="{% url '' %}">Home <span class="sr-only">(current)</span></a>
+                    {% if is_main_page %}
+                        <a class="nav-item nav-link ts-scroll" href="#what-is-qrweb">About</a>
+                        <a class="nav-item nav-link ts-scroll" href="#pricing">Pricing</a>
+                        <a class="nav-item nav-link ts-scroll" href="#contact">Contact</a>
+                    {% endif  %}
+                    {% if user.is_authenticated %}
+                         <a class="nav-item nav-link ts-scroll" href="{% url 'profile' %}">Profile <i class="fa-user-circle-o" aria-hidden="true"></i> </a>
+                         <a class="nav-item nav-link ts-scroll" href="{% url 'create_page' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+                         <a class="nav-item nav-link ts-scroll" href="{% url 'logout' %}">Sign out <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
+                    {% else %}
+                        <a class="nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto" href="{% url 'login' %}">Log in</a>
+                    {% endif %}
+                {% endif  %}
+            </div>
+            <!--end navbar-nav-->
+        </div>
+        <!--end collapse-->
+    </div>
+        <!--end container-->
+    </nav>
+    <!--end navbar-->
 </html>
