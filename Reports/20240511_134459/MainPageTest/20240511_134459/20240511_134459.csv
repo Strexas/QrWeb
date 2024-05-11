@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MainPageTest,Chrome 124.0.0.0,,,11-05-2024 13:45:07,11-05-2024 13:45:26,18.592s,PASSED
+,,,,,,,
+Test Cases/functional/main_page,Chrome 124.0.0.0,,,11-05-2024 13:45:07,11-05-2024 13:45:26,18.304s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,11-05-2024 13:45:08,11-05-2024 13:45:11,2.837s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 124.0.0.0,,,11-05-2024 13:45:11,11-05-2024 13:45:16,5.836s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Home (current)""))",Chrome 124.0.0.0,,,11-05-2024 13:45:16,11-05-2024 13:45:17,0.807s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Learn More""))",Chrome 124.0.0.0,,,11-05-2024 13:45:17,11-05-2024 13:45:18,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_About""))",Chrome 124.0.0.0,,,11-05-2024 13:45:18,11-05-2024 13:45:19,1.053s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Pricing""))",Chrome 124.0.0.0,,,11-05-2024 13:45:19,11-05-2024 13:45:19,0.529s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Contact""))",Chrome 124.0.0.0,,,11-05-2024 13:45:19,11-05-2024 13:45:20,0.391s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/h3_Contact Us""))",Chrome 124.0.0.0,,,11-05-2024 13:45:20,11-05-2024 13:45:20,0.469s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/figure_Student g. 50, Kaunas, Lithuania""))",Chrome 124.0.0.0,,,11-05-2024 13:45:20,11-05-2024 13:45:21,0.519s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_About""))",Chrome 124.0.0.0,,,11-05-2024 13:45:21,11-05-2024 13:45:21,0.384s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/h2_What Is QRWeb""))",Chrome 124.0.0.0,,,11-05-2024 13:45:21,11-05-2024 13:45:22,0.505s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Pricing""))",Chrome 124.0.0.0,,,11-05-2024 13:45:22,11-05-2024 13:45:22,0.402s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/h2_Affordable Prices""))",Chrome 124.0.0.0,,,11-05-2024 13:45:22,11-05-2024 13:45:22,0.389s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/h2_Our Clients""))",Chrome 124.0.0.0,,,11-05-2024 13:45:22,11-05-2024 13:45:23,0.462s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/h2_Our Team""))",Chrome 124.0.0.0,,,11-05-2024 13:45:23,11-05-2024 13:45:23,0.426s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Chrome 124.0.0.0,,,11-05-2024 13:45:23,11-05-2024 13:45:26,2.370s,PASSED

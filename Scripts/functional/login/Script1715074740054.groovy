@@ -18,12 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://127.0.0.1:8000/#page-top')
+WebUI.navigateToUrl('https://qr-web-h1fi.onrender.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_QRWeb/input__username'), 'user6')
+WebUI.setText(findTestObject('Object Repository/Page_QRWeb/input__username'), 'user7')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_QRWeb/input__password'), 'RigbBhfdqOALcqUsFYWzlQ==')
 

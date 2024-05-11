@@ -6,12 +6,11 @@
    <elementGuidId>673e29b9-b2bf-4654-ab4e-4a8043f2f5ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='id_content_editorjs_holder']/div/div[3]/div/div/div[2]/div[2]/div[3]/div[4]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='id_content_editorjs_holder']/div/div[3]/div/div/div[2]/div[2]/div[3]/div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5be0c560-97e4-4a3f-806e-a06723f6f975</webElementGuid>
+      <webElementGuid>3f729281-59a1-48ff-8c2c-ffdc72618f98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ce-popover-item</value>
-      <webElementGuid>fd1be5ac-4062-4770-b382-bf7c12dea141</webElementGuid>
+      <webElementGuid>d3a74d4b-5290-4b05-80b1-9e48bccf6e62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>data-item-name</name>
       <type>Main</type>
       <value>List</value>
-      <webElementGuid>a99090a2-6e55-4d56-b034-34d6e5e32bb9</webElementGuid>
+      <webElementGuid>e98d5029-b21d-456c-b50d-c673ed7ba80f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>List</value>
-      <webElementGuid>61375e7f-ccba-451c-ab91-3e8c5eeaf36a</webElementGuid>
+      <webElementGuid>d08ceab0-04b2-4161-936f-bb7882c66d73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor codex-editor--toolbox-opened&quot;]/div[@class=&quot;ce-toolbar ce-toolbar--opened&quot;]/div[@class=&quot;ce-toolbar__content&quot;]/div[@class=&quot;ce-toolbar__actions ce-toolbar__actions--opened&quot;]/div[@class=&quot;ce-toolbox&quot;]/div[@class=&quot;ce-popover ce-popover--opened&quot;]/div[@class=&quot;ce-popover__items&quot;]/div[@class=&quot;ce-popover-item&quot;]</value>
-      <webElementGuid>72c2bcf0-1815-4e92-9992-9b0d1263bcfb</webElementGuid>
+      <webElementGuid>f07d3634-3bc5-4150-b3d6-b5ba23be9eb5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='id_content_editorjs_holder']/div/div[3]/div/div/div[2]/div[2]/div[3]/div[4]</value>
-      <webElementGuid>e6c3c1c9-ecbb-482c-bb75-33087c44ea62</webElementGuid>
+      <webElementGuid>8e059ce4-7ed7-460c-ade1-c138994c181b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Heading'])[1]/following::div[1]</value>
-      <webElementGuid>26f60c27-79b4-4726-bd19-9be18e2299a2</webElementGuid>
+      <webElementGuid>7155aa66-7a72-4123-b43b-8f503e40974c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Image'])[1]/following::div[4]</value>
-      <webElementGuid>258307c4-35bb-4516-9b69-f1db2cae1056</webElementGuid>
+      <webElementGuid>0bd8b651-7625-4e16-afdf-4fd8c0c28345</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Code'])[1]/preceding::div[4]</value>
-      <webElementGuid>0811ea57-4945-460e-a0a9-29cd9b0835a7</webElementGuid>
+      <webElementGuid>1f0a3a0e-b0ba-478f-a260-b1e534ec5ccf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[4]</value>
-      <webElementGuid>93b347cd-ffd7-4fd3-ab2e-a19050fa71d7</webElementGuid>
+      <webElementGuid>7ea9bdc1-ae8d-4bbb-9fb9-31d1d93a3408</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'List' or . = 'List')]</value>
-      <webElementGuid>5882e0e0-9903-4e28-9e79-8101737a6724</webElementGuid>
+      <webElementGuid>5e19d2cb-2041-44f2-ae3b-dbb147264309</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -19,21 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://127.0.0.1:8000/#page-top')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://qr-web-h1fi.onrender.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_QRWeb/input__username'), 'user6')
+WebUI.setText(findTestObject('Object Repository/Page_QRWeb/input__username'), 'user7')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_QRWeb/input__password'), 'RigbBhfdqOALcqUsFYWzlQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Open'))
-
-WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Back to profile'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_QRWeb/button_Change Password'))
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Create New Page'))
 
@@ -54,4 +50,12 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_QRWeb/div_Co
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_QRWeb/div_Link'))
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/button_Save page'))
+
+WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Open'))
+
+WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Back to profile'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_QRWeb/button_Change Password'))
+
+WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Sign out'))
 
