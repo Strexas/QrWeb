@@ -137,7 +137,8 @@ def generate_embed(data):
     service = data.get('service')
     caption = data.get('caption')
     embed = data.get('embed')
-    iframe = (f'<iframe src="{embed}" allow="autoplay" allowfullscreen="allowfullscreen" style="width: 100%; height: '
+    iframe = (f'<iframe src="{embed}" allow="autoplay" '
+              f'allowfullscreen="allowfullscreen" style="width: 100%; height: '
               f'400px;"></iframe>')
     div_style = 'style="display: flex; justify-content: center;"'
 
