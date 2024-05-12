@@ -48,7 +48,6 @@ class Page(models.Model):
             '@editorjs/raw',
             '@editorjs/underline',
             'editorjs-undo',
-            'editorjs-text-alignment-blocktune'
         ],
         tools={
             'Raw': {'class': 'RawTool'},
@@ -59,20 +58,9 @@ class Page(models.Model):
                     'endpoint': reverse_lazy('editorjs_linktool'),
                 }
             },
-            'BlockTune': {
-                'class': 'AlignmentBlockTune',
-                'config': {
-                    'default': "left",
-                    'blocks': {
-                        'header': 'center',
-                        'list': 'right'
-                    }
-                },
-            },
             'paragraph': {
                 'class': 'Paragraph',
                 'inlineToolbar': True,
-                'tunes': ['BlockTune'],
             },
             'underline': {
                 'class': 'Underline'

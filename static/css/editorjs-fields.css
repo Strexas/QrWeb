@@ -34,8 +34,10 @@
 		padding-bottom: 20em;
 	}
 	.link-tool {
-    position: relative;
-}
+    	position: relative;
+	}
+
+
 
 .link-tool__content {
     display: block;
@@ -136,6 +138,36 @@
 		font-size: 17px; /* Applied font size */
 		font-family: "Franklin Gothic", sans-serif; /* Applied font family */
 		color: #000;
+	}
+	.ce-paragraph.cdx-block.ce-paragraph--right {
+		text-align: right;
+	}
+
+	.ce-paragraph.cdx-block.ce-paragraph--center {
+		text-align: center;
+	}
+
+	.ce-paragraph.cdx-block.ce-paragraph--left {
+		text-align: left;
+	}
+
+	.ce-paragraph.cdx-block.ce-paragraph--justify {
+		text-align: justify;
+	}
+	.ce-header.ce-header--right {
+		text-align: right;
+	}
+
+	.ce-header.ce-header--center {
+		text-align: center;
+	}
+
+	.ce-header.ce-header--left {
+		text-align: left;
+	}
+
+	.ce-header.ce-header--justify {
+		text-align: justify;
 	}
 	table {
 		width: 100%;
