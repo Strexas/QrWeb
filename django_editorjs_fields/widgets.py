@@ -120,6 +120,8 @@ class EditorJsWidget(widgets.Textarea):
             js_list += ['//cdn.jsdelivr.net/npm/' + p for p in plugins]
 
         js_list.append('django-editorjs-fields/js/django-editorjs-fields.js')
+        js_list.append('django-editorjs-fields/js/header_align.js')
+        js_list.append('django-editorjs-fields/js/paragraph_align.js')
         js_list.append('django-editorjs-fields/js/image_settings.js')
 
         return Media(js=js_list)

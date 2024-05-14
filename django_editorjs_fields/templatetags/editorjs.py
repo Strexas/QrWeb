@@ -9,15 +9,29 @@ register = template.Library()
 
 def generate_paragraph(data):
     """Generate HTML paragraph element."""
-
     text = data.get('text').replace('&nbsp;', ' ')
-    return f'<p class="ce-paragraph cdx-block" >{text}</p>'
+    classes = ['ce-paragraph', 'cdx-block']  # Default classes
+
+    align = data.get('alignment')
+    # Add additional classes based on data
+    if 'left' in align:
+        classes.append('ce-paragraph--left')
+    elif 'center' in align:
+        classes.append('ce-paragraph--center')
+    elif 'right' in align:
+        classes.append('ce-paragraph--right')
+    elif 'justify' in align:
+        classes.append('ce-paragraph--justify')
+
+    classes = ' '.join(classes)
+
+    return f'<p class="{classes}">{text}</p>'
 
 
 def generate_list(data):
     """Generate HTML list element."""
     list_li = ''.join([f'<li>{item}</li>' for item in data.get('items')])
-    tag = 'ol class="cdx-block cdx-list cdx-list--ordered"' if data.get('style') == 'ordered' else\
+    tag = 'ol class="cdx-block cdx-list cdx-list--ordered"' if data.get('style') == 'ordered' else \
         'ul class="cdx-block cdx-list cdx-list--unordered"'
     return f'<{tag}>{list_li}</{tag}>'
 
@@ -26,7 +40,22 @@ def generate_header(data):
     """Generate HTML header element."""
     text = data.get('text').replace('&nbsp;', ' ')
     level = data.get('level')
-    return f'<h{level} class="ce-header">{text}</h{level}>'
+    align = data.get('alignment')
+    classes = ['ce-header']  # Default classes
+
+    # Add additional classes based on alignment data
+    if 'left' in align:
+        classes.append('ce-header--left')
+    elif 'center' in align:
+        classes.append('ce-header--center')
+    elif 'right' in align:
+        classes.append('ce-header--right')
+    elif 'justify' in align:
+        classes.append('ce-header--justify')
+
+    classes = ' '.join(classes)
+
+    return f'<h{level} class="{classes}">{text}</h{level}>'
 
 
 def generate_image(data):
@@ -108,9 +137,12 @@ def generate_embed(data):
     service = data.get('service')
     caption = data.get('caption')
     embed = data.get('embed')
-    iframe = f'<iframe src="{embed}" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>'
+    iframe = (f'<iframe src="{embed}" allow="autoplay" '
+              f'allowfullscreen="allowfullscreen" style="width: 100%; height: '
+              f'400px;"></iframe>')
+    div_style = 'style="display: flex; justify-content: center;"'
 
-    return f'<div class="embed {service}">{iframe}{caption}</div>'
+    return f'<div class="embed {service}" {div_style}>{iframe}{caption}</div>'
 
 
 def generate_link(data):
