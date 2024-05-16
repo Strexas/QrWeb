@@ -13,5 +13,3 @@ venv
 media/profile_pics/*
 */migrations/*
 !*/migrations/__init__.py
-/env
-*.env
