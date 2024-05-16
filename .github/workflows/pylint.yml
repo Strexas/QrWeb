@@ -16,16 +16,16 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pipo
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install pylint
         pip install pylint-django
     - name: Set up Django settings
-      run:  pylint --load-plugins=pylint_django --django-settings-module=qr_web.settings
+      run: echo "DJANGO_SETTINGS_MODULE=qr_web.settings" >> $GITHUB_ENV
     - name: Analysing the code with pylint (all files except settings.py)
       run: |
         pylint -j 0 \
-              --load-plugins=pylint_django \
-              --max-parents='14' \
-              $(git ls-files '*.py')
-   
+               --load-plugins=pylint_django \
+               --django-settings-module=qr_web.settings \
+               --max-parents='14' \
+               $(git ls-files '*.py')
