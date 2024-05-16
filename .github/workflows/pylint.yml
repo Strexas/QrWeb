@@ -20,10 +20,8 @@ jobs:
         pip install -r requirements.txt
         pip install pylint
         pip install pylint-django
-        pylint --load-plugins=pylint_django --django-settings-module=qr_web.settings
     - name: Set up Django settings
-      run: export DJANGO_SETTINGS_MODULE=qr_web.settings
-
+      run:  pylint --load-plugins=pylint_django --django-settings-module=qr_web.settings
     - name: Analysing the code with pylint (all files except settings.py)
       run: |
         pylint -j 0 \
