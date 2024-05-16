@@ -20,8 +20,10 @@ jobs:
         pip install -r requirements.txt
         pip install pylint
         pip install pylint-django
-    - name: Set up Django settings
-      run: echo "DJANGO_SETTINGS_MODULE=qr_web.settings" >> $GITHUB_ENV
+    - name: Set up Django settings and secret key
+      run: |
+        echo "DJANGO_SETTINGS_MODULE=qr_web.settings" >> $GITHUB_ENV
+        echo "SECRET_KEY=dummysecretkeyforlintingpurposes" >> $GITHUB_ENV
     - name: Analysing the code with pylint (all files except settings.py)
       run: |
         pylint -j 0 \
