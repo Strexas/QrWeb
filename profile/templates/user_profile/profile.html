@@ -17,13 +17,16 @@
     <br>
     <h1>Your Pages:</h1>
     <ul>
-        {% for page in user_pages %}
-            <li>
-                    Title: {{ page.title }} - Created on {{ page.created_at|date }}
-                    <a href="{% url 'view_page' page.upid %}" class="btn btn-primary">Open</a>
-                    <a href="{% url 'delete_page' page.upid %}" class="btn btn-danger">Delete</a>
-            </li>
-        {% endfor %}
+       {% for page in user_pages %}
+    <li>
+        Title: {{ page.title }} - Created on {{ page.created_at|date }}
+        <a href="{% url 'view_page' page.upid %}" class="btn btn-primary">Open</a>
+        <form action="{% url 'delete_page' page.upid %}" method="post" style="display:inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
+    </li>
+{% endfor %}
     </ul>
     {% if user_pages|length == 0 %}
         <h2>You don't have anything yet</h2>
