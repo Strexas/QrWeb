@@ -38,7 +38,7 @@ def delete_account(request):
         logout(request)  # Log out the user before deleting the account
         user.delete()  # Delete the user account
         messages.success(request, 'Your account has been deleted successfully.')
-        return redirect('profile')  # Redirect to home page after deletion
+    return redirect('profile')
 
 
 @login_required
