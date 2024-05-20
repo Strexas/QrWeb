@@ -8,6 +8,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from social_django.models import UserSocialAuth  # type: ignore
 
 from constructor.forms import PageForm
+from entry.views import logout
 from .forms import UpdateImageForm
 from .models import Page
 
@@ -27,6 +28,17 @@ def profile(request):
         'user_logged_in_with_google': user_logged_in_with_google
     }
     return render(request, 'user_profile/profile.html', context)
+
+
+@login_required
+def delete_account(request):
+    """Delete account view"""
+    if request.method == 'POST':
+        user = request.user
+        logout(request)  # Log out the user before deleting the account
+        user.delete()  # Delete the user account
+        messages.success(request, 'Your account has been deleted successfully.')
+    return redirect('profile')
 
 
 @login_required
