@@ -4,7 +4,6 @@ import json
 import logging
 import os
 from io import BytesIO
-from datetime import datetime
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -17,7 +16,7 @@ from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 from PIL import Image
 
-from .config import IMAGE_NAME, IMAGE_NAME_ORIGINAL, IMAGE_UPLOAD_PATH, IMAGE_UPLOAD_PATH_DATE
+from .config import IMAGE_NAME, IMAGE_NAME_ORIGINAL, IMAGE_UPLOAD_PATH
 from .utils import storage
 
 LOGGER = logging.getLogger('django_editorjs_fields')
@@ -68,10 +67,7 @@ class ImageUploadView(View):
 
             filename += extension
 
-            upload_path = IMAGE_UPLOAD_PATH
-
-            if IMAGE_UPLOAD_PATH_DATE:
-                upload_path += datetime.now().strftime(IMAGE_UPLOAD_PATH_DATE)
+            upload_path = os.path.join(IMAGE_UPLOAD_PATH, request.user.username)
 
             path = storage.save(
                 os.path.join(upload_path, filename), image_file
