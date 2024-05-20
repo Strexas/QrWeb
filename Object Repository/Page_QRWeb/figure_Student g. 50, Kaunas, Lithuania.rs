@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>figure</value>
-      <webElementGuid>433670c9-1c92-4842-8573-2adb2ea61928</webElementGuid>
+      <webElementGuid>b4cd15bc-7d9a-4f6f-b7b7-adba09009a5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <value>
                                         Studentų g. 50, Kaunas, Lithuania
                                     </value>
-      <webElementGuid>44f1dfc3-ebf0-47b5-b163-0da55649ccda</webElementGuid>
+      <webElementGuid>e91b757b-0333-430d-9da9-4f595d40827e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contact&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;ts-box mb-0 p-5 ts-mt__n-10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/address[1]/figure[1]</value>
-      <webElementGuid>66bbdef7-5776-4393-9c3e-e1bfbb1a8920</webElementGuid>
+      <webElementGuid>051fa22c-b031-40b2-8066-a76749a3cacc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='contact']/div/div/div/div/address/figure</value>
-      <webElementGuid>25bd93bd-83d7-40aa-b564-5f3256aa58cb</webElementGuid>
+      <webElementGuid>e870b535-bbf5-4ad3-8120-239efa99f68b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Us'])[1]/following::figure[1]</value>
-      <webElementGuid>d2905287-5841-40f3-ac76-13e1116b2a65</webElementGuid>
+      <webElementGuid>6b971f9c-c7be-44cd-91dd-6f90662560cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report a map error'])[1]/following::figure[1]</value>
-      <webElementGuid>f5f73b2e-d75a-4117-8af1-364248529bf7</webElementGuid>
+      <webElementGuid>64da7f69-ea76-451d-a46a-4be78b0cfc77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/preceding::figure[1]</value>
-      <webElementGuid>5dcc9a34-374c-4e18-84d7-76bd38adc788</webElementGuid>
+      <webElementGuid>5b9e0835-0705-4bc7-b0f9-05cb76f8719e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='daikir@ktu.lt'])[1]/preceding::figure[1]</value>
-      <webElementGuid>20059658-7061-4d53-b6ef-c593eb9a9541</webElementGuid>
+      <webElementGuid>4de55190-feab-4788-97b9-669b9fb51ef6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Studentų g. 50, Kaunas, Lithuania']/parent::*</value>
-      <webElementGuid>091fc24e-8c37-4271-9ff9-ca60157ba7d9</webElementGuid>
+      <webElementGuid>ed4d8572-72f9-4dbb-b3ea-01245ee81f4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//address/figure</value>
-      <webElementGuid>83333628-2394-4ac1-bb56-54a00885a39d</webElementGuid>
+      <webElementGuid>d65fcd3c-0a35-4232-9a7d-083d7e0f7078</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
                                     ' or . = '
                                         Studentų g. 50, Kaunas, Lithuania
                                     ')]</value>
-      <webElementGuid>ca4c327f-0cf8-43a5-894f-630a33689520</webElementGuid>
+      <webElementGuid>b9ae2021-94ac-4794-a913-fe27ec53b1bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>4e5a08b4-2864-4cc8-a6e6-3bbd2ac8e578</webElementGuid>
+      <webElementGuid>30009e38-08fa-44f2-aafc-23c44f970e2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Contact Us</value>
-      <webElementGuid>f15e6dbd-5d0c-4b4e-b433-231e59acdfa4</webElementGuid>
+      <webElementGuid>703f275f-5c8f-43bf-9831-5df4448e5ddf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contact&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;ts-box mb-0 p-5 ts-mt__n-10&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-4&quot;]/h3[1]</value>
-      <webElementGuid>b343bb7f-9560-4323-a088-0ea412015b2d</webElementGuid>
+      <webElementGuid>98ba3f37-4f86-4868-b2d0-22de17867d30</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='contact']/div/div/div/div/h3</value>
-      <webElementGuid>ea76e270-ccc2-4a28-a770-1a4647fe1a9a</webElementGuid>
+      <webElementGuid>1f22b40f-cca7-43a5-9d85-0fb12b36c118</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report a map error'])[1]/following::h3[1]</value>
-      <webElementGuid>e60b0fda-7863-461c-88e8-06f81e6edc8d</webElementGuid>
+      <webElementGuid>2c37c811-ad5c-4f3c-b81d-56aafc882fdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms'])[1]/following::h3[1]</value>
-      <webElementGuid>53a210ed-d6f0-438f-a03c-7a5a2d6e33f6</webElementGuid>
+      <webElementGuid>88003520-d116-4b9f-9324-e1894365c681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Studentų g. 50, Kaunas, Lithuania'])[1]/preceding::h3[1]</value>
-      <webElementGuid>7ad355bb-38f7-433b-a98e-5eb511155a51</webElementGuid>
+      <webElementGuid>f5ffea43-990f-466c-9906-eeb0eb975026</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/preceding::h3[1]</value>
-      <webElementGuid>703f00f1-cffe-408d-b9da-f3786d5d1871</webElementGuid>
+      <webElementGuid>0b4ea4a1-234c-4584-8639-0e584199bcd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Contact Us']/parent::*</value>
-      <webElementGuid>6e17164e-2be8-4a2a-9686-875b655990cf</webElementGuid>
+      <webElementGuid>d1ff3110-a410-4fb8-bb24-bfd31364bb90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div/div/div/h3</value>
-      <webElementGuid>968bc2e6-bd27-4556-8894-499e1f407b22</webElementGuid>
+      <webElementGuid>5a27a4db-d947-4bbd-9ada-2a9fe9743f81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Contact Us' or . = 'Contact Us')]</value>
-      <webElementGuid>be86e68c-9209-4926-a929-6af68b0b2718</webElementGuid>
+      <webElementGuid>13b2e664-8c8e-444c-96b1-3a53fdb4aa77</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

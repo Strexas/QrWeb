@@ -57,5 +57,9 @@ WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Back to profile'))
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_QRWeb/button_Change Password'))
 
+WebUI.click(findTestObject('Object Repository/Page_QRWeb/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/Page_QRWeb/button_Delete Account'))
+
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Sign out'))
 

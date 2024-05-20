@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>046b8486-aef9-4894-b137-51269035a623</webElementGuid>
+      <webElementGuid>37ed5bde-df55-4426-b00f-29ca99f4f7cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-link ts-scroll</value>
-      <webElementGuid>98c808ba-ad85-4475-9fed-be1514507a1e</webElementGuid>
+      <webElementGuid>1e0e3628-77e6-4346-b5fb-2d19e87ca544</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#what-is-qrweb</value>
-      <webElementGuid>daa67082-d177-40ba-9a60-f1edee4f6a66</webElementGuid>
+      <webElementGuid>5992fc11-582d-4981-ac55-fef8da8e1b06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>About</value>
-      <webElementGuid>72990630-3fd5-415e-8076-51fab6a40c26</webElementGuid>
+      <webElementGuid>5d22dd2e-96a5-41dc-9536-be8261cd3b8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarNavAltMarkup&quot;)/div[@class=&quot;navbar-nav ml-auto&quot;]/a[@class=&quot;nav-item nav-link ts-scroll&quot;]</value>
-      <webElementGuid>434ae196-99db-4825-b7fe-d1b3c18213e5</webElementGuid>
+      <webElementGuid>eff65156-d82e-40bd-9f67-a34c6a4fd55b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarNavAltMarkup']/div/a[2]</value>
-      <webElementGuid>a0e4b3ef-74db-4234-a910-096216a956cc</webElementGuid>
+      <webElementGuid>6889a5eb-f93d-41ce-a3be-4049efa53465</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'About')]</value>
-      <webElementGuid>60ad091f-5069-4f28-8516-7e85d441577a</webElementGuid>
+      <webElementGuid>0d358cea-3c32-488b-b5e6-fe3b0cd60689</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[1]</value>
-      <webElementGuid>ef551706-f672-466d-9aa0-3e459995ced0</webElementGuid>
+      <webElementGuid>ff4fda56-ffa1-462a-b8ef-ba95c970944d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pricing'])[1]/preceding::a[1]</value>
-      <webElementGuid>110ff10a-986e-4533-af1f-660622e01c6d</webElementGuid>
+      <webElementGuid>90f784b6-0173-4847-a0f7-5b661a8e9492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::a[2]</value>
-      <webElementGuid>a907d10e-33a8-4a31-b64d-eb6a5e294079</webElementGuid>
+      <webElementGuid>5ebb5458-b15a-48f3-9188-78992cd1bfd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='About']/parent::*</value>
-      <webElementGuid>e40cb4ca-e522-4b0f-8ce0-581d8913280f</webElementGuid>
+      <webElementGuid>6e8e496c-a39d-4854-ab66-f1ffe7b2159d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,15 +116,15 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#what-is-qrweb')]</value>
-      <webElementGuid>b9ed9a80-46c7-4679-b3fa-d7526ebc7f2a</webElementGuid>
+      <webElementGuid>ec981a15-cbb5-408a-8151-641193902d3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>7e93d3da-316f-410e-b032-168cf322879b</webElementGuid>
+      <value>//div/a[2]</value>
+      <webElementGuid>dd150ba3-0ad2-43d8-846a-1bbe1818d733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +132,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#what-is-qrweb' and (text() = 'About' or . = 'About')]</value>
-      <webElementGuid>dcb6776c-cdc5-4804-9005-c21a1029f524</webElementGuid>
+      <webElementGuid>e4f7bb15-e95f-4a21-87e6-47e7fffdf684</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>9b5ce388-4b76-4df1-b235-5e20034d26cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://qr-web-h1fi.onrender.com/')
@@ -26,9 +27,25 @@ WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Home (current)'))
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Learn More'))
 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QRWeb/h2_How It Works'), 'How It Works')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QRWeb/h4_Create Your Page'), 'Create Your Page')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QRWeb/h4_Link It To QR'), 'Link It To QR')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QRWeb/h4_Share It'), 'Share It')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QRWeb/p_Effortlessly share your fantastic page wi_fa3955'), 
+    'Effortlessly share your fantastic page with friends, colleagues, and the world, and let your creativity shine!')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_QRWeb/p_Easily connect your page to a QR code, si_cf769b'), 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_About'))
 
-WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Pricing'))
+WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Sign Up Now'))
+
+WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Login_navbar-brand'))
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Contact'))
 
@@ -39,14 +56,6 @@ WebUI.click(findTestObject('Object Repository/Page_QRWeb/figure_Student g. 50, K
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_About'))
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/h2_What Is QRWeb'))
-
-WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Pricing'))
-
-WebUI.click(findTestObject('Object Repository/Page_QRWeb/h2_Affordable Prices'))
-
-WebUI.click(findTestObject('Object Repository/Page_QRWeb/h2_Our Clients'))
-
-WebUI.click(findTestObject('Object Repository/Page_QRWeb/h2_Our Team'))
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Log in'))
 

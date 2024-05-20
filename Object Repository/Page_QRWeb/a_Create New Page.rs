@@ -6,12 +6,12 @@
    <elementGuidId>102df4d7-96f7-403f-b4f1-96f7ea13bfc6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.page-list > a.btn.btn-primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Create New Page')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.page-list > a.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>700d1ee8-4b6e-46c7-bc3e-dc12c805bd6f</webElementGuid>
+      <webElementGuid>c28c07f9-f518-40ba-8a69-9dfccb0be9b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/profile/create_page/</value>
-      <webElementGuid>488a2ff8-f4ff-4e1a-9633-c927637ad30e</webElementGuid>
+      <webElementGuid>f2e153e4-1550-4b1c-8695-f42fcd6d765c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>92a46f00-7d0a-4740-bcc0-3e31c1e2b4c6</webElementGuid>
+      <webElementGuid>457d93f3-2c93-4042-9c97-6b4733deb9e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Create New Page</value>
-      <webElementGuid>9d05b8be-6452-413a-82a4-a17f1a341ad5</webElementGuid>
+      <webElementGuid>85aad143-ba2a-416f-b1a3-de95beb1cd37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[1]/div[@class=&quot;page-list&quot;]/a[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>a2bf0cd0-3a8f-4b2f-9ee7-81266b45d75c</webElementGuid>
+      <webElementGuid>54640ef8-a8c8-429a-9146-6a851649839d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Create New Page')]</value>
-      <webElementGuid>667bdd5e-8b55-42c3-8e93-fd09e2c18b4b</webElementGuid>
+      <webElementGuid>5a65dc29-301e-4e22-8127-07d452001fcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::a[1]</value>
-      <webElementGuid>977bc420-16d7-491a-bef3-127bcd98875d</webElementGuid>
+      <webElementGuid>c7e1e171-cf13-4ec8-b84b-74540a820073</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Open'])[1]/following::a[2]</value>
-      <webElementGuid>b3972f62-652f-43dd-afcc-27fb4ade41a4</webElementGuid>
+      <webElementGuid>92ca8acf-dcf5-4b18-9c57-5f113dd34693</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Create New Page']/parent::*</value>
-      <webElementGuid>fbc57e2d-d804-4e76-a19e-7b41440511de</webElementGuid>
+      <webElementGuid>0dd06231-c2b3-4d64-90ef-eee2f9845a52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/profile/create_page/')])[2]</value>
-      <webElementGuid>0d386192-6730-4617-942e-65375013b527</webElementGuid>
+      <webElementGuid>7638d312-fd66-49df-9611-a5a0836a240f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>492b83e9-e9b1-411e-9f9a-8d67f2337941</webElementGuid>
+      <webElementGuid>9f8863a4-20f6-4eb0-9fde-0138b56e3642</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/profile/create_page/' and (text() = 'Create New Page' or . = 'Create New Page')]</value>
-      <webElementGuid>cd6c977d-f40e-4236-bab8-1fb032f77cd6</webElementGuid>
+      <webElementGuid>ccb7159a-be57-4989-88dc-220ebb722504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Pages:'])[1]/following::a[1]</value>
-      <webElementGuid>f320e065-edc4-41ad-8df1-8be59017d28a</webElementGuid>
+      <webElementGuid>a0434e04-27a1-4e07-a0bb-8ad14a4609f9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

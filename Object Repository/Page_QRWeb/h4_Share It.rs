@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>5832dce2-80b1-48b7-b58d-8d3b2e68a602</webElementGuid>
+      <webElementGuid>e48daf34-0ad3-41c8-9f95-583fcfa08217</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Share It</value>
-      <webElementGuid>ec959fab-fdd1-4faa-a157-b5b683cc3929</webElementGuid>
+      <webElementGuid>c011f635-57a0-4bed-ba6e-49f0b39e0c54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;how-it-works&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4&quot;]/figure[@class=&quot;ts-fadeInUp animated&quot;]/h4[1]</value>
-      <webElementGuid>ac2d947d-f4d4-495e-85ec-0c213ccaca07</webElementGuid>
+      <webElementGuid>42a2cb88-4a61-43bb-a083-90963e58fc7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='how-it-works']/div/div[2]/div[3]/figure/h4</value>
-      <webElementGuid>a5f08707-634a-4aed-839b-5c18253a1962</webElementGuid>
+      <webElementGuid>7073deab-db89-42f7-aaf5-ac94624aef1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Link It To QR'])[1]/following::h4[1]</value>
-      <webElementGuid>edb9af19-4f10-4d77-b71a-aa78a7cd3768</webElementGuid>
+      <webElementGuid>71b536c8-6615-480b-801f-e76bdab4c4c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Your Page'])[1]/following::h4[2]</value>
-      <webElementGuid>71d62209-f0e4-45a4-bf7e-c765a05b1640</webElementGuid>
+      <webElementGuid>16d2fe7f-48d0-4bca-a7da-7a219cfc1acf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,15 +77,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='What Is QRWeb?'])[1]/preceding::h4[1]</value>
-      <webElementGuid>901c1c92-a41c-49dd-a3f6-ce474ba07c9b</webElementGuid>
+      <webElementGuid>6a2b9a66-31a5-43f6-8328-1ec570235982</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Now!'])[1]/preceding::h4[1]</value>
-      <webElementGuid>99795bc8-3c59-4738-8651-2b7d5509012e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up Now!'])[1]/preceding::h4[1]</value>
+      <webElementGuid>794bbc78-3b23-48e6-9261-07881ea88ec2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Share It']/parent::*</value>
-      <webElementGuid>e41ed7bb-1f6a-4c3b-a90f-ab96d2796d07</webElementGuid>
+      <webElementGuid>96daf285-ca95-4b18-9560-7d7e914f714e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/figure/h4</value>
-      <webElementGuid>9dbec3bf-bebb-4f31-b7ce-ea3ca42373fe</webElementGuid>
+      <webElementGuid>f922f669-c859-4e93-bc1c-b9dca0b0ad5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[(text() = 'Share It' or . = 'Share It')]</value>
-      <webElementGuid>41fb45cb-d809-4964-86bb-3f609d2ce5a8</webElementGuid>
+      <webElementGuid>0743537c-db76-49bc-a2e3-5c5b319bd5de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Now!'])[1]/preceding::h4[1]</value>
+      <webElementGuid>89a371f1-0e2a-4676-863b-2c86e74ed272</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>75a0bade-bcea-4237-845a-609f27b3f31b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.col-md-5.col-xl-5.ts-fadeInUp.animated > p</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//section[@id='what-is-qrweb']/div/div[2]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-md-5.col-xl-5.ts-fadeInUp.animated > p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>3c67fec5-c946-411e-baac-9293b79f8a8c</webElementGuid>
+      <webElementGuid>fc29888a-d446-4ff5-b71e-bf181a1da53d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
                                QRWeb offers a hassle-free solution for website creation and sharing, catering to entrepreneurs, bloggers, small businesses, and creatives. With a user-friendly interface and intuitive features, users of all skill levels can effortlessly build stunning websites that reflect their unique style. 
                                 From personal portfolios to business sites, QRWeb provides the tools you need to succeed in the digital world.
                             </value>
-      <webElementGuid>5e4fc160-6b46-4387-bff6-134361f0c4ab</webElementGuid>
+      <webElementGuid>2437ac6f-be98-4880-b2cf-50fcdf6233bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;what-is-qrweb&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5 col-xl-5 ts-fadeInUp animated&quot;]/p[1]</value>
-      <webElementGuid>6bc73e75-d324-4a7c-be6d-accdc6eaa35b</webElementGuid>
+      <webElementGuid>f47bef42-9f3b-4f2d-b7fb-8c487ad683d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='what-is-qrweb']/div/div[2]/div/p</value>
-      <webElementGuid>a3bcb31d-6284-4f9c-a35f-f5eb6cb7d766</webElementGuid>
+      <webElementGuid>ee4c0935-2b34-4b47-bf71-fe4b4112910b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='What Is QRWeb?'])[1]/following::p[1]</value>
-      <webElementGuid>1899d3f6-3765-4419-b07b-dab8e3602bec</webElementGuid>
+      <webElementGuid>75bf81e6-a2e9-4640-89ce-fa86956bf83a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share It'])[1]/following::p[2]</value>
-      <webElementGuid>0251a993-ae1f-4c38-b59d-6410349e8a46</webElementGuid>
+      <webElementGuid>b8cf9d3a-0c9f-4637-b21f-021a89601ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up Now!'])[1]/preceding::p[2]</value>
-      <webElementGuid>2a727144-97ff-41a6-80bc-ffb338e0a9e2</webElementGuid>
+      <webElementGuid>30d54d98-141f-488f-9f8a-104f3fb21f5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Features'])[1]/preceding::p[2]</value>
-      <webElementGuid>96fe9300-bdda-48be-8c97-20173173bdd1</webElementGuid>
+      <webElementGuid>f0b094f6-89fa-416b-98ce-52aa9df2cc53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/p</value>
-      <webElementGuid>951976d1-c694-44bd-92e4-28ff61e793e7</webElementGuid>
+      <webElementGuid>13b48914-824f-41a4-ab1d-d9e6ccee0834</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
                                QRWeb offers a hassle-free solution for website creation and sharing, catering to entrepreneurs, bloggers, small businesses, and creatives. With a user-friendly interface and intuitive features, users of all skill levels can effortlessly build stunning websites that reflect their unique style. 
                                 From personal portfolios to business sites, QRWeb provides the tools you need to succeed in the digital world.
                             ')]</value>
-      <webElementGuid>f7f0a7da-0800-40c3-9a54-c146c87fbae3</webElementGuid>
+      <webElementGuid>b5ea843d-7b61-443b-bc1a-ca825cfeae0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

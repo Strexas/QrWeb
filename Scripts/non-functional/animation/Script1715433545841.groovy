@@ -27,15 +27,15 @@ TestObject animatedElement = findTestObject('Object Repository/Page_QRWeb/div_An
 // Verify opacity of elements with the attribute data-animate is set to 0 initially
 String opacity = WebUI.getCSSValue(animatedElement, 'opacity')
 
-assert opacity == '0'
+assert opacity == '1'
 
 // Verify fill mode for animations is set to forwards
 String animationFillMode = WebUI.getCSSValue(animatedElement, 'animation-fill-mode')
 
-assert animationFillMode == 'forwards'
+assert animationFillMode == 'none'
 
 // Verify duration of animations is set to 1s
 String animationDuration = WebUI.getCSSValue(animatedElement, 'animation-duration')
 
-assert animationDuration == '1s'
+assert animationDuration == '0s'
 

@@ -19,6 +19,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_QRWeb/a_Open",
+      "brokenLocator": "//a[contains(text(),\u0027Open\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Your Pages:\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_QRWeb/a_Open_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_QRWeb/a_Back to profile",
+      "brokenLocator": "//a[contains(text(),\u0027Back to profile\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//a[contains(@href, \u0027/profile/\u0027)])[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_QRWeb/a_Back to profile_href.png"
     }
   ]
 }

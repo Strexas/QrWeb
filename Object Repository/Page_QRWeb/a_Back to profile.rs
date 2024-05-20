@@ -6,12 +6,12 @@
    <elementGuidId>d77d8b3a-0feb-4b2d-9dac-c3909b052575</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-secondary.w-100.btn-block.p-2</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Back to profile')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-secondary.w-100.btn-block.p-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>fd077b17-707d-40fd-9d19-8c5622018ea2</webElementGuid>
+      <webElementGuid>b00dfc8d-316c-4a12-9bc1-c2bc8909df62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/profile/</value>
-      <webElementGuid>c29f2266-5852-4414-b70c-b8d4cb7b9f74</webElementGuid>
+      <webElementGuid>623f4efd-1e2c-42b4-a815-d8b44a4d2601</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary w-100 btn-block p-2</value>
-      <webElementGuid>f8719345-89d2-4f56-bdd7-93b4b092f2ed</webElementGuid>
+      <webElementGuid>aabcb808-f3c1-44c2-ad41-103a9d909ddb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Back to profile</value>
-      <webElementGuid>6ba7ffa3-b94b-4114-b709-62f1409faa78</webElementGuid>
+      <webElementGuid>854a57fb-c8fe-4c5d-9bd7-de700dde8f8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[1]/div[@class=&quot;container bg-light shadow-md p-5 form-layout&quot;]/a[@class=&quot;btn btn-secondary w-100 btn-block p-2&quot;]</value>
-      <webElementGuid>0e7807a6-6c00-4e23-8cee-c80d8c5b1765</webElementGuid>
+      <webElementGuid>5539927c-18ab-42bf-a3fc-d7fe7a09b8f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Back to profile')]</value>
-      <webElementGuid>0718ac48-b58d-410b-86ca-cec34bdd5b18</webElementGuid>
+      <webElementGuid>3f520e28-4594-4fb2-b277-4cac99e0bfcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit page'])[1]/following::a[1]</value>
-      <webElementGuid>f3cd0840-b549-45be-a339-046564ef24f0</webElementGuid>
+      <webElementGuid>4136bc1a-7472-489e-b8e2-eef887876b3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Flowers'])[1]/following::a[2]</value>
-      <webElementGuid>da9815c2-a42a-44ea-b4c4-5f3de177433c</webElementGuid>
+      <webElementGuid>12233296-18b0-499a-848e-cafde2310720</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Back to profile']/parent::*</value>
-      <webElementGuid>83a3dbbc-001f-43e2-ae57-95450e037372</webElementGuid>
+      <webElementGuid>0fae42cd-9105-4d10-9ff7-8ebf0cc50148</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/profile/')])[2]</value>
-      <webElementGuid>7d2bf7f5-9024-4892-903c-dd21e632b89c</webElementGuid>
+      <webElementGuid>14eda238-eb6d-4fc9-838e-579fad5bb74a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//body/div/div/a[2]</value>
-      <webElementGuid>0104eb62-537a-4a87-b637-82895f60fb51</webElementGuid>
+      <webElementGuid>c093cbcb-a3e4-4d27-b2a8-a96110267993</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/profile/' and (text() = 'Back to profile' or . = 'Back to profile')]</value>
-      <webElementGuid>642028e8-496d-456c-b30a-187d3ce4302b</webElementGuid>
+      <webElementGuid>ee8c328e-8e59-4581-8385-c5801452c4b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

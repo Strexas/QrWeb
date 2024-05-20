@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>285e1728-e1d4-4b94-b589-e48957d8eeba</webElementGuid>
+      <webElementGuid>1cbab14f-d60e-4ae3-a98e-f315568274c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-link active ts-scroll</value>
-      <webElementGuid>9ef6c057-0379-42d1-84ee-3e518c9a6b57</webElementGuid>
+      <webElementGuid>e92b6d97-7536-4d1c-a824-0dff68924162</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/</value>
-      <webElementGuid>cc3b50f1-ad31-4d64-828b-30390250bb70</webElementGuid>
+      <webElementGuid>045c3880-8b7c-40c5-b4e1-ca136d50148c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Home (current)</value>
-      <webElementGuid>81442dd4-9b8a-45bc-85ea-094da2a5671e</webElementGuid>
+      <webElementGuid>2f850d9b-828c-413e-9c27-069eb26a58be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarNavAltMarkup&quot;)/div[@class=&quot;navbar-nav ml-auto&quot;]/a[@class=&quot;nav-item nav-link active ts-scroll&quot;]</value>
-      <webElementGuid>98f81ca0-271f-473e-a591-0f9fa14e9681</webElementGuid>
+      <webElementGuid>09e016fd-9efe-49d4-9130-ac21e53c32b1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarNavAltMarkup']/div/a</value>
-      <webElementGuid>8690ef97-dbde-403d-b743-bb6ad03de77a</webElementGuid>
+      <webElementGuid>793fb813-a05e-4ca7-9acc-0701edeb92b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::a[1]</value>
-      <webElementGuid>7f1b843f-956d-4913-8c8c-fed4797e563f</webElementGuid>
+      <webElementGuid>3fe5d71d-eea7-4851-b848-af89b5116f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
-      <webElementGuid>e7a79270-e83e-4878-86ea-a532da3bef15</webElementGuid>
+      <webElementGuid>718a6b5f-8b5a-4edd-b1ef-f6ecf48349e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/')]</value>
-      <webElementGuid>818f7824-0fff-4cab-b00a-b803563d202d</webElementGuid>
+      <webElementGuid>174d920d-6e7b-47ce-a06b-4b109374e05b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/a</value>
-      <webElementGuid>fb41ef83-56fb-456e-8484-1ad9b8ad2ea2</webElementGuid>
+      <webElementGuid>4b1d943e-0e15-4aae-ab83-eeaad8306a56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/' and (text() = 'Home (current)' or . = 'Home (current)')]</value>
-      <webElementGuid>22c67199-6b10-4e4c-80fb-bda62cbbaccc</webElementGuid>
+      <webElementGuid>c9124d44-949a-43f8-afca-a32577efeb08</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

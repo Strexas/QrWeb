@@ -6,12 +6,12 @@
    <elementGuidId>a20d35c0-b99f-48a1-b0ba-336234e98820</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='feature-1']/p</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#feature-1 > p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feature-1']/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>d12b2d38-0fd2-4de8-8a8c-f8a69ccbf79d</webElementGuid>
+      <webElementGuid>d40d8f1b-f65b-44e2-ad5f-4d0c8c26eba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
                                             Experience effortless website creation with our user-friendly interface, tailored for both beginners and experts alike.
                                             Craft your ideal website smoothly and intuitively, without the need for extensive technical knowledge.
                                         </value>
-      <webElementGuid>d74e33a9-551c-4622-98ca-a3aa6f76d313</webElementGuid>
+      <webElementGuid>309e1179-44cc-45ea-9ce1-19b6635ef00c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;feature-1&quot;)/p[1]</value>
-      <webElementGuid>0f5e3796-8efc-49da-8d7d-d2b5b4588717</webElementGuid>
+      <webElementGuid>e8a168c5-62dd-408f-a121-36f812d84e0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='feature-1']/p</value>
-      <webElementGuid>b84a5a57-36b3-4047-b9d6-813ac66ac1b3</webElementGuid>
+      <webElementGuid>0f47e026-ec9d-400a-8fd1-753d9e0f0fc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Simple To Use'])[1]/following::p[1]</value>
-      <webElementGuid>4eccc255-749a-4702-be06-3f5e213aeb00</webElementGuid>
+      <webElementGuid>9958317f-134b-44b4-b0b5-b2aa91a3e5e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Features'])[1]/following::p[2]</value>
-      <webElementGuid>032ffa65-1b67-464f-93bc-494233aba07b</webElementGuid>
+      <webElementGuid>3e45dab9-e157-4fb5-9175-0c1a438ff18c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fast'])[1]/preceding::p[1]</value>
-      <webElementGuid>2d8051ac-64cf-4afa-9239-e210922221ae</webElementGuid>
+      <webElementGuid>0bef18fc-8ce5-40ed-b556-c174c8e93df4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Convenient'])[1]/preceding::p[2]</value>
-      <webElementGuid>fefaa02d-3c8f-439e-8fad-b53ebfa230e0</webElementGuid>
+      <webElementGuid>9c52b431-1ae7-42ca-84f4-ec4e26d86aa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/div/p</value>
-      <webElementGuid>306e6630-0aff-4b46-a041-ba1a34444482</webElementGuid>
+      <webElementGuid>c6686353-271e-40dc-a71c-82b6c6179331</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
                                             Experience effortless website creation with our user-friendly interface, tailored for both beginners and experts alike.
                                             Craft your ideal website smoothly and intuitively, without the need for extensive technical knowledge.
                                         ')]</value>
-      <webElementGuid>8f5407d4-1b0a-43e5-ad6c-47cc7943eccc</webElementGuid>
+      <webElementGuid>707ae3c3-567e-410a-9eb1-76bda6c59b98</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

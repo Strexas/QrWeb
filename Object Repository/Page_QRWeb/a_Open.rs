@@ -6,12 +6,12 @@
    <elementGuidId>3cb09f3b-801e-4fe1-99d8-9ae10cea6ceb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Open')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4a942721-41a6-4f74-afa6-d9aba9bdeba9</webElementGuid>
+      <webElementGuid>63d1d090-8fcf-40fd-b5f8-d3a1df240a96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/profile/view/df79e9cf-a1dd-4a01-a5aa-3ed8e16ac15c/</value>
-      <webElementGuid>1e70278a-10e7-44a0-a029-42bd41e1a466</webElementGuid>
+      <webElementGuid>391d030b-3ec2-4fb0-a008-3b648718ecb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>84785465-37ee-4681-88d2-1cfd5a6e110b</webElementGuid>
+      <webElementGuid>af487c9d-759e-41f5-a041-0468ad720789</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Open</value>
-      <webElementGuid>abcdb7b6-e3ed-487f-b419-54ad31c5f94c</webElementGuid>
+      <webElementGuid>d2f6cdd0-33fb-4bf5-937f-2ae57c2e569e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[2]/div[@class=&quot;page-list&quot;]/ul[1]/li[1]/a[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>f6d212b6-66e3-4caa-9fcc-e18a39e4b999</webElementGuid>
+      <webElementGuid>e20f6b80-063f-408d-b51a-fe21e8824587</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Open')]</value>
-      <webElementGuid>16f48546-23b0-4076-8fcb-b7c6837a507d</webElementGuid>
+      <webElementGuid>9a922e8d-f19c-4ec3-a9eb-ce4f5f41f2fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Pages:'])[1]/following::a[1]</value>
-      <webElementGuid>ae0647fb-89fb-4bfb-a13c-e3dabd07bac8</webElementGuid>
+      <webElementGuid>02344a2e-582b-4e22-bc7d-0a9b18b917b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::a[1]</value>
-      <webElementGuid>a5cc6d8f-18ec-401b-9a93-930d151bacce</webElementGuid>
+      <webElementGuid>72dec991-4017-4940-ae97-65a965f01f82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New Page'])[1]/preceding::a[2]</value>
-      <webElementGuid>3deda30b-a055-4baa-a1eb-0f2a3d600302</webElementGuid>
+      <webElementGuid>1e40bd80-65d3-494c-8089-d57d0ffa556c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Open']/parent::*</value>
-      <webElementGuid>e704e708-db1f-4e4c-8044-0aac7ff72d80</webElementGuid>
+      <webElementGuid>3ec90654-997a-42ad-bfda-2e11d2fa96bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/profile/view/df79e9cf-a1dd-4a01-a5aa-3ed8e16ac15c/')]</value>
-      <webElementGuid>4305aec2-9dce-4166-a299-7d36517cc9b1</webElementGuid>
+      <webElementGuid>ffe95271-0d1d-447a-a2e1-39e159db5d1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a</value>
-      <webElementGuid>2814af23-2ff1-405b-ac70-e0316cc0ac6a</webElementGuid>
+      <webElementGuid>529dd0c7-f767-48f3-b1c8-cad8e17bfc4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/profile/view/df79e9cf-a1dd-4a01-a5aa-3ed8e16ac15c/' and (text() = 'Open' or . = 'Open')]</value>
-      <webElementGuid>d1c11a06-d045-43eb-8b44-9f4a92fda9dc</webElementGuid>
+      <webElementGuid>5bee5a74-f141-4054-b3ee-3dfa02a70f46</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

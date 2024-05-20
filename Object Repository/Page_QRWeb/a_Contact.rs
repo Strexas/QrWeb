@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d2d6a489-fcae-4c7e-9bb5-3b8c3a111234</webElementGuid>
+      <webElementGuid>7b498462-11b6-4c2e-9068-40ed0c4bc0cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-link ts-scroll</value>
-      <webElementGuid>336b6586-8bbf-4ae4-bc65-f0df32d93c01</webElementGuid>
+      <webElementGuid>66bd1dd0-60f7-41a3-91e9-9963cccbdf7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#contact</value>
-      <webElementGuid>454835a4-e70d-4a0d-8ad6-e106c0bbb4b4</webElementGuid>
+      <webElementGuid>e0934120-f4b2-4b58-9aba-bf65fddc2ecf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Contact</value>
-      <webElementGuid>aa41f266-3d65-48cb-a92b-f46965c8a0f2</webElementGuid>
+      <webElementGuid>85fc390b-4b8c-40c4-ab23-fdd7d2c1e95e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarNavAltMarkup&quot;)/div[@class=&quot;navbar-nav ml-auto&quot;]/a[@class=&quot;nav-item nav-link ts-scroll&quot;]</value>
-      <webElementGuid>05a3ba8e-8cb4-43ad-9841-9c12f016dbbf</webElementGuid>
+      <webElementGuid>3138292f-59fc-4535-82ee-ccb8ef63953e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarNavAltMarkup']/div/a[4]</value>
-      <webElementGuid>23bc0142-d18a-4465-9546-ed4e5e82c481</webElementGuid>
+      <webElementGuid>eb003899-fc0b-4cdc-8239-ba6c1d866724</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Contact')]</value>
-      <webElementGuid>e81e9135-7425-4bc1-bcf6-0592fe15beba</webElementGuid>
+      <webElementGuid>52411bbe-3477-4a8d-b80c-6f59ecd811fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pricing'])[1]/following::a[1]</value>
-      <webElementGuid>513c84d3-ab2b-443f-8a52-f38b540d3b48</webElementGuid>
+      <webElementGuid>71676976-9d95-4e1d-b6de-4a772731ca6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/following::a[2]</value>
-      <webElementGuid>57545d79-3f6b-40aa-9f37-54d63b5b8049</webElementGuid>
+      <webElementGuid>c2c79fe9-b7e5-4d19-95b4-c787b94a52e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/preceding::a[1]</value>
-      <webElementGuid>1db9dd97-90d3-4a76-854d-394f2aac373e</webElementGuid>
+      <webElementGuid>491d717c-5847-414e-8400-edae579666db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages!'])[1]/preceding::a[2]</value>
-      <webElementGuid>2325957a-a41a-414c-aef9-e9f86937f7de</webElementGuid>
+      <webElementGuid>a3ef05f8-e7fb-49ce-bb29-11a0b48283a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Contact']/parent::*</value>
-      <webElementGuid>61d1c962-160e-4ff0-a0e0-9d6307163ab3</webElementGuid>
+      <webElementGuid>977b78a9-a937-43da-8fe5-fcc8249439a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +124,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#contact')]</value>
-      <webElementGuid>5c839a6c-92e4-4b8e-b8ce-097ccb3c0de9</webElementGuid>
+      <webElementGuid>969ef40b-9dc3-427d-b478-4a23cb307696</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +132,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>2dbfc987-0675-4eb8-b3b1-19417c93cd50</webElementGuid>
+      <webElementGuid>e587fa7b-0f38-4691-85d2-5626de01fcd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +140,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#contact' and (text() = 'Contact' or . = 'Contact')]</value>
-      <webElementGuid>dadc2dc0-44f3-4379-b88b-04a55758d532</webElementGuid>
+      <webElementGuid>d969277b-1fcf-4830-bce6-f024f92f9b0a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

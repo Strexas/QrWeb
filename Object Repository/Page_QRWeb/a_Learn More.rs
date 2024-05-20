@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7e3f71f1-1946-46ef-8ed3-e59709014f08</webElementGuid>
+      <webElementGuid>c2b28938-458a-4089-ae3f-deea88ff8c95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#how-it-works</value>
-      <webElementGuid>55ea3d02-74ec-4c06-8f5a-4e6f03f74559</webElementGuid>
+      <webElementGuid>de5b8e99-ab07-445f-9a42-188150912079</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-light btn-lg ts-scroll</value>
-      <webElementGuid>fcb9625c-9e55-4306-89bc-12c20aa6d20e</webElementGuid>
+      <webElementGuid>1e52274d-189e-44d4-836c-1747f0349d2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Learn More</value>
-      <webElementGuid>df10d4c8-a4bd-465e-a2ab-f386206ed971</webElementGuid>
+      <webElementGuid>fe87b65c-c626-441c-b959-9829b2c3474a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ts-hero&quot;)/div[@class=&quot;container align-self-center&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-sm-7&quot;]/a[@class=&quot;btn btn-light btn-lg ts-scroll&quot;]</value>
-      <webElementGuid>1c12b629-8493-42d6-aca7-3f837774cc24</webElementGuid>
+      <webElementGuid>fa2b93c2-a75c-4669-8747-0da5776a4f8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='ts-hero']/div/div/div/a</value>
-      <webElementGuid>e609347b-1978-46ce-8fc6-29080d1e83b6</webElementGuid>
+      <webElementGuid>c08936cb-6f6e-44ba-a4ef-11951056c543</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Learn More')]</value>
-      <webElementGuid>7a08dd5b-0064-4172-b813-2e44de16c797</webElementGuid>
+      <webElementGuid>9d85f6c5-a0f5-44fb-9d9c-94af5863e6e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages And Link QR Codes To Them In One Place'])[1]/following::a[1]</value>
-      <webElementGuid>bda3de74-cf2f-427a-97d4-cf81227d4f42</webElementGuid>
+      <webElementGuid>c3a7f410-77da-4319-a261-fcab9c88ca18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages!'])[1]/following::a[1]</value>
-      <webElementGuid>3d31698c-fb26-4d6c-a787-203a64e7b82c</webElementGuid>
+      <webElementGuid>3149f1a1-1662-41fa-97d7-6602c40c2c11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='How It Works'])[1]/preceding::a[1]</value>
-      <webElementGuid>913dba5c-098e-4845-84b3-c867ab958f62</webElementGuid>
+      <webElementGuid>19315399-9ba4-4c9c-820d-4d5b2b8f93c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Your Page'])[1]/preceding::a[1]</value>
-      <webElementGuid>e1e27331-ee0d-411d-b59f-61d0c41cc288</webElementGuid>
+      <webElementGuid>8a1884c4-e417-4818-9ce9-e14815d38cbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Learn More']/parent::*</value>
-      <webElementGuid>ee1f7ecb-9737-4a7b-8c99-a848f2fea62f</webElementGuid>
+      <webElementGuid>4a731588-75f5-4aba-8d1b-1729f62b6c6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,15 +125,15 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#how-it-works')]</value>
-      <webElementGuid>ec9beead-2c35-4eda-bf35-55224b8ebe26</webElementGuid>
+      <webElementGuid>039ae758-205c-4c3c-a73e-52b4c04419d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//header/div/div/div/a</value>
-      <webElementGuid>1cc4f9f2-8383-4aa2-8cfd-84c800828fe4</webElementGuid>
+      <value>//a</value>
+      <webElementGuid>8aa71a87-1364-41d2-a5b2-dff468f67b4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#how-it-works' and (text() = 'Learn More' or . = 'Learn More')]</value>
-      <webElementGuid>185d974c-1ddd-42a0-bcfd-db4c37957542</webElementGuid>
+      <webElementGuid>4c319c3b-e2ed-4e73-8baa-b638955a6d76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/div/div/a</value>
+      <webElementGuid>c3d6b58e-c799-4cfa-a7e4-112fd21d24c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

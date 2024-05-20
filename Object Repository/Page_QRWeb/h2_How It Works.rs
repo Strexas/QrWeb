@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>f91a5d78-3053-445f-b54a-b7e59714f97b</webElementGuid>
+      <webElementGuid>f30ebfd6-ad25-49d8-bcc8-0ca9bb703156</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>How It Works</value>
-      <webElementGuid>de1df9cc-8cb0-4a12-9210-f60fa2052994</webElementGuid>
+      <webElementGuid>8a820aa5-1f64-4a0d-a434-d37e0b00ae80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;how-it-works&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;ts-title&quot;]/h2[1]</value>
-      <webElementGuid>12164dc0-2c29-405a-8db0-96f7d7d1b6d9</webElementGuid>
+      <webElementGuid>51409f1c-f59e-4b00-8b39-8eac6a87f3fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='how-it-works']/div/div/h2</value>
-      <webElementGuid>27629055-6a63-47fc-946e-d001558cf8b8</webElementGuid>
+      <webElementGuid>08d40c3d-7654-4f78-82f8-a942c282bae5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn More'])[1]/following::h2[1]</value>
-      <webElementGuid>5c652567-d34f-4c87-8579-281607c1ec41</webElementGuid>
+      <webElementGuid>aaffc7b2-f053-413c-87e8-8f38bb829b79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages And Link QR Codes To Them In One Place'])[1]/following::h2[1]</value>
-      <webElementGuid>820ac52d-e1cd-4b1e-b455-b475ee1315b5</webElementGuid>
+      <webElementGuid>8e472495-afa3-4e63-bec2-06d053b50a6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Your Page'])[1]/preceding::h2[1]</value>
-      <webElementGuid>6a2a89fc-9659-44f9-a6b1-26ef90eb7605</webElementGuid>
+      <webElementGuid>e895b242-2812-4638-b42f-3d4a461342b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Link It To QR'])[1]/preceding::h2[1]</value>
-      <webElementGuid>7fc8c8a3-966b-4d29-a7df-461de846a2db</webElementGuid>
+      <webElementGuid>83019247-4706-45d8-ba31-daddcbcc3e64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='How It Works']/parent::*</value>
-      <webElementGuid>a92ad04a-0e0b-468f-9a05-8753c7616589</webElementGuid>
+      <webElementGuid>0a72cc65-1541-4e6e-bac4-13b47e5b0e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>a4731905-fe62-4a78-af59-5a0f7772f502</webElementGuid>
+      <webElementGuid>bc3d32b1-944d-4867-9116-188c2a13ac03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'How It Works' or . = 'How It Works')]</value>
-      <webElementGuid>02a77e04-ff85-49e4-8ce1-9d5a9f109dda</webElementGuid>
+      <webElementGuid>7f25990e-50c7-4fb8-8003-ace3f133ce60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

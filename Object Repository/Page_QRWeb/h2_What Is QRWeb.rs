@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>d88e8b9d-9973-40f6-8115-ea847cd4e8ec</webElementGuid>
+      <webElementGuid>2672aa36-2312-40c6-8970-5acf2865e40b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>What Is QRWeb?</value>
-      <webElementGuid>898843ec-5b45-491b-828d-798b9132c192</webElementGuid>
+      <webElementGuid>e36e9148-edbb-42c2-8d5b-30c6544b92ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;what-is-qrweb&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;ts-title&quot;]/h2[1]</value>
-      <webElementGuid>52dbee1d-9cbd-472f-a5e0-74dabc62804e</webElementGuid>
+      <webElementGuid>aa85e2ce-3dfd-442f-a9d3-0165bb1c72f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='what-is-qrweb']/div/div/h2</value>
-      <webElementGuid>9da14ce9-8794-448e-8c01-27394889ed39</webElementGuid>
+      <webElementGuid>3630abce-b896-4148-9c90-08c60749a174</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share It'])[1]/following::h2[1]</value>
-      <webElementGuid>8b198a19-acf9-49cc-b078-7f81c896730b</webElementGuid>
+      <webElementGuid>07500870-264e-40f5-a976-e19041c933b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Link It To QR'])[1]/following::h2[1]</value>
-      <webElementGuid>d85ab2cc-6e94-423f-8e5c-d2da2c3c3fcd</webElementGuid>
+      <webElementGuid>e40ccb9e-2c95-4cc6-a655-f4d168a267b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Now!'])[1]/preceding::h2[1]</value>
-      <webElementGuid>bb795c23-8c67-4ba4-9291-ae442f55add5</webElementGuid>
+      <webElementGuid>e0803a52-e679-4433-955a-2781aa083f3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Features'])[1]/preceding::h2[1]</value>
-      <webElementGuid>20639ae1-b810-41e5-a6d7-3eb102a026b9</webElementGuid>
+      <webElementGuid>fe68c10f-a2b1-4d5f-8b62-0e950221cf64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='What Is QRWeb?']/parent::*</value>
-      <webElementGuid>14098fab-45fe-4d78-9d58-fa70b57d9f8b</webElementGuid>
+      <webElementGuid>c73de709-7d09-4d35-86ae-3cb9c187ea1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[2]/div/div/h2</value>
-      <webElementGuid>62686a51-8443-4780-9425-b91e43c9618e</webElementGuid>
+      <webElementGuid>77863591-c98f-44b3-bf11-39d9950f34ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'What Is QRWeb?' or . = 'What Is QRWeb?')]</value>
-      <webElementGuid>fc35f7d4-82cc-4690-b55e-ca3725984e26</webElementGuid>
+      <webElementGuid>e33dbd55-c8a0-4c73-a15e-ebcb81b6e6b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

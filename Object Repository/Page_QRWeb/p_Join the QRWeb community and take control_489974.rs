@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>19bc272b-b0f4-4be9-80c0-4f6e11d61fc9</webElementGuid>
+      <webElementGuid>98a0eef0-53e0-4488-b473-cc6059da4b60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <value>
                                 Join the QRWeb community and take control of your online presence today.
                             </value>
-      <webElementGuid>d065d165-3fc5-4eac-a792-1852191ee71b</webElementGuid>
+      <webElementGuid>f9fec1cd-9ccc-4de3-a73e-749c570587cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;what-is-qrweb&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5 col-xl-5 ts-fadeInUp animated&quot;]/p[2]</value>
-      <webElementGuid>4b379570-4250-4e81-905c-7c105441d044</webElementGuid>
+      <webElementGuid>d4bcff29-1217-4e23-b3a1-11c921da1bc7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='what-is-qrweb']/div/div[2]/div/p[2]</value>
-      <webElementGuid>99672707-3a87-4560-ba09-b633e17b7a45</webElementGuid>
+      <webElementGuid>3a733b6d-2c7c-42a7-a7f7-f5bc3656881a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='What Is QRWeb?'])[1]/following::p[2]</value>
-      <webElementGuid>3a66c0f2-d485-44d9-9a36-94069cb9494b</webElementGuid>
+      <webElementGuid>72751894-e295-48d8-92a9-b6298c887997</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,15 +71,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share It'])[1]/following::p[3]</value>
-      <webElementGuid>5996683e-b1e5-45a7-9dd7-dc823499aa79</webElementGuid>
+      <webElementGuid>9301cc5a-4844-43fb-a932-32b668ecb6d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Now!'])[1]/preceding::p[1]</value>
-      <webElementGuid>a29fa220-5bce-42c6-a13a-e3c50436d95d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up Now!'])[1]/preceding::p[1]</value>
+      <webElementGuid>24be5156-81a0-43cf-af98-a1e8f3ca49d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Features'])[1]/preceding::p[1]</value>
-      <webElementGuid>ac66adaf-ba01-419c-b545-77caadc78f47</webElementGuid>
+      <webElementGuid>970c748c-69d4-481a-919a-23cf18c21094</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Join the QRWeb community and take control of your online presence today.']/parent::*</value>
-      <webElementGuid>5de8550b-017f-4c15-ab52-574960ab4c03</webElementGuid>
+      <webElementGuid>1c03b2f6-f2a0-4a8a-8df2-c7ee3c5624de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]</value>
-      <webElementGuid>545433cf-8e77-4cb5-b18e-775d6c073407</webElementGuid>
+      <webElementGuid>caac3a82-c0a3-4f27-a000-f60fa2667282</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,14 @@
                             ' or . = '
                                 Join the QRWeb community and take control of your online presence today.
                             ')]</value>
-      <webElementGuid>ab948a45-53a0-4ba8-8055-d1cfa848228a</webElementGuid>
+      <webElementGuid>042251e8-7b3f-4577-8df2-26884da57d59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Now!'])[1]/preceding::p[1]</value>
+      <webElementGuid>60806911-1f88-4e73-a6e6-1490184fd75f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

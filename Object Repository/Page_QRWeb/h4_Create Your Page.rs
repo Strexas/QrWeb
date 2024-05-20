@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>46705b22-1838-41bf-af58-e97df9bb8a31</webElementGuid>
+      <webElementGuid>856787e6-9d62-4e91-899f-d12183c267da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Create Your Page</value>
-      <webElementGuid>b97d207b-38ba-46f2-b718-7619cfcdde66</webElementGuid>
+      <webElementGuid>cdb566e8-cf04-4076-9802-3e4dda5fd80b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;how-it-works&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 col-md-4 col-xl-4&quot;]/figure[@class=&quot;ts-fadeInUp animated&quot;]/h4[1]</value>
-      <webElementGuid>b9e5d2ff-a19b-474d-b90b-ab2d9c23de95</webElementGuid>
+      <webElementGuid>350506d2-a2fb-49b8-a027-7d601bb62d3b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='how-it-works']/div/div[2]/div/figure/h4</value>
-      <webElementGuid>70481b56-fc94-429a-9f4c-630a076317e8</webElementGuid>
+      <webElementGuid>6ae1f773-91fd-4c2b-8c3c-10f89db6fc15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='How It Works'])[1]/following::h4[1]</value>
-      <webElementGuid>4f9dbdce-66fe-402a-b320-7de82bdcede3</webElementGuid>
+      <webElementGuid>c49366ff-5d29-4ee4-8778-5206d12dda64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn More'])[1]/following::h4[1]</value>
-      <webElementGuid>d47a7382-d788-4c67-8a42-d4ab1e01db43</webElementGuid>
+      <webElementGuid>e3f04c16-94b5-485f-be5b-556dcaec530f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Link It To QR'])[1]/preceding::h4[1]</value>
-      <webElementGuid>7a8eed75-5bba-4c3e-a065-a938bdb31b3b</webElementGuid>
+      <webElementGuid>2085f183-68e9-4bd7-b11c-7d9656632093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share It'])[1]/preceding::h4[2]</value>
-      <webElementGuid>8f00f1ad-6c32-4002-9884-98dbb4f6f2e0</webElementGuid>
+      <webElementGuid>7a48f04a-6e13-4cdd-99b2-6ff476333e5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Create Your Page']/parent::*</value>
-      <webElementGuid>e64a9360-d1ac-462a-8838-c246be1e524a</webElementGuid>
+      <webElementGuid>9cfa0b5a-e8cc-4fbc-a3f8-8d49e84d4707</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h4</value>
-      <webElementGuid>5a4e396a-99c4-454c-8fe4-dbaf2b42ecde</webElementGuid>
+      <webElementGuid>0f859367-683d-43fb-9e19-9e09aaa16d96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[(text() = 'Create Your Page' or . = 'Create Your Page')]</value>
-      <webElementGuid>44eef134-3be0-4c82-a8b7-d221a5513aca</webElementGuid>
+      <webElementGuid>a7c45136-e181-4616-b036-5a29f98c81c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
