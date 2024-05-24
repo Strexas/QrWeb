@@ -6,12 +6,12 @@
    <elementGuidId>e98652eb-f7dc-4b9b-9468-fbbac9ba2aeb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f360135a-812c-450e-a9f9-cfca52335a0a</webElementGuid>
+      <webElementGuid>7d69a456-0d41-4314-a3ed-83a89b8356d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>0da0839d-8661-4455-a283-d07a18247805</webElementGuid>
+      <webElementGuid>d3e77419-3e30-4398-bb6c-b8e8a64cb4a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>4782c157-c7d0-4ba7-95f7-739f41b74ac6</webElementGuid>
+      <webElementGuid>0d05dc29-e2a9-464d-8afa-02f060183d1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Change Password</value>
-      <webElementGuid>2dced6e2-649b-464e-804d-345fea2a97fb</webElementGuid>
+      <webElementGuid>0e13547e-6414-4c24-91c0-566f4e096ccc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[2]/div[1]/form[1]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>b13ea052-cd5e-421f-a637-898d64311cbd</webElementGuid>
+      <webElementGuid>aceb1a35-b0cb-4243-b684-d99c9f72fec5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>ba10a50c-1c82-45c2-bc44-d08669c8c3dc</webElementGuid>
+      <webElementGuid>e0ae8c07-f736-4b88-a8d3-4faf71d49d76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/following::button[1]</value>
-      <webElementGuid>e2d7db3e-6eb4-4f84-907b-4959c4f19fa5</webElementGuid>
+      <webElementGuid>2e5436a5-e561-4b82-a6ec-f5f4bcac39b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User:'])[1]/following::button[1]</value>
-      <webElementGuid>9735203c-0cb0-4101-a8b9-b77f7371967e</webElementGuid>
+      <webElementGuid>79a8b757-e440-4759-8c40-79b341f70df6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Pages:'])[1]/preceding::button[1]</value>
-      <webElementGuid>c808cddb-a180-4b29-98ab-85bb39a49597</webElementGuid>
+      <webElementGuid>0e8aae76-0e26-4ba2-ab53-d745a02df29b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Change Password']/parent::*</value>
-      <webElementGuid>f45c6148-fb5f-40c2-ae71-90fe6d43ebcb</webElementGuid>
+      <webElementGuid>09a7e031-cb55-412f-9423-3fd96d8121d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
-      <webElementGuid>84e4ffae-4685-41bc-8207-2a24c141feca</webElementGuid>
+      <webElementGuid>ba1c1b71-7694-40d7-ac33-da99cb745705</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Change Password' or . = 'Change Password')]</value>
-      <webElementGuid>402cc487-939b-4057-b57e-2ef2cb79c2ee</webElementGuid>
+      <webElementGuid>e06b39de-c3ad-478d-9963-4074e54eb728</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

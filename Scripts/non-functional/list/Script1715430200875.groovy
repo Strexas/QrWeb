@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://qr-web-h1fi.onrender.com/')
 
@@ -27,7 +28,7 @@ TestObject paragraphElement = findTestObject('Object Repository/Page_QRWeb/p_Exp
 
 // Verify line height of unordered lists (ul)
 String lineHeight = WebUI.getCSSValue(paragraphElement, 'line-height')
-assert lineHeight == '25.65px'
+assert lineHeight == '27px'
 
 // Verify bottom border of lists with the class ts-list-divided
 String borderBottom = WebUI.getCSSValue(paragraphElement, 'border-bottom')

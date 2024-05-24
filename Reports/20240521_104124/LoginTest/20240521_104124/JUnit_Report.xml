@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTest" time="53.614" tests="1" failures="0" errors="0">
+   <testsuite name="LoginTest" tests="1" failures="0" errors="0" time="53.614" skipped="0" timestamp="21-05-2024T10:41:31" hostname="Anna - DESKTOP-3UT53HP" id="Test Suites/LoginTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240521_104124\\LoginTest\\20240521_104124"/>
+         <property name="logFiles" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240521_104124\\LoginTest\\20240521_104124\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anna - DESKTOP-3UT53HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="76e6d8f0f35c0b88186d0818372e91b1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/functional/login" time="53.4" classname="Test Cases/functional/login" status="PASSED">
+         <system-out><![CDATA[21-05-2024T10:41:31 - [TEST_CASE][PASSED] - Test Cases/functional/login: Test Cases/functional/login
+
+21-05-2024T10:41:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+21-05-2024T10:41:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-05-2024T10:41:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-05-2024T10:41:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+21-05-2024T10:41:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-05-2024T10:41:34 - [MESSAGE][PASSED] - Current window maximized
+
+21-05-2024T10:41:34 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+21-05-2024T10:42:20 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+21-05-2024T10:42:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+21-05-2024T10:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+21-05-2024T10:42:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QRWeb/input__username"), "user7"): Text 'user7' is set on object 'Object Repository/Page_QRWeb/input__username'
+
+21-05-2024T10:42:22 - [MESSAGE][PASSED] - Text 'user7' is set on object 'Object Repository/Page_QRWeb/input__username'
+
+21-05-2024T10:42:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QRWeb/input__password"), "RigbBhfdqOALcqUsFYWzlQ=="): Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password'
+
+21-05-2024T10:42:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password'
+
+21-05-2024T10:42:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/button_Login")): Object: 'Object Repository/Page_QRWeb/button_Login' is clicked on
+
+21-05-2024T10:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-05-2024T10:41:31 - [TEST_SUITE][PASSED] - LoginTest: Test Cases/functional/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

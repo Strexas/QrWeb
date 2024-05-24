@@ -6,12 +6,12 @@
    <elementGuidId>9801849b-e1f8-4c00-a171-bd6d89618035</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete column'])[1]/following::*[name()='svg'][1]</value>
+         <key>CSS</key>
+         <value>svg</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.tc-add-column > svg</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='null'])[1]/following::*[name()='svg'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>bb3b831d-dab6-47e9-942c-61a761569b4a</webElementGuid>
+      <webElementGuid>41423448-7206-4326-9700-a22890b49374</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>6278f2fa-c6ae-4aa4-90bb-1869fdcf1477</webElementGuid>
+      <webElementGuid>81abdcc0-21a5-4937-b61f-ff4455c669e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>62a4b143-3f37-419c-8167-77911b5605fc</webElementGuid>
+      <webElementGuid>3ef4d0f8-56bf-4cac-90aa-0bae3507ecb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>c9e622d2-7c76-4cab-9e08-db599a11f653</webElementGuid>
+      <webElementGuid>7c29eed9-ba63-4088-841b-e290b0dde564</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>ab5569f8-22fd-4270-8fa8-e532294ae5e6</webElementGuid>
+      <webElementGuid>2f6c224e-2990-494a-8cb7-a9e91054272d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,18 +69,58 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 24 24</value>
-      <webElementGuid>d061605b-d7b7-4375-9771-c6063044bcba</webElementGuid>
+      <webElementGuid>fd2c468c-bbbd-4123-a510-34644aa58866</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]/div[@class=&quot;ce-block ce-block--focused&quot;]/div[@class=&quot;ce-block__content&quot;]/div[@class=&quot;cdx-block&quot;]/div[@class=&quot;tc-wrap&quot;]/div[@class=&quot;tc-add-column&quot;]/svg[1]</value>
-      <webElementGuid>631b1692-3183-4d4e-ae80-d109ba59585d</webElementGuid>
+      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]/div[@class=&quot;ce-block ce-block--focused&quot;]/div[@class=&quot;ce-block__content&quot;]/div[@class=&quot;cdx-block&quot;]/div[@class=&quot;tc-wrap&quot;]/div[@class=&quot;tc-toolbox tc-toolbox--row tc-toolbox--showed&quot;]/div[@class=&quot;tc-toolbox__toggler&quot;]/svg[1]</value>
+      <webElementGuid>0c0a3e0b-8a13-4818-a2b0-df48a25bd579</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='null'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>1164163a-e316-4402-a4ad-de19698e6cdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add row above'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>e56e11fc-785f-4d8a-bf03-24d63140140f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add row below'])[1]/preceding::*[name()='svg'][3]</value>
+      <webElementGuid>a428396f-45da-465b-9ceb-7d778790c962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hkglhulhl'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>f5ea3ec3-4892-45b6-b888-61c851c2017c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='cfhftujftu'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>f546e260-25c8-4339-a85b-c20147dec8a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>

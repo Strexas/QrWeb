@@ -6,11 +6,11 @@
    <elementGuidId>cbe185a0-0837-4365-9830-72611434a6bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarNavAltMarkup']/div/a[4]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='navbarNavAltMarkup']/div/a[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ba7eb336-0cec-4bee-8320-90cb7a6a09e0</webElementGuid>
+      <webElementGuid>5bb4b6b8-eea4-472c-81c9-b5ed5f25fc2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-link ts-scroll</value>
-      <webElementGuid>22441a29-579f-4024-a7f6-33a05d26e992</webElementGuid>
+      <webElementGuid>5b246fd6-491c-4267-be4e-0933fb6ca8fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/logout/</value>
-      <webElementGuid>0a64a3c6-18c8-4691-9a44-c49da3a586e9</webElementGuid>
+      <webElementGuid>ea5851ea-dfba-414a-9770-b1ce5dabe595</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign out  </value>
-      <webElementGuid>77f7312c-5066-4a51-9b62-5bc081b72718</webElementGuid>
+      <webElementGuid>e5796791-194b-44fb-bb77-33c92de3c969</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarNavAltMarkup&quot;)/div[@class=&quot;navbar-nav ml-auto&quot;]/a[@class=&quot;nav-item nav-link ts-scroll&quot;]</value>
-      <webElementGuid>2101fd1e-d302-4c4b-8c59-f84fd4aee5da</webElementGuid>
+      <webElementGuid>34cb3ff9-13a1-4536-a9c9-56a85238ac75</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarNavAltMarkup']/div/a[4]</value>
-      <webElementGuid>1aa70de8-1a22-4612-9cca-9a68b13ac869</webElementGuid>
+      <webElementGuid>2c069f6f-179d-47b9-bbdf-aa290f3d431e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign out')]</value>
-      <webElementGuid>cbb8d688-7d1c-4b98-8f09-2aaea69d057e</webElementGuid>
+      <webElementGuid>01a9d643-cf36-42c2-a900-14b4ddf8c499</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create new page'])[1]/following::a[1]</value>
-      <webElementGuid>c7d61a2a-3493-409e-a8f6-1f245c66edb7</webElementGuid>
+      <webElementGuid>16a6d91c-ba50-4172-a610-b5ac94e86f01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::a[2]</value>
-      <webElementGuid>95932929-aa4b-4975-9dfc-054cb5a4ca15</webElementGuid>
+      <webElementGuid>911ff53b-5b44-48c3-b89e-ce2eae1d1c10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign out']/parent::*</value>
-      <webElementGuid>3f0138cc-347e-4925-9227-a428319f4433</webElementGuid>
+      <webElementGuid>46fc6bda-07b9-46a9-b614-fa65798c868d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/logout/')]</value>
-      <webElementGuid>91f2f9eb-24f6-432e-a7bc-6c4cc9657624</webElementGuid>
+      <webElementGuid>c077bfa1-6ecc-4db2-a654-b3f1ed40e954</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[4]</value>
-      <webElementGuid>5cdce401-5970-4b28-94ae-a27087931796</webElementGuid>
+      <webElementGuid>2d121cdf-7192-4142-ae43-ced787aa0711</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +124,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/logout/' and (text() = 'Sign out  ' or . = 'Sign out  ')]</value>
-      <webElementGuid>1abee76d-2ac1-44a4-ba1f-174de55949d3</webElementGuid>
+      <webElementGuid>3aa8e945-c380-41d1-8258-0d1575cee468</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

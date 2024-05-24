@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginTest,Chrome 125.0.0.0,,,24-05-2024 16:24:35,24-05-2024 16:26:01,1m - 25.970s,PASSED
+,,,,,,,
+Test Cases/functional/login,Chrome 125.0.0.0,,,24-05-2024 16:24:35,24-05-2024 16:26:01,1m - 25.784s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,24-05-2024 16:24:36,24-05-2024 16:24:39,2.990s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,24-05-2024 16:24:39,24-05-2024 16:24:39,0.054s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 125.0.0.0,,,24-05-2024 16:24:39,24-05-2024 16:25:57,1m - 18.268s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Chrome 125.0.0.0,,,24-05-2024 16:25:57,24-05-2024 16:25:58,0.842s,PASSED
+"setText(findTestObject(""Object Repository/Page_QRWeb/input__username""), ""user7"")",Chrome 125.0.0.0,,,24-05-2024 16:25:58,24-05-2024 16:25:58,0.679s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QRWeb/input__password""), ""RigbBhfdqOALcqUsFYWzlQ=="")",Chrome 125.0.0.0,,,24-05-2024 16:25:58,24-05-2024 16:25:59,0.380s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/button_Login""))",Chrome 125.0.0.0,,,24-05-2024 16:25:59,24-05-2024 16:26:01,2.299s,PASSED

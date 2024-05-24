@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.tc-add-column > svg > path</value>
+         <value>div.tc-popover__item.tc-popover__item--confirm > div.tc-popover__item-icon > svg > path</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>path</value>
-      <webElementGuid>146e1bd2-7b90-4591-b407-c41bad511d35</webElementGuid>
+      <webElementGuid>01d32712-9e5d-41f6-8177-66bb28458e01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>stroke</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>833c812e-80bf-4e04-84f7-cee58378646f</webElementGuid>
+      <webElementGuid>d94e27a2-5caa-43c2-a3f7-7345ec910cd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>stroke-linecap</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>bc82c34d-dcb2-48ef-9a1d-398cbae2ad43</webElementGuid>
+      <webElementGuid>ba93a275-056c-4e2c-93b0-d0574b4ee8da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,22 +53,22 @@
       <name>stroke-width</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>7172c07d-172e-49e3-9c32-293e41c6043c</webElementGuid>
+      <webElementGuid>f4731d2a-f662-4299-9da0-d61d2dabd147</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>d</name>
       <type>Main</type>
-      <value>M12 7V12M12 17V12M17 12H12M12 12H7</value>
-      <webElementGuid>66913a29-7372-42d6-b72c-b158a124fb74</webElementGuid>
+      <value>M8 8L12 12M12 12L16 16M12 12L16 8M12 12L8 16</value>
+      <webElementGuid>bc7d364f-b54c-456e-ae69-f75bab80e199</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]/div[@class=&quot;ce-block ce-block--focused&quot;]/div[@class=&quot;ce-block__content&quot;]/div[@class=&quot;cdx-block&quot;]/div[@class=&quot;tc-wrap&quot;]/div[@class=&quot;tc-add-column&quot;]/svg[1]/path[1]</value>
-      <webElementGuid>55e74808-76ab-4d62-b9c9-b2dc4d6827b9</webElementGuid>
+      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]/div[@class=&quot;ce-block ce-block--focused&quot;]/div[@class=&quot;ce-block__content&quot;]/div[@class=&quot;cdx-block&quot;]/div[@class=&quot;tc-wrap&quot;]/div[@class=&quot;tc-toolbox tc-toolbox--row tc-toolbox--showed&quot;]/div[@class=&quot;tc-popover tc-popover--opened&quot;]/div[@class=&quot;tc-popover__item tc-popover__item--confirm&quot;]/div[@class=&quot;tc-popover__item-icon&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>ca580308-4840-40fd-88a5-963cc1083f17</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

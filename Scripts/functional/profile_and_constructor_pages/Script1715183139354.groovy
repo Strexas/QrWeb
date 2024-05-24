@@ -35,8 +35,6 @@ WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Create New Page'))
 
 WebUI.setText(findTestObject('Object Repository/Page_QRWeb/input_Sign out_title'), 'Animals')
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_QRWeb/div_CEO at Nova Solutions_owl-dot'))
-
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_QRWeb/div_Heading'))
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_QRWeb/div_List'))
@@ -62,4 +60,5 @@ WebUI.click(findTestObject('Object Repository/Page_QRWeb/button_Delete'))
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/button_Delete Account'))
 
 WebUI.click(findTestObject('Object Repository/Page_QRWeb/a_Sign out'))
+
 

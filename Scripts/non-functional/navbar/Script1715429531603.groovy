@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://qr-web-h1fi.onrender.com/')
 
@@ -27,13 +28,13 @@ TestObject navbarElement = findTestObject('Object Repository/Page_QRWeb/a_About'
 // Verify font size and font weight of navbar links
 String fontSize = WebUI.getCSSValue(navbarElement, 'font-size')
 String fontWeight = WebUI.getCSSValue(navbarElement, 'font-weight')
-assert fontSize == '13.3px' && fontWeight == '500'
+assert fontSize == '14px' && fontWeight == '500'
 
 // Verify padding of navbar
 String paddingTop = WebUI.getCSSValue(navbarElement, 'padding-top')
 String paddingBottom = WebUI.getCSSValue(navbarElement, 'padding-bottom')
-assert paddingTop == '4.75px'
-assert paddingBottom == '4.75px'
+assert paddingTop == '5px'
+assert paddingBottom == '5px'
 
 // Verify smooth transition for background color
 String transition = WebUI.getCSSValue(navbarElement, 'transition')

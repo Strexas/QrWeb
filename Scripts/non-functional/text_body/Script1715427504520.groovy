@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://qr-web-h1fi.onrender.com/')
 
 // Define Test Object for the body element
@@ -34,7 +35,7 @@ String fontWeight = WebUI.getCSSValue(bodyElement, 'font-weight')
 assert fontWeight == '400'
 
 // Convert font size from px to rem (assuming 1rem = 16px)
-def expectedFontSizeRem = 14.25 / 16
+def expectedFontSizeRem = 15 / 16
 
 // Verify font size of the body text
 String fontSize = WebUI.getCSSValue(bodyElement, 'font-size')

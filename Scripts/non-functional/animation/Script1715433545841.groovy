@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://qr-web-h1fi.onrender.com/')
 
 // Define Test Object for elements with the attribute data-animate

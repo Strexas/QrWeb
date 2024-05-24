@@ -6,12 +6,12 @@
    <elementGuidId>06cd44b9-5cd4-43a5-9793-a314c32cf73d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-danger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ccc1c90c-4e4f-4c1a-96df-31134654e27b</webElementGuid>
+      <webElementGuid>19747555-6317-4a84-b8d6-02158a9032ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>944b4b4b-14d4-42f6-972f-eb3a3251deec</webElementGuid>
+      <webElementGuid>e21ace38-7b3d-4e13-974f-c4d22e8b79f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-danger</value>
-      <webElementGuid>9314e648-ca4d-415d-bc58-f7eca794446f</webElementGuid>
+      <webElementGuid>1f2cd30a-775c-4a0a-8567-f68194692921</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>confirmDeleteAccount()</value>
-      <webElementGuid>b3c261a5-e53c-41bd-a9eb-e9a71d4677dc</webElementGuid>
+      <webElementGuid>6b253db0-a541-4e7a-b800-1db5567712a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete Account</value>
-      <webElementGuid>8386a9c5-4235-42d0-b8d8-3ae128e8889d</webElementGuid>
+      <webElementGuid>2d27c6e8-b2ba-4d57-9ac4-6a0b647bc0f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;delete-account-form&quot;)/button[@class=&quot;btn btn-danger&quot;]</value>
-      <webElementGuid>ae7fad59-14de-44fd-a296-a69242839323</webElementGuid>
+      <webElementGuid>9a9b9032-9e79-4264-a98d-ec6316b11169</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>c2a2f281-1c44-4a4e-94c4-956619bd0226</webElementGuid>
+      <webElementGuid>062f95fb-7f5b-41d4-977e-99633cd34e4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='delete-account-form']/button</value>
-      <webElementGuid>98927c46-f239-4031-80a8-38a3b8e85bc9</webElementGuid>
+      <webElementGuid>a9ac132a-d1d6-4fab-a9fd-0ad065050680</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/following::button[1]</value>
-      <webElementGuid>a64e47f9-97a9-4297-b50d-4e484c3199fa</webElementGuid>
+      <webElementGuid>263a14bb-0345-45b7-bb7d-cf4b39d3fa21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/following::button[2]</value>
-      <webElementGuid>478c537e-e680-4ae6-a2a8-27321f3e5dca</webElementGuid>
+      <webElementGuid>fa1ecd58-4aa1-4c09-8af2-6dca2d603711</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Pages:'])[1]/preceding::button[1]</value>
-      <webElementGuid>18a79c01-e979-4c2b-b2b7-278167609d54</webElementGuid>
+      <webElementGuid>ef41a5d2-d705-487f-9a4a-a5e8c73058f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete Account']/parent::*</value>
-      <webElementGuid>bf326777-b35d-40f9-b0fc-ca3471f533b5</webElementGuid>
+      <webElementGuid>419a9e0d-80a3-4ecb-be03-d3b9b3ee03c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[2]/button</value>
-      <webElementGuid>6deddb6e-382e-48ca-a55c-474e8deb3697</webElementGuid>
+      <webElementGuid>21b906bc-a35b-43ae-abc2-c5f5a4dcd882</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Delete Account' or . = 'Delete Account')]</value>
-      <webElementGuid>5c937133-ebc8-4864-ada3-9db678ec86cb</webElementGuid>
+      <webElementGuid>104740a7-41d7-400a-a0ab-5c3d426b15c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

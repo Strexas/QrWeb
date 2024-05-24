@@ -6,12 +6,12 @@
    <elementGuidId>010d6146-7394-481b-abff-c06007b0cfcd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarNavAltMarkup']/div/a[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.nav-item.nav-link.ts-scroll.btn.btn-primary.btn-sm.text-white.ml-3.px-3.ts-width__auto</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarNavAltMarkup']/div/a[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bfcfccf3-f5dc-4f6b-a9cf-b0c8e7a32f74</webElementGuid>
+      <webElementGuid>9d404744-0ea7-41ba-92ca-32e3a2c98505</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto</value>
-      <webElementGuid>da9fcfb5-97be-400f-b584-8a4d0bb80e59</webElementGuid>
+      <webElementGuid>8d9527ba-b631-49d2-bdd0-94e5a8da0b5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/login/</value>
-      <webElementGuid>fc81d12c-2b42-49d0-82ad-21b5e5743310</webElementGuid>
+      <webElementGuid>94c87619-b64d-4e8f-89af-2efa42edaa48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Log in</value>
-      <webElementGuid>e14e391d-0fd7-4c8e-9d15-7c10bf877d77</webElementGuid>
+      <webElementGuid>37a0d5bc-a268-4b78-ae8c-34c1e7871bbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarNavAltMarkup&quot;)/div[@class=&quot;navbar-nav ml-auto&quot;]/a[@class=&quot;nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto&quot;]</value>
-      <webElementGuid>636284b7-fcb9-4791-aa4e-18d7f8fb2a94</webElementGuid>
+      <webElementGuid>592fbe9c-1e41-4422-a16e-7f8c06e3609a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarNavAltMarkup']/div/a[5]</value>
-      <webElementGuid>758e5c3c-4218-4579-be54-4d487845f871</webElementGuid>
+      <webElementGuid>31775ce7-a40a-45c2-a764-ae05c4166211</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Log in')]</value>
-      <webElementGuid>980388f1-9ca8-4438-b726-504c1967bfbe</webElementGuid>
+      <webElementGuid>88f30fc8-8ba6-4bb6-9389-8756aea97721</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::a[1]</value>
-      <webElementGuid>dfa59a0e-9d07-4b28-8df8-c76fa346829a</webElementGuid>
+      <webElementGuid>17378544-104e-47b3-b565-98d10b356bb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,23 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pricing'])[1]/following::a[2]</value>
-      <webElementGuid>724ea702-094b-4250-93fd-55cca14dee1b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages!'])[1]/preceding::a[1]</value>
-      <webElementGuid>43c93c77-c446-4243-8f11-813aa1805c8f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages And Link QR Codes To Them In One Place'])[1]/preceding::a[1]</value>
-      <webElementGuid>eafd426d-5dd7-4d38-b097-deb47108310f</webElementGuid>
+      <webElementGuid>0395e230-9a29-4fed-afac-8ca8617d8365</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
-      <webElementGuid>f46a1e48-a91d-4c65-ad1d-0d63aa36860f</webElementGuid>
+      <webElementGuid>ebc5e9f9-f3ad-4aae-8d61-7ad15bca355e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/login/')]</value>
-      <webElementGuid>ff5a6f24-8bcd-454d-9ee5-7570d505660a</webElementGuid>
+      <webElementGuid>ecae8b1a-f37d-49ed-9ce5-28553eeba3c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[5]</value>
-      <webElementGuid>ebc3069e-dc00-490f-ad87-de35ff4af68d</webElementGuid>
+      <webElementGuid>56903c2b-acbc-4dd7-be6a-002a6940114f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +125,22 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/login/' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>209fca2e-6b68-4a18-bbd4-11b4d54d7690</webElementGuid>
+      <webElementGuid>06a6ba5e-5393-4834-9362-8ca398b01371</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages!'])[1]/preceding::a[1]</value>
+      <webElementGuid>2ef3fbae-0577-4f83-8579-a58399df9658</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages And Link QR Codes To Them In One Place'])[1]/preceding::a[1]</value>
+      <webElementGuid>65aab214-85ba-4f6e-a3f3-508653cded9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
