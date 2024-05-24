@@ -21,6 +21,7 @@ jobs:
         pip install mypy
         pip install django-stubs
         pip install google-auth-stubs
+        pip install google-api-python-client-stubs
     - name: Analysing the code with mypy
       run: |
         mypy --install-types --non-interactive $(git ls-files '*.py')
