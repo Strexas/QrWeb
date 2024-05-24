@@ -15,7 +15,7 @@ from django.utils.decorators import method_decorator
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 from PIL import Image
-from google.cloud import storage as gcs_storage
+from google.cloud import storage as gcs_storage  # type: ignore
 from django.conf import settings
 
 from .config import IMAGE_NAME, IMAGE_NAME_ORIGINAL
