@@ -4,7 +4,7 @@
 [![Static Badge](https://img.shields.io/badge/crispy--bootstrap4-2024.1-blue.svg)](https://pypi.org/project/crispy-bootstrap4/)
 [![Static Badge](https://img.shields.io/badge/django--crispy--forms-2.1-blue.svg)](https://pypi.org/project/django-crispy-forms/)
 [![Static Badge](https://img.shields.io/badge/social--auth--app--django-5.4.1-blue.svg)](https://pypi.org/project/social-auth-app-django/)
-[![Static Badge](https://img.shields.io/badge/google-cloud-storage-2.16.0-blue.svg)](https://pypi.org/project/google-cloud-storage/)
+[![Static Badge](https://img.shields.io/badge/google--cloud--storage-2.16.0-blue.svg)](https://pypi.org/project/google-cloud-storage/)
 
 ## Setup
 Install the dependencies:
