@@ -14,10 +14,12 @@ from django.http import JsonResponse
 from django.utils.decorators import method_decorator
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
-from PIL import Image
+from django.conf import settings
 
-from .config import IMAGE_NAME, IMAGE_NAME_ORIGINAL, IMAGE_UPLOAD_PATH
-from .utils import storage
+from PIL import Image
+from google.cloud import storage as gcs_storage  # type: ignore
+
+from .config import IMAGE_NAME, IMAGE_NAME_ORIGINAL
 
 LOGGER = logging.getLogger('django_editorjs_fields')
 
@@ -49,7 +51,6 @@ class ImageUploadView(View):
                 return JsonResponse(
                     {'success': 0, 'message': 'You can only upload images.'}
                 )
-
             image = Image.open(the_file)
             image_file = BytesIO()
             if image.width > 300 or image.height > 300:
@@ -57,22 +58,23 @@ class ImageUploadView(View):
                 new_width = int(image.width * ratio)
                 new_height = int(image.height * ratio)
                 image = image.resize((new_width, new_height))
-                image.save(image_file, format='PNG')
-
+            image.save(image_file, format='WEBP')
             image_file.seek(0)
-            filename, extension = os.path.splitext(the_file.name)
-
+            filename, _ = os.path.splitext(the_file.name)
+            extension = '.webp'
             if IMAGE_NAME_ORIGINAL is False:
                 filename = IMAGE_NAME(filename=filename, file=the_file)
 
             filename += extension
 
-            upload_path = os.path.join(IMAGE_UPLOAD_PATH, request.user.username)
+            client = gcs_storage.Client(credentials=settings.GS_CREDENTIALS)
+            bucket = client.bucket(settings.GS_BUCKET_NAME)
+            blob = bucket.blob(f"{request.user.username}/{filename}")
 
-            path = storage.save(
-                os.path.join(upload_path, filename), image_file
-            )
-            link = storage.url(path)
+            blob.upload_from_file(image_file, content_type='image/webp')
+            blob.make_public()
+
+            link = blob.public_url
 
             return JsonResponse({'success': 1, 'file': {"url": link}})
         return JsonResponse({'success': 0})

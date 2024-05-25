@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 import os.path
 from pathlib import Path
+from google.oauth2 import service_account
 
 import mimetypes
 
@@ -55,6 +56,14 @@ RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
+GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
+    os.path.join(BASE_DIR, 'credential.json')
+)
+DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+GS_BUCKET_NAME = 'qr_web_image_bucket'
+GS_DEFAULT_ACL = 'publicRead'
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -71,6 +80,7 @@ INSTALLED_APPS = [
     'profile',
     'django_editorjs_fields',
     'constructor',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -186,7 +196,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 
-MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 STATICFILES_DIRS = [BASE_DIR / 'static']
@@ -208,4 +218,3 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ('951729000938-jr93mh2el80iko1g7a68qh1'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
 EDITORJS_VERSION = '2.27.0'
-EDITORJS_IMAGE_UPLOAD_PATH = MEDIA_ROOT+'/constructor/'
