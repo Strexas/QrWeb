@@ -12,9 +12,9 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 import os.path
 from pathlib import Path
+import mimetypes
 from google.oauth2 import service_account
 
-import mimetypes
 
 
 mimetypes.add_type("text/css", ".css", True)
