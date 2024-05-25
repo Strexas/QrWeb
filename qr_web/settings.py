@@ -31,7 +31,6 @@ ALLOWED_HOSTS: list[str] = []
 GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
     os.path.join(BASE_DIR, 'credential.json')
 )
-DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 GS_BUCKET_NAME = 'qr_web_image_bucket'
 GS_DEFAULT_ACL = 'publicRead'
 
