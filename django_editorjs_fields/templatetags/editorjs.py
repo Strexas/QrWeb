@@ -63,16 +63,7 @@ def generate_image(data):
     url = data.get('file', {}).get('url')
     caption = data.get('caption')
     classes = ['image-tool__image-picture']
-
-    if data.get('stretched'):
-        classes.append('stretched')
-    if data.get('withBorder'):
-        classes.append('withBorder')
-    if data.get('withBackground'):
-        classes.append('withBackground')
-
     classes = ' '.join(classes)
-
     return f'<img src="{url}" alt="{caption}" class="{classes}" />'
 
 
