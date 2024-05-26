@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Move up</name>
+   <tag></tag>
+   <elementGuidId>03652ee0-a4b6-4f08-bf54-908bfeafa42f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='id_content_editorjs_holder']/div/div[3]/div/div/div[3]/div/div[2]/div[4]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Move up$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0a5ebef7-d2b4-4ee6-a94a-8551f26681b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ce-popover-item</value>
+      <webElementGuid>e49df2ae-eae0-4fa2-bc4e-453459ebce44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-name</name>
+      <type>Main</type>
+      <value>move-up</value>
+      <webElementGuid>96a57325-d283-4c93-ae90-79fa37c41ea7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Move up</value>
+      <webElementGuid>abf1af72-ce7f-4a9a-b78b-f33a0562f050</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;ce-toolbar ce-toolbar--opened&quot;]/div[@class=&quot;ce-toolbar__content&quot;]/div[@class=&quot;ce-toolbar__actions ce-toolbar__actions--opened&quot;]/div[@class=&quot;ce-settings&quot;]/div[1]/div[@class=&quot;ce-popover ce-popover--opened&quot;]/div[@class=&quot;ce-popover__items&quot;]/div[@class=&quot;ce-popover-item&quot;]</value>
+      <webElementGuid>b0dcb4b0-0064-434a-a90b-e45908c3c24e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='id_content_editorjs_holder']/div/div[3]/div/div/div[3]/div/div[2]/div[4]/div[3]</value>
+      <webElementGuid>b0e4f694-31fa-4015-9766-ae93a71ae0d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Without headings'])[1]/following::div[1]</value>
+      <webElementGuid>4ac6a794-c563-4ab9-b44f-514b87a9468a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='With headings'])[1]/following::div[4]</value>
+      <webElementGuid>80616fa2-fe23-49f6-9e01-8dcd9c989f0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::div[4]</value>
+      <webElementGuid>4b5653ce-6a8f-492e-b4de-688d43826d0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/div[3]</value>
+      <webElementGuid>6f761eff-40c8-4fc6-bde7-2442045ba105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Move up' or . = 'Move up')]</value>
+      <webElementGuid>8560d7b7-f624-4f4a-ab51-dd7e3e721836</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

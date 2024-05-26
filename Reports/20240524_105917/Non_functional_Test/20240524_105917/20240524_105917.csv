@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Non_functional_Test,Chrome 125.0.0.0,,,24-05-2024 10:59:23,24-05-2024 11:00:03,40.489s,PASSED
+,,,,,,,
+Test Cases/non-functional/animation,Chrome 125.0.0.0,,,24-05-2024 10:59:23,24-05-2024 10:59:31,7.722s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,24-05-2024 10:59:23,24-05-2024 10:59:25,1.760s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,24-05-2024 10:59:25,24-05-2024 10:59:25,0.062s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 125.0.0.0,,,24-05-2024 10:59:25,24-05-2024 10:59:30,4.614s,PASSED
+"animatedElement = findTestObject(""Object Repository/Page_QRWeb/div_Anna                                   _6c39b4"")",Chrome 125.0.0.0,,,24-05-2024 10:59:30,24-05-2024 10:59:30,0.072s,PASSED
+"opacity = getCSSValue(animatedElement, ""opacity"")",Chrome 125.0.0.0,,,24-05-2024 10:59:30,24-05-2024 10:59:30,0.335s,PASSED
+"assert opacity == ""1""",Chrome 125.0.0.0,,,24-05-2024 10:59:30,24-05-2024 10:59:30,0.004s,PASSED
+"animationFillMode = getCSSValue(animatedElement, ""animation-fill-mode"")",Chrome 125.0.0.0,,,24-05-2024 10:59:30,24-05-2024 10:59:30,0.290s,PASSED
+"assert animationFillMode == ""none""",Chrome 125.0.0.0,,,24-05-2024 10:59:30,24-05-2024 10:59:30,0.002s,PASSED
+"animationDuration = getCSSValue(animatedElement, ""animation-duration"")",Chrome 125.0.0.0,,,24-05-2024 10:59:30,24-05-2024 10:59:31,0.269s,PASSED
+"assert animationDuration == ""0s""",Chrome 125.0.0.0,,,24-05-2024 10:59:31,24-05-2024 10:59:31,0.001s,PASSED
+,,,,,,,
+Test Cases/non-functional/button_login,Chrome 125.0.0.0,,,24-05-2024 10:59:31,24-05-2024 10:59:42,11.361s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,24-05-2024 10:59:31,24-05-2024 10:59:32,0.843s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,24-05-2024 10:59:32,24-05-2024 10:59:32,0.042s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 125.0.0.0,,,24-05-2024 10:59:32,24-05-2024 10:59:36,4.475s,PASSED
+"getCSSValue(findTestObject(""Object Repository/Page_QRWeb/a_Log in""), ""color"")",Chrome 125.0.0.0,,,24-05-2024 10:59:36,24-05-2024 10:59:37,0.304s,PASSED
+"getCSSValue(findTestObject(""Object Repository/Page_QRWeb/a_Log in""), ""font-family"")",Chrome 125.0.0.0,,,24-05-2024 10:59:37,24-05-2024 10:59:37,0.291s,PASSED
+"getCSSValue(findTestObject(""Object Repository/Page_QRWeb/a_Log in""), ""background-color"")",Chrome 125.0.0.0,,,24-05-2024 10:59:37,24-05-2024 10:59:37,0.298s,PASSED
+"height = getElementHeight(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Chrome 125.0.0.0,,,24-05-2024 10:59:37,24-05-2024 10:59:38,0.300s,PASSED
+"width = getElementWidth(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Chrome 125.0.0.0,,,24-05-2024 10:59:38,24-05-2024 10:59:38,0.312s,PASSED
+"getCSSValue(findTestObject(""Object Repository/Page_QRWeb/a_Log in""), ""color"")",Chrome 125.0.0.0,,,24-05-2024 10:59:38,24-05-2024 10:59:38,0.295s,PASSED
+"buttonElement = findTestObject(""Object Repository/Page_QRWeb/a_Log in"")",Chrome 125.0.0.0,,,24-05-2024 10:59:38,24-05-2024 10:59:38,0.026s,PASSED
+"borderRadius = getCSSValue(buttonElement, ""border-radius"")",Chrome 125.0.0.0,,,24-05-2024 10:59:38,24-05-2024 10:59:38,0.274s,PASSED
+"assert borderRadius == ""100px""",Chrome 125.0.0.0,,,24-05-2024 10:59:38,24-05-2024 10:59:38,0.001s,PASSED
+"fontWeight = getCSSValue(buttonElement, ""font-weight"")",Chrome 125.0.0.0,,,24-05-2024 10:59:38,24-05-2024 10:59:39,0.265s,PASSED
+"assert fontWeight == ""600""",Chrome 125.0.0.0,,,24-05-2024 10:59:39,24-05-2024 10:59:39,0.001s,PASSED
+"fontSizeRem = getCSSValue(buttonElement, ""font-size"")",Chrome 125.0.0.0,,,24-05-2024 10:59:39,24-05-2024 10:59:39,0.266s,PASSED
+"assert fontSizeRem == ""13px""",Chrome 125.0.0.0,,,24-05-2024 10:59:39,24-05-2024 10:59:39,0.001s,PASSED
+"paddingVertical = getCSSValue(buttonElement, ""padding-top"")",Chrome 125.0.0.0,,,24-05-2024 10:59:39,24-05-2024 10:59:39,0.266s,PASSED
+"paddingHorizontal = getCSSValue(buttonElement, ""padding-right"")",Chrome 125.0.0.0,,,24-05-2024 10:59:39,24-05-2024 10:59:39,0.264s,PASSED
+"assert paddingVertical == ""5px"" && paddingHorizontal == ""16px""",Chrome 125.0.0.0,,,24-05-2024 10:59:39,24-05-2024 10:59:39,0.001s,PASSED
+"boxShadow = getCSSValue(buttonElement, ""box-shadow"")",Chrome 125.0.0.0,,,24-05-2024 10:59:39,24-05-2024 10:59:40,0.263s,PASSED
+"assert boxShadow == ""rgba(0, 0, 0, 0.15) 2px 3px 15px 0px""",Chrome 125.0.0.0,,,24-05-2024 10:59:40,24-05-2024 10:59:40,0.001s,PASSED
+"statusIndicatorHeight = getCSSValue(buttonElement, ""height"")",Chrome 125.0.0.0,,,24-05-2024 10:59:40,24-05-2024 10:59:40,0.264s,PASSED
+"statusIndicatorWidth = getCSSValue(buttonElement, ""width"")",Chrome 125.0.0.0,,,24-05-2024 10:59:40,24-05-2024 10:59:40,0.265s,PASSED
+"assert statusIndicatorHeight == ""32.7px"" && statusIndicatorWidth == ""73.5875px""",Chrome 125.0.0.0,,,24-05-2024 10:59:40,24-05-2024 10:59:40,0.001s,PASSED
+"statusIconBorderRadius = getCSSValue(buttonElement, ""border-radius"")",Chrome 125.0.0.0,,,24-05-2024 10:59:40,24-05-2024 10:59:41,0.255s,PASSED
+"statusIconFontSize = getCSSValue(buttonElement, ""font-size"")",Chrome 125.0.0.0,,,24-05-2024 10:59:41,24-05-2024 10:59:41,0.267s,PASSED
+"statusIconPaddingVertical = getCSSValue(buttonElement, ""padding-top"")",Chrome 125.0.0.0,,,24-05-2024 10:59:41,24-05-2024 10:59:41,0.266s,PASSED
+"statusIconPaddingHorizontal = getCSSValue(buttonElement, ""padding-right"")",Chrome 125.0.0.0,,,24-05-2024 10:59:41,24-05-2024 10:59:41,0.263s,PASSED
+"assert statusIconBorderRadius == ""100px"" && statusIconFontSize == ""13px"" && statusIconPaddingVertical == ""5px"" && statusIconPaddingHorizontal == ""16px""",Chrome 125.0.0.0,,,24-05-2024 10:59:41,24-05-2024 10:59:41,0.002s,PASSED
+"backgroundColor = getCSSValue(buttonElement, ""background-color"")",Chrome 125.0.0.0,,,24-05-2024 10:59:41,24-05-2024 10:59:42,0.264s,PASSED
+"borderColor = getCSSValue(buttonElement, ""border-color"")",Chrome 125.0.0.0,,,24-05-2024 10:59:42,24-05-2024 10:59:42,0.271s,PASSED
+"textColor = getCSSValue(buttonElement, ""color"")",Chrome 125.0.0.0,,,24-05-2024 10:59:42,24-05-2024 10:59:42,0.265s,PASSED
+"assert backgroundColor == ""rgba(56, 131, 200, 1)"" && borderColor == ""rgb(56, 131, 200)"" && textColor == ""rgba(255, 255, 255, 1)""",Chrome 125.0.0.0,,,24-05-2024 10:59:42,24-05-2024 10:59:42,0.000s,PASSED
+,,,,,,,
+Test Cases/non-functional/list,Chrome 125.0.0.0,,,24-05-2024 10:59:42,24-05-2024 10:59:49,7.069s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,24-05-2024 10:59:42,24-05-2024 10:59:43,0.778s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,24-05-2024 10:59:43,24-05-2024 10:59:43,0.044s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 125.0.0.0,,,24-05-2024 10:59:43,24-05-2024 10:59:48,5.029s,PASSED
+"paragraphElement = findTestObject(""Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a"")",Chrome 125.0.0.0,,,24-05-2024 10:59:48,24-05-2024 10:59:48,0.027s,PASSED
+"lineHeight = getCSSValue(paragraphElement, ""line-height"")",Chrome 125.0.0.0,,,24-05-2024 10:59:48,24-05-2024 10:59:48,0.266s,PASSED
+"assert lineHeight == ""27px""",Chrome 125.0.0.0,,,24-05-2024 10:59:48,24-05-2024 10:59:48,0.001s,PASSED
+"borderBottom = getCSSValue(paragraphElement, ""border-bottom"")",Chrome 125.0.0.0,,,24-05-2024 10:59:48,24-05-2024 10:59:49,0.276s,PASSED
+"assert borderBottom == ""0px none rgba(0, 0, 0, 0.5)""",Chrome 125.0.0.0,,,24-05-2024 10:59:49,24-05-2024 10:59:49,0.001s,PASSED
+"paddingTop = getCSSValue(paragraphElement, ""padding-top"")",Chrome 125.0.0.0,,,24-05-2024 10:59:49,24-05-2024 10:59:49,0.266s,PASSED
+"paddingBottom = getCSSValue(paragraphElement, ""padding-bottom"")",Chrome 125.0.0.0,,,24-05-2024 10:59:49,24-05-2024 10:59:49,0.271s,PASSED
+assert paddingTop == paddingBottom,Chrome 125.0.0.0,,,24-05-2024 10:59:49,24-05-2024 10:59:49,0.001s,PASSED
+,,,,,,,
+Test Cases/non-functional/navbar,Chrome 125.0.0.0,,,24-05-2024 10:59:49,24-05-2024 10:59:57,7.325s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,24-05-2024 10:59:49,24-05-2024 10:59:50,0.790s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,24-05-2024 10:59:50,24-05-2024 10:59:50,0.032s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 125.0.0.0,,,24-05-2024 10:59:50,24-05-2024 10:59:55,5.065s,PASSED
+"navbarElement = findTestObject(""Object Repository/Page_QRWeb/a_About"")",Chrome 125.0.0.0,,,24-05-2024 10:59:55,24-05-2024 10:59:55,0.027s,PASSED
+"fontSize = getCSSValue(navbarElement, ""font-size"")",Chrome 125.0.0.0,,,24-05-2024 10:59:55,24-05-2024 10:59:55,0.266s,PASSED
+"fontWeight = getCSSValue(navbarElement, ""font-weight"")",Chrome 125.0.0.0,,,24-05-2024 10:59:55,24-05-2024 10:59:56,0.262s,PASSED
+"assert fontSize == ""14px"" && fontWeight == ""500""",Chrome 125.0.0.0,,,24-05-2024 10:59:56,24-05-2024 10:59:56,0.001s,PASSED
+"paddingTop = getCSSValue(navbarElement, ""padding-top"")",Chrome 125.0.0.0,,,24-05-2024 10:59:56,24-05-2024 10:59:56,0.260s,PASSED
+"paddingBottom = getCSSValue(navbarElement, ""padding-bottom"")",Chrome 125.0.0.0,,,24-05-2024 10:59:56,24-05-2024 10:59:56,0.267s,PASSED
+"assert paddingTop == ""5px""",Chrome 125.0.0.0,,,24-05-2024 10:59:56,24-05-2024 10:59:56,0.001s,PASSED
+"assert paddingBottom == ""5px""",Chrome 125.0.0.0,,,24-05-2024 10:59:56,24-05-2024 10:59:56,0.001s,PASSED
+"transition = getCSSValue(navbarElement, ""transition"")",Chrome 125.0.0.0,,,24-05-2024 10:59:56,24-05-2024 10:59:57,0.265s,PASSED
+"assert transition == ""all 0.3s ease 0s""",Chrome 125.0.0.0,,,24-05-2024 10:59:57,24-05-2024 10:59:57,0.000s,PASSED
+,,,,,,,
+Test Cases/non-functional/text_body,Chrome 125.0.0.0,,,24-05-2024 10:59:57,24-05-2024 11:00:03,6.797s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,24-05-2024 10:59:57,24-05-2024 10:59:57,0.793s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,24-05-2024 10:59:57,24-05-2024 10:59:57,0.032s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 125.0.0.0,,,24-05-2024 10:59:57,24-05-2024 11:00:02,4.748s,PASSED
+"bodyElement = findTestObject(""Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d"")",Chrome 125.0.0.0,,,24-05-2024 11:00:02,24-05-2024 11:00:02,0.025s,PASSED
+"getCSSValue(bodyElement, ""color"")",Chrome 125.0.0.0,,,24-05-2024 11:00:02,24-05-2024 11:00:02,0.277s,PASSED
+"fontFamily = getCSSValue(bodyElement, ""font-family"")",Chrome 125.0.0.0,,,24-05-2024 11:00:02,24-05-2024 11:00:03,0.274s,PASSED
+"assert fontFamily.contains(""Poppins"") || fontFamily.contains(""sans-serif"")",Chrome 125.0.0.0,,,24-05-2024 11:00:03,24-05-2024 11:00:03,0.002s,PASSED
+"fontWeight = getCSSValue(bodyElement, ""font-weight"")",Chrome 125.0.0.0,,,24-05-2024 11:00:03,24-05-2024 11:00:03,0.264s,PASSED
+"assert fontWeight == ""400""",Chrome 125.0.0.0,,,24-05-2024 11:00:03,24-05-2024 11:00:03,0.001s,PASSED
+expectedFontSizeRem = 15 / 16,Chrome 125.0.0.0,,,24-05-2024 11:00:03,24-05-2024 11:00:03,0.011s,PASSED
+"fontSize = getCSSValue(bodyElement, ""font-size"")",Chrome 125.0.0.0,,,24-05-2024 11:00:03,24-05-2024 11:00:03,0.272s,PASSED
+"actualFontSizeRem = replace(""px"", """").toBigDecimal() / 16",Chrome 125.0.0.0,,,24-05-2024 11:00:03,24-05-2024 11:00:03,0.012s,PASSED
+assert actualFontSizeRem == expectedFontSizeRem,Chrome 125.0.0.0,,,24-05-2024 11:00:03,24-05-2024 11:00:03,0.001s,PASSED

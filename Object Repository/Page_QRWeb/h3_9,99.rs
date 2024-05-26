@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_9,99</name>
+   <tag></tag>
+   <elementGuidId>ddd00763-a49c-41e2-83fb-6dd5a836898b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='pricing']/div/div[2]/div[2]/div/div/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ts-title.text-white.py-5.mb-0 > h3.mb-0.font-weight-normal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;$9,99&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>ff11a42e-501d-42d7-be77-23c7fee0d335</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0 font-weight-normal</value>
+      <webElementGuid>64791d25-20c8-49bc-846c-836997bfcfed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                            $9,99
+                                        </value>
+      <webElementGuid>a6285c45-060c-4bdc-a9dc-c4098d1d5308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pricing&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row no-gutters ts-cards-same-height&quot;]/div[@class=&quot;col-sm-4 col-lg-4&quot;]/div[@class=&quot;card text-center ts-price-box ts-price-box__promoted ts-fadeInUp animated&quot;]/div[@class=&quot;card-header p-0&quot;]/div[@class=&quot;ts-title text-white py-5 mb-0&quot;]/h3[@class=&quot;mb-0 font-weight-normal&quot;]</value>
+      <webElementGuid>b0d2f4d7-eb24-427f-9f79-3555a28aa949</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='pricing']/div/div[2]/div[2]/div/div/div/h3</value>
+      <webElementGuid>e1dd8478-04bf-487c-ab79-85ae99a08723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium'])[1]/following::h3[1]</value>
+      <webElementGuid>da17f971-be38-4c4f-9f98-53eec99e036b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ads Removed'])[1]/following::h3[1]</value>
+      <webElementGuid>0c9c8c60-753b-416d-a77b-7645241a09fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='per month'])[1]/preceding::h3[1]</value>
+      <webElementGuid>f74040ec-a44b-4c35-8cf3-553dd6036b52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='9,99']/parent::*</value>
+      <webElementGuid>742fad90-5753-4a10-a7b5-620d3b905bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/h3</value>
+      <webElementGuid>cf5463be-239a-4151-ae27-9e79e61d3580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = '
+                                            $9,99
+                                        ' or . = '
+                                            $9,99
+                                        ')]</value>
+      <webElementGuid>2a9acdd4-5c23-4b47-8329-be61d8c2fb3d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

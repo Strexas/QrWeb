@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MainPageTest,Chrome 125.0.0.0,,,24-05-2024 16:26:34,24-05-2024 16:26:49,15.233s,PASSED
+,,,,,,,
+Test Cases/functional/main_page,Chrome 125.0.0.0,,,24-05-2024 16:26:34,24-05-2024 16:26:49,15.052s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,24-05-2024 16:26:34,24-05-2024 16:26:36,1.798s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,24-05-2024 16:26:36,24-05-2024 16:26:36,0.057s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 125.0.0.0,,,24-05-2024 16:26:36,24-05-2024 16:26:41,4.993s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Home (current)""))",Chrome 125.0.0.0,,,24-05-2024 16:26:41,24-05-2024 16:26:42,0.627s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Learn More""))",Chrome 125.0.0.0,,,24-05-2024 16:26:42,24-05-2024 16:26:42,0.569s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_QRWeb/h2_How It Works""), ""How It Works"")",Chrome 125.0.0.0,,,24-05-2024 16:26:42,24-05-2024 16:26:43,0.539s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_QRWeb/h4_Create Your Page""), ""Create Your Page"")",Chrome 125.0.0.0,,,24-05-2024 16:26:43,24-05-2024 16:26:43,0.428s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_QRWeb/h4_Link It To QR""), ""Link It To QR"")",Chrome 125.0.0.0,,,24-05-2024 16:26:43,24-05-2024 16:26:44,0.554s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_QRWeb/h4_Share It""), ""Share It"")",Chrome 125.0.0.0,,,24-05-2024 16:26:44,24-05-2024 16:26:44,0.294s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_QRWeb/p_Effortlessly share your fantastic page wi_fa3955""), ""Effortlessly share your fantastic page with friends, colleagues, and the world, and let your creativity shine!"")",Chrome 125.0.0.0,,,24-05-2024 16:26:44,24-05-2024 16:26:45,0.294s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_QRWeb/p_Easily connect your page to a QR code, si_cf769b""), STOP_ON_FAILURE)",Chrome 125.0.0.0,,,24-05-2024 16:26:45,24-05-2024 16:26:45,0.324s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_About""))",Chrome 125.0.0.0,,,24-05-2024 16:26:45,24-05-2024 16:26:45,0.340s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Sign Up Now""))",Chrome 125.0.0.0,,,24-05-2024 16:26:45,24-05-2024 16:26:46,0.759s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Login_navbar-brand""))",Chrome 125.0.0.0,,,24-05-2024 16:26:46,24-05-2024 16:26:47,0.578s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Contact""))",Chrome 125.0.0.0,,,24-05-2024 16:26:47,24-05-2024 16:26:47,0.779s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/h3_Contact Us""))",Chrome 125.0.0.0,,,24-05-2024 16:26:47,24-05-2024 16:26:48,0.374s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/figure_Student g. 50, Kaunas, Lithuania""))",Chrome 125.0.0.0,,,24-05-2024 16:26:48,24-05-2024 16:26:48,0.325s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_About""))",Chrome 125.0.0.0,,,24-05-2024 16:26:48,24-05-2024 16:26:48,0.338s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/h2_What Is QRWeb""))",Chrome 125.0.0.0,,,24-05-2024 16:26:48,24-05-2024 16:26:49,0.314s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Chrome 125.0.0.0,,,24-05-2024 16:26:49,24-05-2024 16:26:49,0.478s,PASSED

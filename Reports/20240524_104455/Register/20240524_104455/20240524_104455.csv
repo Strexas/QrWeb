@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,24-05-2024 10:45:00,24-05-2024 10:45:04,4.515s,FAILED
+,,,,,,,
+Test Cases/functional/register,,,,24-05-2024 10:45:04,24-05-2024 10:45:04,0.702s,FAILED
+"openBrowser("""")",,,,24-05-2024 10:45:04,24-05-2024 10:45:04,0.685s,FAILED

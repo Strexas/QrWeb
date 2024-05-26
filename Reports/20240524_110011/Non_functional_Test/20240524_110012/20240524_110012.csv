@@ -1,0 +1,92 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Non_functional_Test,Edge Chromium 125,,,24-05-2024 11:00:19,24-05-2024 11:01:01,41.924s,PASSED
+,,,,,,,
+Test Cases/non-functional/animation,Edge Chromium 125,,,24-05-2024 11:00:19,24-05-2024 11:00:27,7.810s,PASSED
+"openBrowser("""")",Edge Chromium 125,,,24-05-2024 11:00:19,24-05-2024 11:00:21,1.815s,PASSED
+maximizeWindow(),Edge Chromium 125,,,24-05-2024 11:00:21,24-05-2024 11:00:21,0.065s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Edge Chromium 125,,,24-05-2024 11:00:21,24-05-2024 11:00:26,4.687s,PASSED
+"animatedElement = findTestObject(""Object Repository/Page_QRWeb/div_Anna                                   _6c39b4"")",Edge Chromium 125,,,24-05-2024 11:00:26,24-05-2024 11:00:26,0.071s,PASSED
+"opacity = getCSSValue(animatedElement, ""opacity"")",Edge Chromium 125,,,24-05-2024 11:00:26,24-05-2024 11:00:26,0.303s,PASSED
+"assert opacity == ""1""",Edge Chromium 125,,,24-05-2024 11:00:26,24-05-2024 11:00:26,0.003s,PASSED
+"animationFillMode = getCSSValue(animatedElement, ""animation-fill-mode"")",Edge Chromium 125,,,24-05-2024 11:00:26,24-05-2024 11:00:27,0.276s,PASSED
+"assert animationFillMode == ""none""",Edge Chromium 125,,,24-05-2024 11:00:27,24-05-2024 11:00:27,0.001s,PASSED
+"animationDuration = getCSSValue(animatedElement, ""animation-duration"")",Edge Chromium 125,,,24-05-2024 11:00:27,24-05-2024 11:00:27,0.279s,PASSED
+"assert animationDuration == ""0s""",Edge Chromium 125,,,24-05-2024 11:00:27,24-05-2024 11:00:27,0.000s,PASSED
+,,,,,,,
+Test Cases/non-functional/button_login,Edge Chromium 125,,,24-05-2024 11:00:27,24-05-2024 11:00:39,12.470s,PASSED
+"openBrowser("""")",Edge Chromium 125,,,24-05-2024 11:00:27,24-05-2024 11:00:28,0.920s,PASSED
+maximizeWindow(),Edge Chromium 125,,,24-05-2024 11:00:28,24-05-2024 11:00:28,0.054s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Edge Chromium 125,,,24-05-2024 11:00:28,24-05-2024 11:00:33,5.305s,PASSED
+"getCSSValue(findTestObject(""Object Repository/Page_QRWeb/a_Log in""), ""color"")",Edge Chromium 125,,,24-05-2024 11:00:33,24-05-2024 11:00:34,0.315s,PASSED
+"getCSSValue(findTestObject(""Object Repository/Page_QRWeb/a_Log in""), ""font-family"")",Edge Chromium 125,,,24-05-2024 11:00:34,24-05-2024 11:00:34,0.305s,PASSED
+"getCSSValue(findTestObject(""Object Repository/Page_QRWeb/a_Log in""), ""background-color"")",Edge Chromium 125,,,24-05-2024 11:00:34,24-05-2024 11:00:34,0.307s,PASSED
+"height = getElementHeight(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Edge Chromium 125,,,24-05-2024 11:00:34,24-05-2024 11:00:35,0.313s,PASSED
+"width = getElementWidth(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Edge Chromium 125,,,24-05-2024 11:00:35,24-05-2024 11:00:35,0.316s,PASSED
+"getCSSValue(findTestObject(""Object Repository/Page_QRWeb/a_Log in""), ""color"")",Edge Chromium 125,,,24-05-2024 11:00:35,24-05-2024 11:00:35,0.363s,PASSED
+"buttonElement = findTestObject(""Object Repository/Page_QRWeb/a_Log in"")",Edge Chromium 125,,,24-05-2024 11:00:35,24-05-2024 11:00:35,0.033s,PASSED
+"borderRadius = getCSSValue(buttonElement, ""border-radius"")",Edge Chromium 125,,,24-05-2024 11:00:35,24-05-2024 11:00:36,0.285s,PASSED
+"assert borderRadius == ""100px""",Edge Chromium 125,,,24-05-2024 11:00:36,24-05-2024 11:00:36,0.002s,PASSED
+"fontWeight = getCSSValue(buttonElement, ""font-weight"")",Edge Chromium 125,,,24-05-2024 11:00:36,24-05-2024 11:00:36,0.278s,PASSED
+"assert fontWeight == ""600""",Edge Chromium 125,,,24-05-2024 11:00:36,24-05-2024 11:00:36,0.001s,PASSED
+"fontSizeRem = getCSSValue(buttonElement, ""font-size"")",Edge Chromium 125,,,24-05-2024 11:00:36,24-05-2024 11:00:36,0.266s,PASSED
+"assert fontSizeRem == ""13px""",Edge Chromium 125,,,24-05-2024 11:00:36,24-05-2024 11:00:36,0.002s,PASSED
+"paddingVertical = getCSSValue(buttonElement, ""padding-top"")",Edge Chromium 125,,,24-05-2024 11:00:36,24-05-2024 11:00:36,0.265s,PASSED
+"paddingHorizontal = getCSSValue(buttonElement, ""padding-right"")",Edge Chromium 125,,,24-05-2024 11:00:36,24-05-2024 11:00:37,0.259s,PASSED
+"assert paddingVertical == ""5px"" && paddingHorizontal == ""16px""",Edge Chromium 125,,,24-05-2024 11:00:37,24-05-2024 11:00:37,0.001s,PASSED
+"boxShadow = getCSSValue(buttonElement, ""box-shadow"")",Edge Chromium 125,,,24-05-2024 11:00:37,24-05-2024 11:00:37,0.279s,PASSED
+"assert boxShadow == ""rgba(0, 0, 0, 0.15) 2px 3px 15px 0px""",Edge Chromium 125,,,24-05-2024 11:00:37,24-05-2024 11:00:37,0.001s,PASSED
+"statusIndicatorHeight = getCSSValue(buttonElement, ""height"")",Edge Chromium 125,,,24-05-2024 11:00:37,24-05-2024 11:00:37,0.253s,PASSED
+"statusIndicatorWidth = getCSSValue(buttonElement, ""width"")",Edge Chromium 125,,,24-05-2024 11:00:37,24-05-2024 11:00:37,0.265s,PASSED
+"assert statusIndicatorHeight == ""32.7px"" && statusIndicatorWidth == ""73.5875px""",Edge Chromium 125,,,24-05-2024 11:00:37,24-05-2024 11:00:37,0.003s,PASSED
+"statusIconBorderRadius = getCSSValue(buttonElement, ""border-radius"")",Edge Chromium 125,,,24-05-2024 11:00:37,24-05-2024 11:00:38,0.298s,PASSED
+"statusIconFontSize = getCSSValue(buttonElement, ""font-size"")",Edge Chromium 125,,,24-05-2024 11:00:38,24-05-2024 11:00:38,0.267s,PASSED
+"statusIconPaddingVertical = getCSSValue(buttonElement, ""padding-top"")",Edge Chromium 125,,,24-05-2024 11:00:38,24-05-2024 11:00:38,0.264s,PASSED
+"statusIconPaddingHorizontal = getCSSValue(buttonElement, ""padding-right"")",Edge Chromium 125,,,24-05-2024 11:00:38,24-05-2024 11:00:39,0.268s,PASSED
+"assert statusIconBorderRadius == ""100px"" && statusIconFontSize == ""13px"" && statusIconPaddingVertical == ""5px"" && statusIconPaddingHorizontal == ""16px""",Edge Chromium 125,,,24-05-2024 11:00:39,24-05-2024 11:00:39,0.002s,PASSED
+"backgroundColor = getCSSValue(buttonElement, ""background-color"")",Edge Chromium 125,,,24-05-2024 11:00:39,24-05-2024 11:00:39,0.253s,PASSED
+"borderColor = getCSSValue(buttonElement, ""border-color"")",Edge Chromium 125,,,24-05-2024 11:00:39,24-05-2024 11:00:39,0.269s,PASSED
+"textColor = getCSSValue(buttonElement, ""color"")",Edge Chromium 125,,,24-05-2024 11:00:39,24-05-2024 11:00:39,0.262s,PASSED
+"assert backgroundColor == ""rgba(56, 131, 200, 1)"" && borderColor == ""rgb(56, 131, 200)"" && textColor == ""rgba(255, 255, 255, 1)""",Edge Chromium 125,,,24-05-2024 11:00:39,24-05-2024 11:00:39,0.000s,PASSED
+,,,,,,,
+Test Cases/non-functional/list,Edge Chromium 125,,,24-05-2024 11:00:39,24-05-2024 11:00:46,7.079s,PASSED
+"openBrowser("""")",Edge Chromium 125,,,24-05-2024 11:00:39,24-05-2024 11:00:40,0.907s,PASSED
+maximizeWindow(),Edge Chromium 125,,,24-05-2024 11:00:40,24-05-2024 11:00:40,0.050s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Edge Chromium 125,,,24-05-2024 11:00:40,24-05-2024 11:00:45,4.917s,PASSED
+"paragraphElement = findTestObject(""Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a"")",Edge Chromium 125,,,24-05-2024 11:00:45,24-05-2024 11:00:45,0.030s,PASSED
+"lineHeight = getCSSValue(paragraphElement, ""line-height"")",Edge Chromium 125,,,24-05-2024 11:00:45,24-05-2024 11:00:46,0.273s,PASSED
+"assert lineHeight == ""27px""",Edge Chromium 125,,,24-05-2024 11:00:46,24-05-2024 11:00:46,0.002s,PASSED
+"borderBottom = getCSSValue(paragraphElement, ""border-bottom"")",Edge Chromium 125,,,24-05-2024 11:00:46,24-05-2024 11:00:46,0.279s,PASSED
+"assert borderBottom == ""0px none rgba(0, 0, 0, 0.5)""",Edge Chromium 125,,,24-05-2024 11:00:46,24-05-2024 11:00:46,0.001s,PASSED
+"paddingTop = getCSSValue(paragraphElement, ""padding-top"")",Edge Chromium 125,,,24-05-2024 11:00:46,24-05-2024 11:00:46,0.264s,PASSED
+"paddingBottom = getCSSValue(paragraphElement, ""padding-bottom"")",Edge Chromium 125,,,24-05-2024 11:00:46,24-05-2024 11:00:46,0.267s,PASSED
+assert paddingTop == paddingBottom,Edge Chromium 125,,,24-05-2024 11:00:46,24-05-2024 11:00:46,0.000s,PASSED
+,,,,,,,
+Test Cases/non-functional/navbar,Edge Chromium 125,,,24-05-2024 11:00:46,24-05-2024 11:00:54,7.219s,PASSED
+"openBrowser("""")",Edge Chromium 125,,,24-05-2024 11:00:47,24-05-2024 11:00:47,0.879s,PASSED
+maximizeWindow(),Edge Chromium 125,,,24-05-2024 11:00:47,24-05-2024 11:00:47,0.039s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Edge Chromium 125,,,24-05-2024 11:00:47,24-05-2024 11:00:52,4.825s,PASSED
+"navbarElement = findTestObject(""Object Repository/Page_QRWeb/a_About"")",Edge Chromium 125,,,24-05-2024 11:00:52,24-05-2024 11:00:52,0.031s,PASSED
+"fontSize = getCSSValue(navbarElement, ""font-size"")",Edge Chromium 125,,,24-05-2024 11:00:52,24-05-2024 11:00:53,0.287s,PASSED
+"fontWeight = getCSSValue(navbarElement, ""font-weight"")",Edge Chromium 125,,,24-05-2024 11:00:53,24-05-2024 11:00:53,0.270s,PASSED
+"assert fontSize == ""14px"" && fontWeight == ""500""",Edge Chromium 125,,,24-05-2024 11:00:53,24-05-2024 11:00:53,0.001s,PASSED
+"paddingTop = getCSSValue(navbarElement, ""padding-top"")",Edge Chromium 125,,,24-05-2024 11:00:53,24-05-2024 11:00:53,0.261s,PASSED
+"paddingBottom = getCSSValue(navbarElement, ""padding-bottom"")",Edge Chromium 125,,,24-05-2024 11:00:53,24-05-2024 11:00:53,0.264s,PASSED
+"assert paddingTop == ""5px""",Edge Chromium 125,,,24-05-2024 11:00:53,24-05-2024 11:00:53,0.000s,PASSED
+"assert paddingBottom == ""5px""",Edge Chromium 125,,,24-05-2024 11:00:53,24-05-2024 11:00:53,0.000s,PASSED
+"transition = getCSSValue(navbarElement, ""transition"")",Edge Chromium 125,,,24-05-2024 11:00:53,24-05-2024 11:00:54,0.257s,PASSED
+"assert transition == ""all 0.3s ease 0s""",Edge Chromium 125,,,24-05-2024 11:00:54,24-05-2024 11:00:54,0.000s,PASSED
+,,,,,,,
+Test Cases/non-functional/text_body,Edge Chromium 125,,,24-05-2024 11:00:54,24-05-2024 11:01:01,7.150s,PASSED
+"openBrowser("""")",Edge Chromium 125,,,24-05-2024 11:00:54,24-05-2024 11:00:55,0.883s,PASSED
+maximizeWindow(),Edge Chromium 125,,,24-05-2024 11:00:55,24-05-2024 11:00:55,0.048s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Edge Chromium 125,,,24-05-2024 11:00:55,24-05-2024 11:01:00,4.934s,PASSED
+"bodyElement = findTestObject(""Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d"")",Edge Chromium 125,,,24-05-2024 11:01:00,24-05-2024 11:01:00,0.031s,PASSED
+"getCSSValue(bodyElement, ""color"")",Edge Chromium 125,,,24-05-2024 11:01:00,24-05-2024 11:01:00,0.291s,PASSED
+"fontFamily = getCSSValue(bodyElement, ""font-family"")",Edge Chromium 125,,,24-05-2024 11:01:00,24-05-2024 11:01:00,0.277s,PASSED
+"assert fontFamily.contains(""Poppins"") || fontFamily.contains(""sans-serif"")",Edge Chromium 125,,,24-05-2024 11:01:00,24-05-2024 11:01:00,0.003s,PASSED
+"fontWeight = getCSSValue(bodyElement, ""font-weight"")",Edge Chromium 125,,,24-05-2024 11:01:00,24-05-2024 11:01:00,0.260s,PASSED
+"assert fontWeight == ""400""",Edge Chromium 125,,,24-05-2024 11:01:00,24-05-2024 11:01:00,0.002s,PASSED
+expectedFontSizeRem = 15 / 16,Edge Chromium 125,,,24-05-2024 11:01:00,24-05-2024 11:01:00,0.010s,PASSED
+"fontSize = getCSSValue(bodyElement, ""font-size"")",Edge Chromium 125,,,24-05-2024 11:01:00,24-05-2024 11:01:01,0.290s,PASSED
+"actualFontSizeRem = replace(""px"", """").toBigDecimal() / 16",Edge Chromium 125,,,24-05-2024 11:01:01,24-05-2024 11:01:01,0.019s,PASSED
+assert actualFontSizeRem == expectedFontSizeRem,Edge Chromium 125,,,24-05-2024 11:01:01,24-05-2024 11:01:01,0.000s,PASSED

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Learn More</name>
+   <tag></tag>
+   <elementGuidId>6cf5e0e5-6f99-4fe2-a368-093323229f08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-light.btn-lg.ts-scroll</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='ts-hero']/div/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Learn More&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7d6cd1cf-c62a-48c7-87c3-80575805ae21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#how-it-works</value>
+      <webElementGuid>8f3424b6-76da-4dbb-a725-a8edd462033f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-light btn-lg ts-scroll</value>
+      <webElementGuid>1c962d2a-1b4e-4fe4-b7a6-f11a8c749094</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Learn More</value>
+      <webElementGuid>09942f5f-f87b-4d42-948e-32fcaef8c207</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ts-hero&quot;)/div[@class=&quot;container align-self-center&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-sm-7&quot;]/a[@class=&quot;btn btn-light btn-lg ts-scroll&quot;]</value>
+      <webElementGuid>476d1c4c-6101-4a37-8103-30d21012b681</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='ts-hero']/div/div/div/a</value>
+      <webElementGuid>c5062383-f84d-417b-9570-62fbea3c32d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Learn More')]</value>
+      <webElementGuid>16ec7e42-e337-4709-8f5a-17af5798756e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages And Link QR Codes To Them In One Place'])[1]/following::a[1]</value>
+      <webElementGuid>e261b12d-30ef-4170-a71f-b74eb21e7da5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Pages!'])[1]/following::a[1]</value>
+      <webElementGuid>927b371e-06a6-4d62-b6d6-6c727be4ffb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How It Works'])[1]/preceding::a[1]</value>
+      <webElementGuid>463ff9ca-1b52-49b4-bc9b-bcdfbd1ea731</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Your Page'])[1]/preceding::a[1]</value>
+      <webElementGuid>447b184c-5da4-4235-a6d6-fac53ff1fa51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Learn More']/parent::*</value>
+      <webElementGuid>80afade7-2f03-4e31-878c-1c63b2e2a777</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#how-it-works')]</value>
+      <webElementGuid>49db3662-1266-428b-acdd-c121caab2f4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>62049ab9-fe66-41d7-a2c0-5e70b7b9d551</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#how-it-works' and (text() = 'Learn More' or . = 'Learn More')]</value>
+      <webElementGuid>4ae55005-3fa3-4a25-af96-023210ace7e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/div/div/a</value>
+      <webElementGuid>94d0b3d3-f87a-48e6-be27-aa632a9e78a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

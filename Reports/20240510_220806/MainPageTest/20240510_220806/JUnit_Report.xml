@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MainPageTest" time="18.239" tests="1" failures="0" errors="0">
+   <testsuite name="MainPageTest" tests="1" failures="0" errors="0" time="18.239" skipped="0" timestamp="10-05-2024T22:08:12" hostname="Anna - DESKTOP-3UT53HP" id="Test Suites/MainPageTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240510_220806\\MainPageTest\\20240510_220806"/>
+         <property name="logFiles" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240510_220806\\MainPageTest\\20240510_220806\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anna - DESKTOP-3UT53HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="b63f6f6fc6cc9ac78b060795f7eadd6c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/functional/main_page" time="18.055" classname="Test Cases/functional/main_page" status="PASSED">
+         <system-out><![CDATA[10-05-2024T22:08:12 - [TEST_CASE][PASSED] - Test Cases/functional/main_page: Test Cases/functional/main_page
+
+10-05-2024T22:08:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-05-2024T22:08:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-05-2024T22:08:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-05-2024T22:08:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-05-2024T22:08:14 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+10-05-2024T22:08:23 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+10-05-2024T22:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Home (current)")): Object: 'Object Repository/Page_QRWeb/a_Home (current)' is clicked on
+
+10-05-2024T22:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Home (current)' is clicked on
+
+10-05-2024T22:08:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Learn More")): Object: 'Object Repository/Page_QRWeb/a_Learn More' is clicked on
+
+10-05-2024T22:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Learn More' is clicked on
+
+10-05-2024T22:08:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_About")): Object: 'Object Repository/Page_QRWeb/a_About' is clicked on
+
+10-05-2024T22:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_About' is clicked on
+
+10-05-2024T22:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Pricing")): Object: 'Object Repository/Page_QRWeb/a_Pricing' is clicked on
+
+10-05-2024T22:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Pricing' is clicked on
+
+10-05-2024T22:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Contact")): Object: 'Object Repository/Page_QRWeb/a_Contact' is clicked on
+
+10-05-2024T22:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Contact' is clicked on
+
+10-05-2024T22:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/h3_Contact Us")): Object: 'Object Repository/Page_QRWeb/h3_Contact Us' is clicked on
+
+10-05-2024T22:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/h3_Contact Us' is clicked on
+
+10-05-2024T22:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/figure_Student g. 50, Kaunas, Lithuania")): Object: 'Object Repository/Page_QRWeb/figure_Student g. 50, Kaunas, Lithuania' is clicked on
+
+10-05-2024T22:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/figure_Student g. 50, Kaunas, Lithuania' is clicked on
+
+10-05-2024T22:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_About")): Object: 'Object Repository/Page_QRWeb/a_About' is clicked on
+
+10-05-2024T22:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_About' is clicked on
+
+10-05-2024T22:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/h2_What Is QRWeb")): Object: 'Object Repository/Page_QRWeb/h2_What Is QRWeb' is clicked on
+
+10-05-2024T22:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/h2_What Is QRWeb' is clicked on
+
+10-05-2024T22:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Pricing")): Object: 'Object Repository/Page_QRWeb/a_Pricing' is clicked on
+
+10-05-2024T22:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Pricing' is clicked on
+
+10-05-2024T22:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/h2_Affordable Prices")): Object: 'Object Repository/Page_QRWeb/h2_Affordable Prices' is clicked on
+
+10-05-2024T22:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/h2_Affordable Prices' is clicked on
+
+10-05-2024T22:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/h2_Our Clients")): Object: 'Object Repository/Page_QRWeb/h2_Our Clients' is clicked on
+
+10-05-2024T22:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/h2_Our Clients' is clicked on
+
+10-05-2024T22:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/h2_Our Team")): Object: 'Object Repository/Page_QRWeb/h2_Our Team' is clicked on
+
+10-05-2024T22:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/h2_Our Team' is clicked on
+
+10-05-2024T22:08:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+10-05-2024T22:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-05-2024T22:08:12 - [TEST_SUITE][PASSED] - MainPageTest: Test Cases/functional/main_page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Team Leader</name>
+   <tag></tag>
+   <elementGuidId>fe8bfeec-2414-423f-ba6a-c6beefb619d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='our-team']/div/div[2]/div/div/div[2]/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.ts-opacity__50</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Team Leader&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>a85a3dec-5903-425f-86c5-d43c2c93721b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ts-opacity__50</value>
+      <webElementGuid>1635941d-0a40-4473-8655-fbd7e9529181</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Team Leader</value>
+      <webElementGuid>77fe9570-89b4-4fb6-9ed6-1c9cad3b610a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;our-team&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 col-lg-3&quot;]/div[@class=&quot;card ts-fadeInUp animated&quot;]/div[@class=&quot;card-body&quot;]/h6[@class=&quot;ts-opacity__50&quot;]</value>
+      <webElementGuid>3b44f4de-d873-409c-ad4f-2c29ed898537</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='our-team']/div/div[2]/div/div/div[2]/h6</value>
+      <webElementGuid>46d6565a-e9fb-4610-94ea-be3289a4cabf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dainius'])[1]/following::h6[1]</value>
+      <webElementGuid>24cf5ca5-64f6-4367-9090-337027438b91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Our Team'])[1]/following::h6[1]</value>
+      <webElementGuid>c0880048-2bc9-4060-a7c9-88daec4e17f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nojus'])[1]/preceding::h6[1]</value>
+      <webElementGuid>72c6f68c-2c88-499f-aec0-aa736669f03d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Frontend'])[1]/preceding::h6[1]</value>
+      <webElementGuid>b1adc5c0-da74-413a-8f5b-76a10bcbde44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Team Leader']/parent::*</value>
+      <webElementGuid>fab35962-cab2-49ba-86f9-fbab8172c9cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h6</value>
+      <webElementGuid>23fa9543-10c0-4e27-851a-70a75a434c94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Team Leader' or . = 'Team Leader')]</value>
+      <webElementGuid>6aadc823-f7ca-464e-9e82-149366eb8e32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

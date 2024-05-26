@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profile_and_constructor_pages,Chrome 124.0.0.0,,,11-05-2024 16:36:18,11-05-2024 16:39:38,3m - 19.711s,FAILED
+,,,,,,,
+Test Cases/functional/profile_and_constructor_pages,Chrome 124.0.0.0,,,11-05-2024 16:37:33,11-05-2024 16:39:38,2m - 4.353s,FAILED
+"openBrowser("""")",Chrome 124.0.0.0,,,11-05-2024 16:37:33,11-05-2024 16:37:34,0.956s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,11-05-2024 16:37:34,11-05-2024 16:37:34,0.127s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 124.0.0.0,,,11-05-2024 16:37:34,11-05-2024 16:37:38,3.840s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Chrome 124.0.0.0,,,11-05-2024 16:37:38,11-05-2024 16:37:39,1.143s,PASSED
+"setText(findTestObject(""Object Repository/Page_QRWeb/input__username""), ""user7"")",Chrome 124.0.0.0,,,11-05-2024 16:37:39,11-05-2024 16:37:40,0.612s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QRWeb/input__password""), ""RigbBhfdqOALcqUsFYWzlQ=="")",Chrome 124.0.0.0,,,11-05-2024 16:37:40,11-05-2024 16:37:40,0.340s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/button_Login""))",Chrome 124.0.0.0,,,11-05-2024 16:37:40,11-05-2024 16:37:54,13.686s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Open""))",Chrome 124.0.0.0,,,11-05-2024 16:37:54,11-05-2024 16:38:28,33.696s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Back to profile""))",Chrome 124.0.0.0,,,11-05-2024 16:38:28,11-05-2024 16:39:01,32.942s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/button_Change Password""))",Chrome 124.0.0.0,,,11-05-2024 16:39:01,11-05-2024 16:39:01,0.420s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Create New Page""))",Chrome 124.0.0.0,,,11-05-2024 16:39:01,11-05-2024 16:39:38,36.565s,FAILED
