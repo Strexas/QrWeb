@@ -17,6 +17,41 @@ $(document).ready(function($) {
 		$('.navbar-collapse').collapse('hide');
 	});
 
+     var lastScrollTop = 0;
+        $(window).scroll(function() {
+            var scrollTop = $(this).scrollTop();
+            if (scrollTop > lastScrollTop) {
+                // Scrolling down
+                $('.navbar').addClass('hidden');
+            } else {
+                // Scrolling up
+                $('.navbar').removeClass('hidden');
+            }
+            lastScrollTop = scrollTop;
+
+            // Add scrolled class for background color change
+            if (scrollTop > 50) {
+                $('.navbar').addClass('scrolled');
+            } else {
+                $('.navbar').removeClass('scrolled');
+            }
+        });
+
+        // Highlight the active section in navbar
+        $(window).scroll(function() {
+            var scrollPos = $(document).scrollTop();
+            $('.nav-link').each(function() {
+                var currLink = $(this);
+                var refElement = $(currLink.attr("href"));
+                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                    $('.nav-link').removeClass("active");
+                    currLink.addClass("active");
+                } else {
+                    currLink.removeClass("active");
+                }
+            });
+        });
+
     $(".ts-img-into-bg").each(function() {
         $(this).css("background-image", "url("+ $(this).find("img").attr("src") +")" );
     });
