@@ -13,22 +13,21 @@ import os
 import os.path
 from pathlib import Path
 import mimetypes
-from google.oauth2 import service_account
+import environ  # type: ignore[import-untyped]
+
+from google.oauth2 import service_account # type: ignore[import-untyped]
 
 
 
 mimetypes.add_type("text/css", ".css", True)
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-69mez*=oxw)h+a60&8-15kxz&xh%dh@&6k^mt&zre^g507aqt_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'RENDER' not in os.environ
@@ -62,7 +61,6 @@ GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
 
 GS_BUCKET_NAME = 'qr_web_image_bucket'
 GS_DEFAULT_ACL = 'publicRead'
-
 
 # Application definition
 
@@ -118,14 +116,21 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'qr_web.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+env = environ.Env()
+environ.Env.read_env()
+
+SECRET_KEY = env("SECRET_KEY")
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': env("DB_NAME"),
+        'USER': env("DB_USER"),
+        'PASSWORD': env("DB_PASSWORD"),
+        'HOST': env("DB_HOST"),
+        'PORT': env("DB_PORT"),
     }
 }
 LOGGING = {
@@ -144,7 +149,7 @@ LOGGING = {
             'level': 'DEBUG',
             'class': 'logging.handlers.RotatingFileHandler',
             'filename': 'django_editorjs_fields.log',
-            'maxBytes': 1024*1024*5,  # 5 MB
+            'maxBytes': 1024 * 1024 * 5,  # 5 MB
             'backupCount': 5,
             'formatter': 'standard',
         },
@@ -179,7 +184,6 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.google.GoogleOAuth2',
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -190,7 +194,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
@@ -218,3 +221,5 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ('951729000938-jr93mh2el80iko1g7a68qh1'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
 EDITORJS_VERSION = '2.27.0'
+EDITORJS_IMAGE_UPLOAD_PATH = MEDIA_ROOT + '/constructor/'
+EDITORJS_IMAGE_UPLOAD_PATH_DATE = '%Y/%m/%d/%I_%M_%S'

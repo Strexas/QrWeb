@@ -77,4 +77,5 @@ class PageView(View):
         """
         # pylint: disable=no-member
         page = Page.objects.get(upid=page_id)
+
         return render(request, 'constructor/view.html', {'post': page})
