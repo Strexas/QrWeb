@@ -1,76 +1,66 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-{% if messages %}
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600">
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'assets/font-awesome/css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/editorjs-fields.css' %}" media="all">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="{% static 'js/timer.js' %}"></script>
+    <script src="{% static 'js/delete_confirm.js' %}"></script>
+    <title>QRWeb</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'assets/img/favicon.png' %}">
+</head>
+<body>
+    <div class="message-container">
+        {% if messages %}
             {% for message in messages %}
-                <!-- ID should be message-timer for proper work of js file linked with it-->
-                <div id ="message-timer" class ="alert alert-{{ message.tags }}">
-                {{ message }}
+                <div id="message-timer" class="alert alert-{{ message.tags }}">
+                    {{ message }}
                 </div>
             {% endfor %}
-{% endif %}
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600">
-        <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}" type="text/css">
-        <link rel="stylesheet" href="{% static 'assets/font-awesome/css/fontawesome-all.min.css' %}">
-        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
-        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link  rel="stylesheet" href="{% static 'css/editorjs-fields.css' %}" media="all">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <!-- JS file for dropdowns, popovers, and tooltips -->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <!-- Generic JS file for bootstrap  -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <!-- JS file for pop up messages with timer -->
-        <script src="{% static 'js/timer.js' %}"></script>
-        <!-- JS file for delete profile confirmation -->
-        <script src="{% static 'js/delete_confirm.js' %}"></script>
-        <title>QRWeb</title>
-        <link rel="icon" type="image/x-icon" href="{% static 'assets/img/favicon.png' %}">
-    </head>
-    <body>
+        {% endif %}
+    </div>
     <div>
         {% block content %}{% endblock %}
     </div>
     <br>
-    </body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" >
-        <div class="container">
+</body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element">
+    <div class="container">
         <a class="navbar-brand" href="{% url '' %}">
             <img src="{% static 'assets/img/logo-w.png' %}" alt="">
         </a>
-        <!--end navbar-brand-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!--end navbar-toggler-->
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 {% if request.path != "/login/" and request.path != "/register/" %}
-
                     <a class="nav-item nav-link active ts-scroll" href="{% url '' %}">Home <span class="sr-only">(current)</span></a>
                     {% if is_main_page %}
                         <a class="nav-item nav-link ts-scroll" href="#what-is-qrweb">About</a>
                         <a class="nav-item nav-link ts-scroll" href="#pricing">Pricing</a>
                         <a class="nav-item nav-link ts-scroll" href="#contact">Contact</a>
-                    {% endif  %}
+                    {% endif %}
                     {% if user.is_authenticated %}
-                         <a class="nav-item nav-link ts-scroll" href="{% url 'profile' %}">Profile <i class="fa-user-circle-o" aria-hidden="true"></i> </a>
-                         <a class="nav-item nav-link ts-scroll" href="{% url 'create_page' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
-                         <a class="nav-item nav-link ts-scroll" href="{% url 'logout' %}">Sign out <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
+                        <a class="nav-item nav-link ts-scroll" href="{% url 'profile' %}">Profile <i class="fa-user-circle-o" aria-hidden="true"></i> </a>
+                        <a class="nav-item nav-link ts-scroll" href="{% url 'create_page' %}">Create new page <i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+                        <a class="nav-item nav-link ts-scroll" href="{% url 'logout' %}">Sign out <i class="fa fa-sign-out" aria-hidden="true"></i> </a>
                     {% else %}
                         <a class="nav-item nav-link ts-scroll btn btn-primary btn-sm text-white ml-3 px-3 ts-width__auto" href="{% url 'login' %}">Log in</a>
                     {% endif %}
-                {% endif  %}
+                {% endif %}
             </div>
-            <!--end navbar-nav-->
         </div>
-        <!--end collapse-->
     </div>
-        <!--end container-->
-    </nav>
-    <!--end navbar-->
+</nav>
 </html>

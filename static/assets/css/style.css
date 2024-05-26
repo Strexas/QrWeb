@@ -1422,8 +1422,31 @@ body.has-loading-screen.loading-done:after {
     position: relative;
 }
 
+
 #ts-hero .ts-background-image {
     background-position: top center;
+}
+
+/*-------------------------------------------
+  -- Messages
+-------------------------------------------*/
+.message-container {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.3s ease;
+}
+
+.message-container .alert {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+}
+
+.message-container.hidden {
+    height: 0;
 }
 
 /*-------------------------------------------
