@@ -20,15 +20,6 @@
     <link rel="icon" type="image/x-icon" href="{% static 'assets/img/favicon.png' %}">
 </head>
 <body>
-    <div class="message-container">
-        {% if messages %}
-            {% for message in messages %}
-                <div id="message-timer" class="alert alert-{{ message.tags }}">
-                    {{ message }}
-                </div>
-            {% endfor %}
-        {% endif %}
-    </div>
     <div>
         {% block content %}{% endblock %}
     </div>
