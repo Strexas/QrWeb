@@ -9,31 +9,22 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-<<<<<<< HEAD
-
-import os.path
-from pathlib import Path
-import environ  # type: ignore[import-untyped]
-=======
 import os
 import os.path
 from pathlib import Path
 import mimetypes
-from google.oauth2 import service_account
+import environ  # type: ignore[import-untyped]
+
+from google.oauth2 import service_account # type: ignore[import-untyped]
 
 
 
 mimetypes.add_type("text/css", ".css", True)
->>>>>>> 5ad9ff8832b83df361bd26bc158216ce423e0914
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5ad9ff8832b83df361bd26bc158216ce423e0914
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -230,8 +221,5 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ('951729000938-jr93mh2el80iko1g7a68qh1'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
 EDITORJS_VERSION = '2.27.0'
-<<<<<<< HEAD
 EDITORJS_IMAGE_UPLOAD_PATH = MEDIA_ROOT + '/constructor/'
 EDITORJS_IMAGE_UPLOAD_PATH_DATE = '%Y/%m/%d/%I_%M_%S'
-=======
->>>>>>> 5ad9ff8832b83df361bd26bc158216ce423e0914
