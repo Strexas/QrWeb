@@ -1,7 +1,28 @@
-- name: Katalon Report Uploader
-  uses: katalon-studio/report-uploader@v0.0.8
-  env:
-    PASSWORD: ee821115-5c38-4101-9e6c-cd0f261ea8a3
-    PROJECT_ID: 1432391
-    TYPE: katalon
-    REPORT_PATH: 
+name: Katalon Report Upload
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload-katalon-report:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run Katalon Tests
+      uses: katalon-studio/katalon-action@v3.2.1
+      with:
+        version: '7.9.1'
+        args: '-noSplash -runMode=console -projectPath="<path-to-your-project>.prj" -reportFolder="Reports"'
+
+    - name: Katalon Report Uploader
+      uses: katalon-studio/report-uploader@v0.0.8
+      env:
+        PASSWORD: ${{ secrets.KATALON_API_KEY }}
+        PROJECT_ID: 1432391
+        TYPE: katalon
+        REPORT_PATH: 'Reports'
