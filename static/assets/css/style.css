@@ -1480,6 +1480,16 @@ body.has-loading-screen.loading-done:after {
     padding-bottom: .3125rem;
 }
 
+ .navbar.scrolled {
+            background-color: #81b5e5 !important;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+ .navbar.hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+
 
 
 /*XL*/
