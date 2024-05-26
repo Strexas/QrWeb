@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profile_and_constructor_pages,Chrome 124.0.0.0,,,11-05-2024 16:42:40,11-05-2024 16:43:03,22.868s,PASSED
+,,,,,,,
+Test Cases/functional/profile_and_constructor_pages,Chrome 124.0.0.0,,,11-05-2024 16:42:41,11-05-2024 16:43:03,22.678s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,11-05-2024 16:42:41,11-05-2024 16:42:43,1.781s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,11-05-2024 16:42:43,11-05-2024 16:42:43,0.136s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 124.0.0.0,,,11-05-2024 16:42:43,11-05-2024 16:42:48,5.513s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Chrome 124.0.0.0,,,11-05-2024 16:42:48,11-05-2024 16:42:50,1.367s,PASSED
+"setText(findTestObject(""Object Repository/Page_QRWeb/input__username""), ""user7"")",Chrome 124.0.0.0,,,11-05-2024 16:42:50,11-05-2024 16:42:50,0.656s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QRWeb/input__password""), ""RigbBhfdqOALcqUsFYWzlQ=="")",Chrome 124.0.0.0,,,11-05-2024 16:42:50,11-05-2024 16:42:51,0.382s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/button_Login""))",Chrome 124.0.0.0,,,11-05-2024 16:42:51,11-05-2024 16:42:56,5.483s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Create New Page""))",Chrome 124.0.0.0,,,11-05-2024 16:42:56,11-05-2024 16:42:57,0.901s,PASSED
+"setText(findTestObject(""Object Repository/Page_QRWeb/input_Sign out_title""), ""Animals"")",Chrome 124.0.0.0,,,11-05-2024 16:42:57,11-05-2024 16:42:58,1.087s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/div_CEO at Nova Solutions_owl-dot""))",Chrome 124.0.0.0,,,11-05-2024 16:42:58,11-05-2024 16:42:58,0.322s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/div_Heading""))",Chrome 124.0.0.0,,,11-05-2024 16:42:58,11-05-2024 16:42:59,0.310s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/div_List""))",Chrome 124.0.0.0,,,11-05-2024 16:42:59,11-05-2024 16:42:59,0.314s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/div_Table""))",Chrome 124.0.0.0,,,11-05-2024 16:42:59,11-05-2024 16:42:59,0.295s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/div_Image""))",Chrome 124.0.0.0,,,11-05-2024 16:42:59,11-05-2024 16:43:00,0.286s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/div_Code""))",Chrome 124.0.0.0,,,11-05-2024 16:43:00,11-05-2024 16:43:00,0.286s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/div_Link""))",Chrome 124.0.0.0,,,11-05-2024 16:43:00,11-05-2024 16:43:00,0.284s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/button_Save page""))",Chrome 124.0.0.0,,,11-05-2024 16:43:00,11-05-2024 16:43:01,0.941s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Open""))",Chrome 124.0.0.0,,,11-05-2024 16:43:01,11-05-2024 16:43:02,0.494s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Back to profile""))",Chrome 124.0.0.0,,,11-05-2024 16:43:02,11-05-2024 16:43:02,0.564s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_QRWeb/button_Change Password""))",Chrome 124.0.0.0,,,11-05-2024 16:43:02,11-05-2024 16:43:03,0.301s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Sign out""))",Chrome 124.0.0.0,,,11-05-2024 16:43:03,11-05-2024 16:43:03,0.696s,PASSED

@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Non_functional_Test" time="41.124" tests="5" failures="1" errors="0">
+   <testsuite name="Non_functional_Test" tests="5" failures="1" errors="0" time="41.124" skipped="0" timestamp="26-05-2024T14:47:20" hostname="Anna - DESKTOP-3UT53HP" id="Test Suites/Non_functional_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240526_144712\\Non_functional_Test\\20240526_144712"/>
+         <property name="logFiles" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240526_144712\\Non_functional_Test\\20240526_144712\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240526_144712\\Non_functional_Test\\20240526_144712\\1716724060467.png"/>
+         <property name="hostName" value="Anna - DESKTOP-3UT53HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="6105b2c65a641ec6895022360bf4ee58"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/non-functional/animation" time="6.355" classname="Test Cases/non-functional/animation" status="PASSED">
+         <system-out><![CDATA[26-05-2024T14:47:21 - [TEST_CASE][PASSED] - Test Cases/non-functional/animation: Test Cases/non-functional/animation
+
+26-05-2024T14:47:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-05-2024T14:47:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2024T14:47:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2024T14:47:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-05-2024T14:47:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2024T14:47:23 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2024T14:47:23 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:47:26 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:47:26 - [TEST_STEP][PASSED] - animatedElement = findTestObject("Object Repository/Page_QRWeb/div_Anna                                   _6c39b4"): null
+
+26-05-2024T14:47:26 - [TEST_STEP][PASSED] - opacity = getCSSValue(animatedElement, "opacity"): Get CSS 'opacity' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: '1'.
+
+26-05-2024T14:47:26 - [MESSAGE][PASSED] - Get CSS 'opacity' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: '1'.
+
+26-05-2024T14:47:26 - [TEST_STEP][PASSED] - assert opacity == "1": null
+
+26-05-2024T14:47:26 - [TEST_STEP][PASSED] - animationFillMode = getCSSValue(animatedElement, "animation-fill-mode"): Get CSS 'animation-fill-mode' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: 'none'.
+
+26-05-2024T14:47:27 - [MESSAGE][PASSED] - Get CSS 'animation-fill-mode' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: 'none'.
+
+26-05-2024T14:47:27 - [TEST_STEP][PASSED] - assert animationFillMode == "none": null
+
+26-05-2024T14:47:27 - [TEST_STEP][PASSED] - animationDuration = getCSSValue(animatedElement, "animation-duration"): Get CSS 'animation-duration' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: '0s'.
+
+26-05-2024T14:47:27 - [MESSAGE][PASSED] - Get CSS 'animation-duration' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: '0s'.
+
+26-05-2024T14:47:27 - [TEST_STEP][PASSED] - assert animationDuration == "0s": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/non-functional/button_login" time="13.433" classname="Test Cases/non-functional/button_login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/non-functional/button_login FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at button_login.run(button_login:106)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716724032518.run(TempTestSuite1716724032518.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable&#xa;  (Session info: chrome=125.0.6422.78)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'DESKTOP-3UT53HP', ip: '192.168.8.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Anna\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: de8044577ee38bfbf342f45a2d9956be&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[26-05-2024T14:47:27 - [TEST_CASE][FAILED] - Test Cases/non-functional/button_login: Test Cases/non-functional/button_login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at button_login.run(button_login:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716724032518.run(TempTestSuite1716724032518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3UT53HP', ip: '192.168.8.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Anna\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de8044577ee38bfbf342f45a2d9956be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+26-05-2024T14:47:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-05-2024T14:47:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-05-2024T14:47:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2024T14:47:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2024T14:47:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-05-2024T14:47:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2024T14:47:28 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2024T14:47:28 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:47:32 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:47:32 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+26-05-2024T14:47:33 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+26-05-2024T14:47:33 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "font-family"): Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'Poppins, sans-serif'.
+
+26-05-2024T14:47:33 - [MESSAGE][PASSED] - Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'Poppins, sans-serif'.
+
+26-05-2024T14:47:33 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "background-color"): Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+26-05-2024T14:47:33 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+26-05-2024T14:47:33 - [TEST_STEP][PASSED] - height = getElementHeight(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Height of element 'Object Repository/Page_QRWeb/a_Log in' is '33'.
+
+26-05-2024T14:47:34 - [MESSAGE][PASSED] - Height of element 'Object Repository/Page_QRWeb/a_Log in' is '33'.
+
+26-05-2024T14:47:34 - [TEST_STEP][PASSED] - width = getElementWidth(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Width of element 'Object Repository/Page_QRWeb/a_Log in' is '74'
+
+26-05-2024T14:47:34 - [MESSAGE][PASSED] - Width of element 'Object Repository/Page_QRWeb/a_Log in' is '74'
+
+26-05-2024T14:47:34 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+26-05-2024T14:47:34 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+26-05-2024T14:47:34 - [TEST_STEP][PASSED] - buttonElement = findTestObject("Object Repository/Page_QRWeb/a_Log in"): null
+
+26-05-2024T14:47:34 - [TEST_STEP][PASSED] - borderRadius = getCSSValue(buttonElement, "border-radius"): Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+26-05-2024T14:47:35 - [MESSAGE][PASSED] - Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+26-05-2024T14:47:35 - [TEST_STEP][PASSED] - assert borderRadius == "100px": null
+
+26-05-2024T14:47:35 - [TEST_STEP][PASSED] - fontWeight = getCSSValue(buttonElement, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '600'.
+
+26-05-2024T14:47:35 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '600'.
+
+26-05-2024T14:47:35 - [TEST_STEP][PASSED] - assert fontWeight == "600": null
+
+26-05-2024T14:47:35 - [TEST_STEP][PASSED] - fontSizeRem = getCSSValue(buttonElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+26-05-2024T14:47:35 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+26-05-2024T14:47:35 - [TEST_STEP][PASSED] - assert fontSizeRem == "13px": null
+
+26-05-2024T14:47:35 - [TEST_STEP][PASSED] - paddingVertical = getCSSValue(buttonElement, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+26-05-2024T14:47:35 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+26-05-2024T14:47:35 - [TEST_STEP][PASSED] - paddingHorizontal = getCSSValue(buttonElement, "padding-right"): Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+26-05-2024T14:47:36 - [MESSAGE][PASSED] - Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+26-05-2024T14:47:36 - [TEST_STEP][PASSED] - assert paddingVertical == "5px" && paddingHorizontal == "16px": null
+
+26-05-2024T14:47:36 - [TEST_STEP][PASSED] - boxShadow = getCSSValue(buttonElement, "box-shadow"): Get CSS 'box-shadow' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(0, 0, 0, 0.15) 2px 3px 15px 0px'.
+
+26-05-2024T14:47:36 - [MESSAGE][PASSED] - Get CSS 'box-shadow' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(0, 0, 0, 0.15) 2px 3px 15px 0px'.
+
+26-05-2024T14:47:36 - [TEST_STEP][PASSED] - assert boxShadow == "rgba(0, 0, 0, 0.15) 2px 3px 15px 0px": null
+
+26-05-2024T14:47:36 - [TEST_STEP][PASSED] - statusIndicatorHeight = getCSSValue(buttonElement, "height"): Get CSS 'height' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '32.7px'.
+
+26-05-2024T14:47:36 - [MESSAGE][PASSED] - Get CSS 'height' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '32.7px'.
+
+26-05-2024T14:47:36 - [TEST_STEP][PASSED] - statusIndicatorWidth = getCSSValue(buttonElement, "width"): Get CSS 'width' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '73.5875px'.
+
+26-05-2024T14:47:37 - [MESSAGE][PASSED] - Get CSS 'width' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '73.5875px'.
+
+26-05-2024T14:47:37 - [TEST_STEP][PASSED] - assert statusIndicatorHeight == "32.7px" && statusIndicatorWidth == "73.5875px": null
+
+26-05-2024T14:47:37 - [TEST_STEP][PASSED] - statusIconBorderRadius = getCSSValue(buttonElement, "border-radius"): Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+26-05-2024T14:47:37 - [MESSAGE][PASSED] - Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+26-05-2024T14:47:37 - [TEST_STEP][PASSED] - statusIconFontSize = getCSSValue(buttonElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+26-05-2024T14:47:37 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+26-05-2024T14:47:37 - [TEST_STEP][PASSED] - statusIconPaddingVertical = getCSSValue(buttonElement, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+26-05-2024T14:47:37 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+26-05-2024T14:47:37 - [TEST_STEP][PASSED] - statusIconPaddingHorizontal = getCSSValue(buttonElement, "padding-right"): Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+26-05-2024T14:47:38 - [MESSAGE][PASSED] - Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+26-05-2024T14:47:38 - [TEST_STEP][PASSED] - assert statusIconBorderRadius == "100px" && statusIconFontSize == "13px" && statusIconPaddingVertical == "5px" && statusIconPaddingHorizontal == "16px": null
+
+26-05-2024T14:47:38 - [TEST_STEP][PASSED] - backgroundColor = getCSSValue(buttonElement, "background-color"): Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+26-05-2024T14:47:38 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+26-05-2024T14:47:38 - [TEST_STEP][PASSED] - borderColor = getCSSValue(buttonElement, "border-color"): Get CSS 'border-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgb(56, 131, 200)'.
+
+26-05-2024T14:47:38 - [MESSAGE][PASSED] - Get CSS 'border-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgb(56, 131, 200)'.
+
+26-05-2024T14:47:38 - [TEST_STEP][PASSED] - textColor = getCSSValue(buttonElement, "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+26-05-2024T14:47:39 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+26-05-2024T14:47:39 - [TEST_STEP][PASSED] - assert backgroundColor == "rgba(56, 131, 200, 1)" && borderColor == "rgb(56, 131, 200)" && textColor == "rgba(255, 255, 255, 1)": null
+
+26-05-2024T14:47:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Learn More")): Object: 'Object Repository/Page_QRWeb/a_Learn More' is clicked on
+
+26-05-2024T14:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Learn More' is clicked on
+
+26-05-2024T14:47:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_About")): Object: 'Object Repository/Page_QRWeb/a_About' is clicked on
+
+26-05-2024T14:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_About' is clicked on
+
+26-05-2024T14:47:39 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_QRWeb/a_Sign Up Now")): Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at button_login.run(button_login:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716724032518.run(TempTestSuite1716724032518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3UT53HP', ip: '192.168.8.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Anna\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de8044577ee38bfbf342f45a2d9956be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1715187541507.run(Script1715187541507.groovy:106)
+	... 15 more
+)
+
+26-05-2024T14:47:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at button_login.run(button_login:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716724032518.run(TempTestSuite1716724032518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3UT53HP', ip: '192.168.8.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Anna\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de8044577ee38bfbf342f45a2d9956be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1715187541507.run(Script1715187541507.groovy:106)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240526_144712\\Non_functional_Test\\20240526_144712\\1716724060467.png]]]]></system-out>
+         <system-err><![CDATA[26-05-2024T14:47:27 - [TEST_CASE][FAILED] - Test Cases/non-functional/button_login: Test Cases/non-functional/button_login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at button_login.run(button_login:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716724032518.run(TempTestSuite1716724032518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3UT53HP', ip: '192.168.8.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Anna\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de8044577ee38bfbf342f45a2d9956be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/non-functional/list" time="5.718" classname="Test Cases/non-functional/list" status="PASSED">
+         <system-out><![CDATA[26-05-2024T14:47:40 - [TEST_CASE][PASSED] - Test Cases/non-functional/list: Test Cases/non-functional/list
+
+26-05-2024T14:47:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-05-2024T14:47:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-05-2024T14:47:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2024T14:47:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2024T14:47:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-05-2024T14:47:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2024T14:47:42 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2024T14:47:42 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:47:43 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:47:43 - [TEST_STEP][PASSED] - paragraphElement = findTestObject("Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a"): null
+
+26-05-2024T14:47:43 - [TEST_STEP][PASSED] - lineHeight = getCSSValue(paragraphElement, "line-height"): Get CSS 'line-height' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '27px'.
+
+26-05-2024T14:47:45 - [MESSAGE][PASSED] - Get CSS 'line-height' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '27px'.
+
+26-05-2024T14:47:45 - [TEST_STEP][PASSED] - assert lineHeight == "27px": null
+
+26-05-2024T14:47:45 - [TEST_STEP][PASSED] - borderBottom = getCSSValue(paragraphElement, "border-bottom"): Get CSS 'border-bottom' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '0px none rgba(0, 0, 0, 0.5)'.
+
+26-05-2024T14:47:45 - [MESSAGE][PASSED] - Get CSS 'border-bottom' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '0px none rgba(0, 0, 0, 0.5)'.
+
+26-05-2024T14:47:45 - [TEST_STEP][PASSED] - assert borderBottom == "0px none rgba(0, 0, 0, 0.5)": null
+
+26-05-2024T14:47:45 - [TEST_STEP][PASSED] - paddingTop = getCSSValue(paragraphElement, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '0px'.
+
+26-05-2024T14:47:46 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '0px'.
+
+26-05-2024T14:47:46 - [TEST_STEP][PASSED] - paddingBottom = getCSSValue(paragraphElement, "padding-bottom"): Get CSS 'padding-bottom' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '0px'.
+
+26-05-2024T14:47:46 - [MESSAGE][PASSED] - Get CSS 'padding-bottom' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '0px'.
+
+26-05-2024T14:47:46 - [TEST_STEP][PASSED] - assert paddingTop == paddingBottom: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/non-functional/navbar" time="9.213" classname="Test Cases/non-functional/navbar" status="PASSED">
+         <system-out><![CDATA[26-05-2024T14:47:46 - [TEST_CASE][PASSED] - Test Cases/non-functional/navbar: Test Cases/non-functional/navbar
+
+26-05-2024T14:47:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-05-2024T14:47:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-05-2024T14:47:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2024T14:47:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2024T14:47:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-05-2024T14:47:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2024T14:47:47 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2024T14:47:47 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:47:51 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:47:51 - [TEST_STEP][PASSED] - navbarElement = findTestObject("Object Repository/Page_QRWeb/a_About"): null
+
+26-05-2024T14:47:51 - [TEST_STEP][PASSED] - fontSize = getCSSValue(navbarElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_About' successfully: '14px'.
+
+26-05-2024T14:47:51 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_About' successfully: '14px'.
+
+26-05-2024T14:47:51 - [TEST_STEP][PASSED] - fontWeight = getCSSValue(navbarElement, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_About' successfully: '500'.
+
+26-05-2024T14:47:51 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_About' successfully: '500'.
+
+26-05-2024T14:47:51 - [TEST_STEP][PASSED] - assert fontSize == "14px" && fontWeight == "500": null
+
+26-05-2024T14:47:52 - [TEST_STEP][PASSED] - paddingTop = getCSSValue(navbarElement, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_About' successfully: '5px'.
+
+26-05-2024T14:47:52 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_About' successfully: '5px'.
+
+26-05-2024T14:47:52 - [TEST_STEP][PASSED] - paddingBottom = getCSSValue(navbarElement, "padding-bottom"): Get CSS 'padding-bottom' value on 'Object Repository/Page_QRWeb/a_About' successfully: '5px'.
+
+26-05-2024T14:47:52 - [MESSAGE][PASSED] - Get CSS 'padding-bottom' value on 'Object Repository/Page_QRWeb/a_About' successfully: '5px'.
+
+26-05-2024T14:47:52 - [TEST_STEP][PASSED] - assert paddingTop == "5px": null
+
+26-05-2024T14:47:52 - [TEST_STEP][PASSED] - assert paddingBottom == "5px": null
+
+26-05-2024T14:47:52 - [TEST_STEP][PASSED] - transition = getCSSValue(navbarElement, "transition"): Get CSS 'transition' value on 'Object Repository/Page_QRWeb/a_About' successfully: 'all 0.3s ease 0s'.
+
+26-05-2024T14:47:52 - [MESSAGE][PASSED] - Get CSS 'transition' value on 'Object Repository/Page_QRWeb/a_About' successfully: 'all 0.3s ease 0s'.
+
+26-05-2024T14:47:52 - [TEST_STEP][PASSED] - assert transition == "all 0.3s ease 0s": null
+
+26-05-2024T14:47:52 - [TEST_STEP][PASSED] - navbarElement2 = findTestObject("Object Repository/Page_QRWeb/a_Home (current)"): null
+
+26-05-2024T14:47:52 - [TEST_STEP][PASSED] - fontSize2 = getCSSValue(navbarElement2, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: '14px'.
+
+26-05-2024T14:47:53 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: '14px'.
+
+26-05-2024T14:47:53 - [TEST_STEP][PASSED] - fontWeight2 = getCSSValue(navbarElement2, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: '500'.
+
+26-05-2024T14:47:53 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: '500'.
+
+26-05-2024T14:47:53 - [TEST_STEP][PASSED] - assert fontSize2 == "14px" && fontWeight2 == "500": null
+
+26-05-2024T14:47:53 - [TEST_STEP][PASSED] - paddingTop2 = getCSSValue(navbarElement2, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: '5px'.
+
+26-05-2024T14:47:53 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: '5px'.
+
+26-05-2024T14:47:53 - [TEST_STEP][PASSED] - paddingBottom2 = getCSSValue(navbarElement2, "padding-bottom"): Get CSS 'padding-bottom' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: '5px'.
+
+26-05-2024T14:47:54 - [MESSAGE][PASSED] - Get CSS 'padding-bottom' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: '5px'.
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - assert paddingTop2 == "5px": null
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - assert paddingBottom2 == "5px": null
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - transition2 = getCSSValue(navbarElement2, "transition"): Get CSS 'transition' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: 'all 0.3s ease 0s'.
+
+26-05-2024T14:47:54 - [MESSAGE][PASSED] - Get CSS 'transition' value on 'Object Repository/Page_QRWeb/a_Home (current)' successfully: 'all 0.3s ease 0s'.
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - assert transition2 == "all 0.3s ease 0s": null
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - navbarElement3 = findTestObject("Object Repository/Page_QRWeb/a_Contact"): null
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - fontSize3 = getCSSValue(navbarElement3, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: '14px'.
+
+26-05-2024T14:47:54 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: '14px'.
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - fontWeight3 = getCSSValue(navbarElement3, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: '500'.
+
+26-05-2024T14:47:54 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: '500'.
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - assert fontSize3 == "14px" && fontWeight3 == "500": null
+
+26-05-2024T14:47:54 - [TEST_STEP][PASSED] - paddingTop3 = getCSSValue(navbarElement3, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: '5px'.
+
+26-05-2024T14:47:55 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: '5px'.
+
+26-05-2024T14:47:55 - [TEST_STEP][PASSED] - paddingBottom3 = getCSSValue(navbarElement3, "padding-bottom"): Get CSS 'padding-bottom' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: '5px'.
+
+26-05-2024T14:47:55 - [MESSAGE][PASSED] - Get CSS 'padding-bottom' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: '5px'.
+
+26-05-2024T14:47:55 - [TEST_STEP][PASSED] - assert paddingTop3 == "5px": null
+
+26-05-2024T14:47:55 - [TEST_STEP][PASSED] - assert paddingBottom3 == "5px": null
+
+26-05-2024T14:47:55 - [TEST_STEP][PASSED] - transition3 = getCSSValue(navbarElement3, "transition"): Get CSS 'transition' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: 'all 0.3s ease 0s'.
+
+26-05-2024T14:47:55 - [MESSAGE][PASSED] - Get CSS 'transition' value on 'Object Repository/Page_QRWeb/a_Contact' successfully: 'all 0.3s ease 0s'.
+
+26-05-2024T14:47:55 - [TEST_STEP][PASSED] - assert transition3 == "all 0.3s ease 0s": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/non-functional/text_body" time="6.149" classname="Test Cases/non-functional/text_body" status="PASSED">
+         <system-out><![CDATA[26-05-2024T14:47:55 - [TEST_CASE][PASSED] - Test Cases/non-functional/text_body: Test Cases/non-functional/text_body
+
+26-05-2024T14:47:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-05-2024T14:47:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-05-2024T14:47:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-05-2024T14:47:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-05-2024T14:47:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-05-2024T14:47:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-05-2024T14:47:56 - [MESSAGE][PASSED] - Current window maximized
+
+26-05-2024T14:47:56 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:48:00 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+26-05-2024T14:48:00 - [TEST_STEP][PASSED] - bodyElement = findTestObject("Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d"): null
+
+26-05-2024T14:48:00 - [TEST_STEP][PASSED] - getCSSValue(bodyElement, "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: 'rgba(0, 0, 0, 0.5)'.
+
+26-05-2024T14:48:01 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: 'rgba(0, 0, 0, 0.5)'.
+
+26-05-2024T14:48:01 - [TEST_STEP][PASSED] - fontFamily = getCSSValue(bodyElement, "font-family"): Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: 'Poppins, sans-serif'.
+
+26-05-2024T14:48:01 - [MESSAGE][PASSED] - Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: 'Poppins, sans-serif'.
+
+26-05-2024T14:48:01 - [TEST_STEP][PASSED] - assert fontFamily.contains("Poppins") || fontFamily.contains("sans-serif"): null
+
+26-05-2024T14:48:01 - [TEST_STEP][PASSED] - fontWeight = getCSSValue(bodyElement, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: '400'.
+
+26-05-2024T14:48:01 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: '400'.
+
+26-05-2024T14:48:01 - [TEST_STEP][PASSED] - assert fontWeight == "400": null
+
+26-05-2024T14:48:01 - [TEST_STEP][PASSED] - expectedFontSizeRem = 15 / 16: null
+
+26-05-2024T14:48:01 - [TEST_STEP][PASSED] - fontSize = getCSSValue(bodyElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: '15px'.
+
+26-05-2024T14:48:01 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: '15px'.
+
+26-05-2024T14:48:01 - [TEST_STEP][PASSED] - actualFontSizeRem = replace("px", "").toBigDecimal() / 16: null
+
+26-05-2024T14:48:01 - [TEST_STEP][PASSED] - assert actualFontSizeRem == expectedFontSizeRem: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-05-2024T14:47:20 - [TEST_SUITE][FAILED] - Non_functional_Test: Test Cases/non-functional/button_login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at button_login.run(button_login:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716724032518.run(TempTestSuite1716724032518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3UT53HP', ip: '192.168.8.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Anna\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de8044577ee38bfbf342f45a2d9956be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[26-05-2024T14:47:20 - [TEST_SUITE][FAILED] - Non_functional_Test: Test Cases/non-functional/button_login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_QRWeb/a_Sign Up Now'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at button_login.run(button_login:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716724032518.run(TempTestSuite1716724032518.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.78)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-3UT53HP', ip: '192.168.8.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.78, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Anna\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de8044577ee38bfbf342f45a2d9956be
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

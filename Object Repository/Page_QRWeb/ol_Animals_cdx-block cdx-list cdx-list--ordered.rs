@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ol_Animals_cdx-block cdx-list cdx-list--ordered</name>
+   <tag></tag>
+   <elementGuidId>8f4e985a-79ce-4c55-8568-98ea51126862</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='id_content_editorjs_holder']/div/div/div[2]/div/ol</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ol.cdx-block.cdx-list.cdx-list--ordered</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=list</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ol</value>
+      <webElementGuid>f6388449-a992-4652-b4aa-81980331a89e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cdx-block cdx-list cdx-list--ordered</value>
+      <webElementGuid>83f83dbb-b182-4cea-a1cb-480052f47282</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>abb505ff-c3e0-4fa0-afd7-ea2f58bf95fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]/div[@class=&quot;ce-block&quot;]/div[@class=&quot;ce-block__content&quot;]/ol[@class=&quot;cdx-block cdx-list cdx-list--ordered&quot;]</value>
+      <webElementGuid>2140acbd-5653-4ab0-9d36-5d2e5220252b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='id_content_editorjs_holder']/div/div/div[2]/div/ol</value>
+      <webElementGuid>57ebf271-1ba1-45e0-9499-c6cc6db89187</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='cfhftujftu'])[1]/following::ol[1]</value>
+      <webElementGuid>db17c388-25e3-4ecf-8a74-c5b91ff8f8f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='null'])[1]/following::ol[1]</value>
+      <webElementGuid>46d5480a-4e0e-43dd-a017-2bb15097ae50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nothing found'])[1]/preceding::ol[1]</value>
+      <webElementGuid>1656c953-fae7-4c71-902e-2f1aadf14a0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Text'])[1]/preceding::ol[1]</value>
+      <webElementGuid>e94ed272-781d-471e-9a9a-d26c6a1c4791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol</value>
+      <webElementGuid>754f4246-2a58-4170-87dd-32105992e68c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About dogs'])[1]/following::ol[1]</value>
+      <webElementGuid>6ea9ccb9-8f2d-4e49-9707-c6a3e992ba8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Animals'])[1]/following::ol[1]</value>
+      <webElementGuid>46441068-46d3-4121-ab39-544d9acd741b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

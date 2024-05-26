@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Profile_and_constructor_pages" time="38.587" tests="3" failures="0" errors="0">
+   <testsuite name="Profile_and_constructor_pages" tests="3" failures="0" errors="0" time="38.587" skipped="0" timestamp="20-05-2024T13:47:46" hostname="Anna - DESKTOP-3UT53HP" id="Test Suites/Profile_and_constructor_pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240520_134739\\Profile_and_constructor_pages\\20240520_134740"/>
+         <property name="logFiles" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240520_134739\\Profile_and_constructor_pages\\20240520_134740\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anna - DESKTOP-3UT53HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="2960625ba00b794db9347e32d0017532"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/functional/register" time="9.226" classname="Test Cases/functional/register" status="PASSED">
+         <system-out><![CDATA[20-05-2024T13:47:46 - [TEST_CASE][PASSED] - Test Cases/functional/register: Test Cases/functional/register
+
+20-05-2024T13:47:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-05-2024T13:47:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-05-2024T13:47:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-05-2024T13:47:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-05-2024T13:47:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-05-2024T13:47:49 - [MESSAGE][PASSED] - Current window maximized
+
+20-05-2024T13:47:49 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+20-05-2024T13:47:52 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+20-05-2024T13:47:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+20-05-2024T13:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+20-05-2024T13:47:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Register")): Object: 'Object Repository/Page_QRWeb/a_Register' is clicked on
+
+20-05-2024T13:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Register' is clicked on
+
+20-05-2024T13:47:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QRWeb/input__username"), "user7"): Text 'user7' is set on object 'Object Repository/Page_QRWeb/input__username'
+
+20-05-2024T13:47:54 - [MESSAGE][PASSED] - Text 'user7' is set on object 'Object Repository/Page_QRWeb/input__username'
+
+20-05-2024T13:47:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QRWeb/input__email"), "user@gmail.com"): Text 'user@gmail.com' is set on object 'Object Repository/Page_QRWeb/input__email'
+
+20-05-2024T13:47:54 - [MESSAGE][PASSED] - Text 'user@gmail.com' is set on object 'Object Repository/Page_QRWeb/input__email'
+
+20-05-2024T13:47:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QRWeb/input__password1"), "RigbBhfdqOALcqUsFYWzlQ=="): Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password1'
+
+20-05-2024T13:47:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password1'
+
+20-05-2024T13:47:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QRWeb/input__password2"), "RigbBhfdqOALcqUsFYWzlQ=="): Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password2'
+
+20-05-2024T13:47:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password2'
+
+20-05-2024T13:47:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/button_Create account")): Object: 'Object Repository/Page_QRWeb/button_Create account' is clicked on
+
+20-05-2024T13:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/button_Create account' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/functional/login" time="10.526" classname="Test Cases/functional/login" status="PASSED">
+         <system-out><![CDATA[20-05-2024T13:47:56 - [TEST_CASE][PASSED] - Test Cases/functional/login: Test Cases/functional/login
+
+20-05-2024T13:47:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-05-2024T13:47:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+20-05-2024T13:47:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-05-2024T13:47:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-05-2024T13:47:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-05-2024T13:47:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-05-2024T13:47:57 - [MESSAGE][PASSED] - Current window maximized
+
+20-05-2024T13:47:57 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+20-05-2024T13:47:59 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+20-05-2024T13:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+20-05-2024T13:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+20-05-2024T13:48:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QRWeb/input__username"), "user7"): Text 'user7' is set on object 'Object Repository/Page_QRWeb/input__username'
+
+20-05-2024T13:48:01 - [MESSAGE][PASSED] - Text 'user7' is set on object 'Object Repository/Page_QRWeb/input__username'
+
+20-05-2024T13:48:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QRWeb/input__password"), "RigbBhfdqOALcqUsFYWzlQ=="): Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password'
+
+20-05-2024T13:48:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password'
+
+20-05-2024T13:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/button_Login")): Object: 'Object Repository/Page_QRWeb/button_Login' is clicked on
+
+20-05-2024T13:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/functional/profile_and_constructor_pages" time="18.645" classname="Test Cases/functional/profile_and_constructor_pages" status="PASSED">
+         <system-out><![CDATA[20-05-2024T13:48:06 - [TEST_CASE][PASSED] - Test Cases/functional/profile_and_constructor_pages: Test Cases/functional/profile_and_constructor_pages
+
+20-05-2024T13:48:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+20-05-2024T13:48:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+20-05-2024T13:48:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-05-2024T13:48:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-05-2024T13:48:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+20-05-2024T13:48:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-05-2024T13:48:07 - [MESSAGE][PASSED] - Current window maximized
+
+20-05-2024T13:48:07 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+20-05-2024T13:48:10 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+20-05-2024T13:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+20-05-2024T13:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Log in' is clicked on
+
+20-05-2024T13:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QRWeb/input__username"), "user7"): Text 'user7' is set on object 'Object Repository/Page_QRWeb/input__username'
+
+20-05-2024T13:48:11 - [MESSAGE][PASSED] - Text 'user7' is set on object 'Object Repository/Page_QRWeb/input__username'
+
+20-05-2024T13:48:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_QRWeb/input__password"), "RigbBhfdqOALcqUsFYWzlQ=="): Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password'
+
+20-05-2024T13:48:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_QRWeb/input__password'
+
+20-05-2024T13:48:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/button_Login")): Object: 'Object Repository/Page_QRWeb/button_Login' is clicked on
+
+20-05-2024T13:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/button_Login' is clicked on
+
+20-05-2024T13:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Create New Page")): Object: 'Object Repository/Page_QRWeb/a_Create New Page' is clicked on
+
+20-05-2024T13:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Create New Page' is clicked on
+
+20-05-2024T13:48:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_QRWeb/input_Sign out_title"), "Animals"): Text 'Animals' is set on object 'Object Repository/Page_QRWeb/input_Sign out_title'
+
+20-05-2024T13:48:18 - [MESSAGE][PASSED] - Text 'Animals' is set on object 'Object Repository/Page_QRWeb/input_Sign out_title'
+
+20-05-2024T13:48:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_QRWeb/div_CEO at Nova Solutions_owl-dot")): Object 'Object Repository/Page_QRWeb/div_CEO at Nova Solutions_owl-dot' is clickable
+
+20-05-2024T13:48:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QRWeb/div_CEO at Nova Solutions_owl-dot' is clickable
+
+20-05-2024T13:48:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_QRWeb/div_Heading")): Object 'Object Repository/Page_QRWeb/div_Heading' is clickable
+
+20-05-2024T13:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QRWeb/div_Heading' is clickable
+
+20-05-2024T13:48:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_QRWeb/div_List")): Object 'Object Repository/Page_QRWeb/div_List' is clickable
+
+20-05-2024T13:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QRWeb/div_List' is clickable
+
+20-05-2024T13:48:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_QRWeb/div_Table")): Object 'Object Repository/Page_QRWeb/div_Table' is clickable
+
+20-05-2024T13:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QRWeb/div_Table' is clickable
+
+20-05-2024T13:48:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_QRWeb/div_Image")): Object 'Object Repository/Page_QRWeb/div_Image' is clickable
+
+20-05-2024T13:48:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QRWeb/div_Image' is clickable
+
+20-05-2024T13:48:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_QRWeb/div_Code")): Object 'Object Repository/Page_QRWeb/div_Code' is clickable
+
+20-05-2024T13:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QRWeb/div_Code' is clickable
+
+20-05-2024T13:48:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_QRWeb/div_Link")): Object 'Object Repository/Page_QRWeb/div_Link' is clickable
+
+20-05-2024T13:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QRWeb/div_Link' is clickable
+
+20-05-2024T13:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/button_Save page")): Object: 'Object Repository/Page_QRWeb/button_Save page' is clicked on
+
+20-05-2024T13:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/button_Save page' is clicked on
+
+20-05-2024T13:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Open")): Object: 'Object Repository/Page_QRWeb/a_Open' is clicked on
+
+20-05-2024T13:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Open' is clicked on
+
+20-05-2024T13:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Back to profile")): Object: 'Object Repository/Page_QRWeb/a_Back to profile' is clicked on
+
+20-05-2024T13:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Back to profile' is clicked on
+
+20-05-2024T13:48:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_QRWeb/button_Change Password")): Object 'Object Repository/Page_QRWeb/button_Change Password' is clickable
+
+20-05-2024T13:48:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_QRWeb/button_Change Password' is clickable
+
+20-05-2024T13:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/button_Delete")): Object: 'Object Repository/Page_QRWeb/button_Delete' is clicked on
+
+20-05-2024T13:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/button_Delete' is clicked on
+
+20-05-2024T13:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/button_Delete Account")): Object: 'Object Repository/Page_QRWeb/button_Delete Account' is clicked on
+
+20-05-2024T13:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/button_Delete Account' is clicked on
+
+20-05-2024T13:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_QRWeb/a_Sign out")): Object: 'Object Repository/Page_QRWeb/a_Sign out' is clicked on
+
+20-05-2024T13:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_QRWeb/a_Sign out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-05-2024T13:47:46 - [TEST_SUITE][PASSED] - Profile_and_constructor_pages: Test Cases/functional/profile_and_constructor_pages]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

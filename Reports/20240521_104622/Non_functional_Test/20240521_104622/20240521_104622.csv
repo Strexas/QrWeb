@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Non_functional_Test,,,,21-05-2024 10:46:27,21-05-2024 10:46:28,1.351s,FAILED
+,,,,,,,
+Test Cases/non-functional/animation,,,,21-05-2024 10:46:27,21-05-2024 10:46:28,0.668s,FAILED
+"openBrowser("""")",,,,21-05-2024 10:46:27,21-05-2024 10:46:28,0.385s,FAILED
+,,,,,,,
+Test Cases/non-functional/button_login,,,,21-05-2024 10:46:28,21-05-2024 10:46:28,0.180s,FAILED
+"openBrowser("""")",,,,21-05-2024 10:46:28,21-05-2024 10:46:28,0.010s,FAILED
+,,,,,,,
+Test Cases/non-functional/list,,,,21-05-2024 10:46:28,21-05-2024 10:46:28,0.099s,FAILED
+"openBrowser("""")",,,,21-05-2024 10:46:28,21-05-2024 10:46:28,0.009s,FAILED
+,,,,,,,
+Test Cases/non-functional/navbar,,,,21-05-2024 10:46:28,21-05-2024 10:46:28,0.093s,FAILED
+"openBrowser("""")",,,,21-05-2024 10:46:28,21-05-2024 10:46:28,0.009s,FAILED
+,,,,,,,
+Test Cases/non-functional/text_body,,,,21-05-2024 10:46:28,21-05-2024 10:46:28,0.108s,FAILED
+"openBrowser("""")",,,,21-05-2024 10:46:28,21-05-2024 10:46:28,0.007s,FAILED

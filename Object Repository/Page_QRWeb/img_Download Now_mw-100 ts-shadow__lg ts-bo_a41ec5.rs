@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Download Now_mw-100 ts-shadow__lg ts-bo_a41ec5</name>
+   <tag></tag>
+   <elementGuidId>8dc0b7b5-0eed-41a9-aad4-54eaaf952b09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='what-is-qrweb']/div/div[2]/div[2]/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.mw-100.ts-shadow__lg.ts-border-radius__md</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#what-is-qrweb img</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>447dc048-ba31-4273-9b4e-bd06be2b6638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>static/assets/img/constructor.jpg</value>
+      <webElementGuid>81d30bb1-6b3a-49f1-ba21-e102eeb8840d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mw-100 ts-shadow__lg ts-border-radius__md</value>
+      <webElementGuid>89f3f397-a379-4e21-ab11-6f58c93e80dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;what-is-qrweb&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7 col-xl-7 text-center ts-fadeInUp animated&quot;]/div[@class=&quot;px-3&quot;]/img[@class=&quot;mw-100 ts-shadow__lg ts-border-radius__md&quot;]</value>
+      <webElementGuid>7e1e7a30-cfc5-4545-8993-0f71083b1d78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='what-is-qrweb']/div/div[2]/div[2]/div/img</value>
+      <webElementGuid>93365b94-4306-4fa0-a9ed-d55461d49a21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>516eb4d7-5407-4492-a102-0fb98af1b5cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'static/assets/img/constructor.jpg']</value>
+      <webElementGuid>551b7ac2-aa7a-43dc-91f8-7af04c8c35fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

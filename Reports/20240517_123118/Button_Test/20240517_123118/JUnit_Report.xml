@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Button_Test" time="12.153" tests="1" failures="0" errors="0">
+   <testsuite name="Button_Test" tests="1" failures="0" errors="0" time="12.153" skipped="0" timestamp="17-05-2024T12:31:24" hostname="Anna - DESKTOP-3UT53HP" id="Test Suites/Button_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240517_123118\\Button_Test\\20240517_123118"/>
+         <property name="logFiles" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240517_123118\\Button_Test\\20240517_123118\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anna - DESKTOP-3UT53HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 124.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="0c030240ddc56fe92efb657f8fda735c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/non-functional/button_login" time="11.965" classname="Test Cases/non-functional/button_login" status="PASSED">
+         <system-out><![CDATA[17-05-2024T12:31:24 - [TEST_CASE][PASSED] - Test Cases/non-functional/button_login: Test Cases/non-functional/button_login
+
+17-05-2024T12:31:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+17-05-2024T12:31:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+17-05-2024T12:31:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+17-05-2024T12:31:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+17-05-2024T12:31:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+17-05-2024T12:31:27 - [MESSAGE][PASSED] - Current window maximized
+
+17-05-2024T12:31:27 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+17-05-2024T12:31:30 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+17-05-2024T12:31:30 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+17-05-2024T12:31:30 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+17-05-2024T12:31:30 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "font-family"): Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'Poppins, sans-serif'.
+
+17-05-2024T12:31:31 - [MESSAGE][PASSED] - Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'Poppins, sans-serif'.
+
+17-05-2024T12:31:31 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "background-color"): Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+17-05-2024T12:31:31 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+17-05-2024T12:31:31 - [TEST_STEP][PASSED] - height = getElementHeight(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Height of element 'Object Repository/Page_QRWeb/a_Log in' is '33'.
+
+17-05-2024T12:31:31 - [MESSAGE][PASSED] - Height of element 'Object Repository/Page_QRWeb/a_Log in' is '33'.
+
+17-05-2024T12:31:31 - [TEST_STEP][PASSED] - width = getElementWidth(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Width of element 'Object Repository/Page_QRWeb/a_Log in' is '74'
+
+17-05-2024T12:31:32 - [MESSAGE][PASSED] - Width of element 'Object Repository/Page_QRWeb/a_Log in' is '74'
+
+17-05-2024T12:31:32 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+17-05-2024T12:31:32 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+17-05-2024T12:31:32 - [TEST_STEP][PASSED] - buttonElement = findTestObject("Object Repository/Page_QRWeb/a_Log in"): null
+
+17-05-2024T12:31:32 - [TEST_STEP][PASSED] - borderRadius = getCSSValue(buttonElement, "border-radius"): Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+17-05-2024T12:31:32 - [MESSAGE][PASSED] - Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+17-05-2024T12:31:32 - [TEST_STEP][PASSED] - assert borderRadius == "100px": null
+
+17-05-2024T12:31:32 - [TEST_STEP][PASSED] - fontWeight = getCSSValue(buttonElement, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '600'.
+
+17-05-2024T12:31:33 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '600'.
+
+17-05-2024T12:31:33 - [TEST_STEP][PASSED] - assert fontWeight == "600": null
+
+17-05-2024T12:31:33 - [TEST_STEP][PASSED] - fontSizeRem = getCSSValue(buttonElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+17-05-2024T12:31:33 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+17-05-2024T12:31:33 - [TEST_STEP][PASSED] - assert fontSizeRem == "13px": null
+
+17-05-2024T12:31:33 - [TEST_STEP][PASSED] - paddingVertical = getCSSValue(buttonElement, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+17-05-2024T12:31:33 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+17-05-2024T12:31:33 - [TEST_STEP][PASSED] - paddingHorizontal = getCSSValue(buttonElement, "padding-right"): Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+17-05-2024T12:31:33 - [MESSAGE][PASSED] - Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+17-05-2024T12:31:33 - [TEST_STEP][PASSED] - assert paddingVertical == "5px" && paddingHorizontal == "16px": null
+
+17-05-2024T12:31:33 - [TEST_STEP][PASSED] - boxShadow = getCSSValue(buttonElement, "box-shadow"): Get CSS 'box-shadow' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(0, 0, 0, 0.15) 2px 3px 15px 0px'.
+
+17-05-2024T12:31:34 - [MESSAGE][PASSED] - Get CSS 'box-shadow' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(0, 0, 0, 0.15) 2px 3px 15px 0px'.
+
+17-05-2024T12:31:34 - [TEST_STEP][PASSED] - assert boxShadow == "rgba(0, 0, 0, 0.15) 2px 3px 15px 0px": null
+
+17-05-2024T12:31:34 - [TEST_STEP][PASSED] - statusIndicatorHeight = getCSSValue(buttonElement, "height"): Get CSS 'height' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '32.7px'.
+
+17-05-2024T12:31:34 - [MESSAGE][PASSED] - Get CSS 'height' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '32.7px'.
+
+17-05-2024T12:31:34 - [TEST_STEP][PASSED] - statusIndicatorWidth = getCSSValue(buttonElement, "width"): Get CSS 'width' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '73.5875px'.
+
+17-05-2024T12:31:34 - [MESSAGE][PASSED] - Get CSS 'width' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '73.5875px'.
+
+17-05-2024T12:31:34 - [TEST_STEP][PASSED] - assert statusIndicatorHeight == "32.7px" && statusIndicatorWidth == "73.5875px": null
+
+17-05-2024T12:31:34 - [TEST_STEP][PASSED] - statusIconBorderRadius = getCSSValue(buttonElement, "border-radius"): Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+17-05-2024T12:31:34 - [MESSAGE][PASSED] - Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+17-05-2024T12:31:34 - [TEST_STEP][PASSED] - statusIconFontSize = getCSSValue(buttonElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+17-05-2024T12:31:35 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+17-05-2024T12:31:35 - [TEST_STEP][PASSED] - statusIconPaddingVertical = getCSSValue(buttonElement, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+17-05-2024T12:31:35 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+17-05-2024T12:31:35 - [TEST_STEP][PASSED] - statusIconPaddingHorizontal = getCSSValue(buttonElement, "padding-right"): Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+17-05-2024T12:31:35 - [MESSAGE][PASSED] - Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+17-05-2024T12:31:35 - [TEST_STEP][PASSED] - assert statusIconBorderRadius == "100px" && statusIconFontSize == "13px" && statusIconPaddingVertical == "5px" && statusIconPaddingHorizontal == "16px": null
+
+17-05-2024T12:31:35 - [TEST_STEP][PASSED] - backgroundColor = getCSSValue(buttonElement, "background-color"): Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+17-05-2024T12:31:36 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+17-05-2024T12:31:36 - [TEST_STEP][PASSED] - borderColor = getCSSValue(buttonElement, "border-color"): Get CSS 'border-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgb(56, 131, 200)'.
+
+17-05-2024T12:31:36 - [MESSAGE][PASSED] - Get CSS 'border-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgb(56, 131, 200)'.
+
+17-05-2024T12:31:36 - [TEST_STEP][PASSED] - textColor = getCSSValue(buttonElement, "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+17-05-2024T12:31:36 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+17-05-2024T12:31:36 - [TEST_STEP][PASSED] - assert backgroundColor == "rgba(56, 131, 200, 1)" && borderColor == "rgb(56, 131, 200)" && textColor == "rgba(255, 255, 255, 1)": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-05-2024T12:31:24 - [TEST_SUITE][PASSED] - Button_Test: Test Cases/non-functional/button_login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

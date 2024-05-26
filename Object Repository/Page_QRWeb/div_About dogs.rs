@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_About dogs</name>
+   <tag></tag>
+   <elementGuidId>bb11fe22-dcde-4505-ba5b-bdcf7c85602b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='id_content_editorjs_holder']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.codex-editor__redactor</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^About dogs$/ >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1f431c91-100c-4d8e-b01c-1788dd67f554</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>codex-editor__redactor</value>
+      <webElementGuid>20ec72f0-ede9-4cd1-9dd2-4e6f1cb039ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>About dogs</value>
+      <webElementGuid>c4a2f1fe-b15b-4d9c-af84-c5aa6d37c0be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]</value>
+      <webElementGuid>4dfae633-801d-4bd5-b053-c4e19c0d2111</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='id_content_editorjs_holder']/div/div</value>
+      <webElementGuid>fb8ab52c-9c52-4db0-ba79-872127fcbdd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='null'])[1]/following::div[3]</value>
+      <webElementGuid>efe78fc8-e956-4ba6-b773-b7289f17b9a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign out'])[1]/following::div[7]</value>
+      <webElementGuid>baf215f4-5905-44bf-ad88-8bb333634a92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nothing found'])[1]/preceding::div[10]</value>
+      <webElementGuid>0a327bdc-1d2e-42db-ac45-9985947cb516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>0a37817f-c74d-4c8d-820b-10a240747d94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'About dogs' or . = 'About dogs')]</value>
+      <webElementGuid>9e23dadc-4e17-477b-a6da-4bef33caf304</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Add row above</name>
+   <tag></tag>
+   <elementGuidId>e4c76ab3-9222-4047-a2c1-39d36bfb0d22</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.tc-popover__item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='id_content_editorjs_holder']/div/div/div/div/div/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5529bf3a-58bf-434e-86c7-27fcaf022ef9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tc-popover__item</value>
+      <webElementGuid>071fece2-7700-4ffa-a3fb-69c3d4c051d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>7330c831-3733-47fe-9efe-09b8598d403a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add row above</value>
+      <webElementGuid>54578e92-d810-43b0-bf0f-d0f2275a3ff6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]/div[@class=&quot;ce-block ce-block--focused&quot;]/div[@class=&quot;ce-block__content&quot;]/div[@class=&quot;cdx-block&quot;]/div[@class=&quot;tc-wrap&quot;]/div[@class=&quot;tc-toolbox tc-toolbox--row tc-toolbox--showed&quot;]/div[@class=&quot;tc-popover tc-popover--opened&quot;]/div[@class=&quot;tc-popover__item&quot;]</value>
+      <webElementGuid>703da9ea-6480-4fd9-9e29-d39dcf7dde52</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='id_content_editorjs_holder']/div/div/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>da77f1bb-4e72-474f-8a34-cbd92a3f8113</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='null'])[1]/following::div[11]</value>
+      <webElementGuid>735cae9c-981a-452a-827d-d7f925ae8845</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add row below'])[1]/preceding::div[4]</value>
+      <webElementGuid>37d7dd1d-e0b2-44a5-b9b5-db664ea230df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>5f13ffa4-bb98-46f4-9f14-cf88638dda93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Add row above' or . = 'Add row above')]</value>
+      <webElementGuid>9c6571df-136c-4d8f-862b-db43285c07d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

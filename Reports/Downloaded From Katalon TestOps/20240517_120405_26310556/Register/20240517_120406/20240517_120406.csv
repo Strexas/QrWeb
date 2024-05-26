@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Chrome 124.0.0.0,,,17-05-2024 12:04:12,17-05-2024 12:05:20,1m - 7.673s,PASSED
+,,,,,,,
+Test Cases/functional/register,Chrome 124.0.0.0,,,17-05-2024 12:04:13,17-05-2024 12:05:20,1m - 7.491s,PASSED
+"openBrowser("""")",Chrome 124.0.0.0,,,17-05-2024 12:04:13,17-05-2024 12:04:17,4.148s,PASSED
+maximizeWindow(),Chrome 124.0.0.0,,,17-05-2024 12:04:17,17-05-2024 12:04:17,0.161s,PASSED
+"navigateToUrl(""https://qr-web-h1fi.onrender.com/"")",Chrome 124.0.0.0,,,17-05-2024 12:04:17,17-05-2024 12:05:12,54.403s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Log in""))",Chrome 124.0.0.0,,,17-05-2024 12:05:12,17-05-2024 12:05:13,1.268s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/a_Register""))",Chrome 124.0.0.0,,,17-05-2024 12:05:13,17-05-2024 12:05:13,0.595s,PASSED
+"setText(findTestObject(""Object Repository/Page_QRWeb/input__username""), ""user7"")",Chrome 124.0.0.0,,,17-05-2024 12:05:13,17-05-2024 12:05:14,0.634s,PASSED
+"setText(findTestObject(""Object Repository/Page_QRWeb/input__email""), ""user@gmail.com"")",Chrome 124.0.0.0,,,17-05-2024 12:05:14,17-05-2024 12:05:15,0.635s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QRWeb/input__password1""), ""RigbBhfdqOALcqUsFYWzlQ=="")",Chrome 124.0.0.0,,,17-05-2024 12:05:15,17-05-2024 12:05:15,0.386s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_QRWeb/input__password2""), ""RigbBhfdqOALcqUsFYWzlQ=="")",Chrome 124.0.0.0,,,17-05-2024 12:05:15,17-05-2024 12:05:15,0.348s,PASSED
+"click(findTestObject(""Object Repository/Page_QRWeb/button_Create account""))",Chrome 124.0.0.0,,,17-05-2024 12:05:15,17-05-2024 12:05:20,4.682s,PASSED

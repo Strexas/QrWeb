@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Sign Up Now</name>
+   <tag></tag>
+   <elementGuidId>fa0eeefd-b33e-4609-982e-f71ef8e633e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.mb-4.ts-scroll</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='what-is-qrweb']/div/div[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>540a3daf-f5db-44b0-8368-555ff539b861</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/register/</value>
+      <webElementGuid>3e8e80a3-4274-4ae6-adef-2b7d9897b9b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary mb-4 ts-scroll</value>
+      <webElementGuid>764c29dd-cc30-41f2-bade-7f1930c4c788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign Up Now!</value>
+      <webElementGuid>4a057a09-9754-49b1-bd3f-92a3affdb7be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;what-is-qrweb&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5 col-xl-5 ts-fadeInUp animated&quot;]/a[@class=&quot;btn btn-primary mb-4 ts-scroll&quot;]</value>
+      <webElementGuid>52db32c1-bf27-4c33-a1a8-a9727918fec7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='what-is-qrweb']/div/div[2]/div/a</value>
+      <webElementGuid>657b5178-7033-4fa0-b59c-986e4eb11a90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sign Up Now!')]</value>
+      <webElementGuid>2f195df7-e7df-459e-887d-d8feec69e5d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What Is QRWeb?'])[1]/following::a[1]</value>
+      <webElementGuid>f5e9d668-6ccf-4d69-aeaf-88dca7e8dc61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share It'])[1]/following::a[1]</value>
+      <webElementGuid>01e904cd-6cdd-4683-b60d-ccef8ff69f84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Features'])[1]/preceding::a[1]</value>
+      <webElementGuid>4f45c284-6ee2-4af3-bf6b-341bef76e0bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simple To Use'])[1]/preceding::a[1]</value>
+      <webElementGuid>b5af3105-499f-4df5-a8ee-edacae256fa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sign Up Now!']/parent::*</value>
+      <webElementGuid>ec418986-2f6b-48c7-8935-474c1c8b8fa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/register/')]</value>
+      <webElementGuid>567f0d5b-fec3-4818-8bbb-60bb7125d877</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>aba52f56-a97b-41f1-a156-16d52b057ed3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/register/' and (text() = 'Sign Up Now!' or . = 'Sign Up Now!')]</value>
+      <webElementGuid>51fdd8a9-4b9b-4d4d-a5da-f8c92289bcb8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

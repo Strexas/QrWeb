@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Non_functional_Test" time="42.134" tests="5" failures="3" errors="0">
+   <testsuite name="Non_functional_Test" tests="5" failures="3" errors="0" time="42.134" skipped="0" timestamp="24-05-2024T10:48:01" hostname="Anna - DESKTOP-3UT53HP" id="Test Suites/Non_functional_Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240524_104756\\Non_functional_Test\\20240524_104756"/>
+         <property name="logFiles" value="C:\\Users\\Anna\\git\\QrWeb\\Reports\\20240524_104756\\Non_functional_Test\\20240524_104756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Anna - DESKTOP-3UT53HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 125"/>
+         <property name="hostAddress" value="192.168.8.116"/>
+         <property name="sessionId" value="27d36b934e25958b9d37a11664afb935"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/non-functional/animation" time="9.089" classname="Test Cases/non-functional/animation" status="PASSED">
+         <system-out><![CDATA[24-05-2024T10:48:01 - [TEST_CASE][PASSED] - Test Cases/non-functional/animation: Test Cases/non-functional/animation
+
+24-05-2024T10:48:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-05-2024T10:48:02 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+24-05-2024T10:48:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-05-2024T10:48:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-05-2024T10:48:03 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:09 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:09 - [TEST_STEP][PASSED] - animatedElement = findTestObject("Object Repository/Page_QRWeb/div_Anna                                   _6c39b4"): null
+
+24-05-2024T10:48:10 - [TEST_STEP][PASSED] - opacity = getCSSValue(animatedElement, "opacity"): Get CSS 'opacity' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: '1'.
+
+24-05-2024T10:48:10 - [MESSAGE][PASSED] - Get CSS 'opacity' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: '1'.
+
+24-05-2024T10:48:10 - [TEST_STEP][PASSED] - assert opacity == "1": null
+
+24-05-2024T10:48:10 - [TEST_STEP][PASSED] - animationFillMode = getCSSValue(animatedElement, "animation-fill-mode"): Get CSS 'animation-fill-mode' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: 'none'.
+
+24-05-2024T10:48:10 - [MESSAGE][PASSED] - Get CSS 'animation-fill-mode' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: 'none'.
+
+24-05-2024T10:48:10 - [TEST_STEP][PASSED] - assert animationFillMode == "none": null
+
+24-05-2024T10:48:10 - [TEST_STEP][PASSED] - animationDuration = getCSSValue(animatedElement, "animation-duration"): Get CSS 'animation-duration' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: '0s'.
+
+24-05-2024T10:48:10 - [MESSAGE][PASSED] - Get CSS 'animation-duration' value on 'Object Repository/Page_QRWeb/div_Anna                                   _6c39b4' successfully: '0s'.
+
+24-05-2024T10:48:10 - [TEST_STEP][PASSED] - assert animationDuration == "0s": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/non-functional/button_login" time="12.023" classname="Test Cases/non-functional/button_login" status="PASSED">
+         <system-out><![CDATA[24-05-2024T10:48:10 - [TEST_CASE][PASSED] - Test Cases/non-functional/button_login: Test Cases/non-functional/button_login
+
+24-05-2024T10:48:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-05-2024T10:48:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-05-2024T10:48:11 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+24-05-2024T10:48:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-05-2024T10:48:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-05-2024T10:48:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-05-2024T10:48:12 - [MESSAGE][PASSED] - Current window maximized
+
+24-05-2024T10:48:12 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:17 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:17 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+24-05-2024T10:48:17 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+24-05-2024T10:48:17 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "font-family"): Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'Poppins, sans-serif'.
+
+24-05-2024T10:48:17 - [MESSAGE][PASSED] - Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'Poppins, sans-serif'.
+
+24-05-2024T10:48:17 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "background-color"): Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+24-05-2024T10:48:17 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+24-05-2024T10:48:17 - [TEST_STEP][PASSED] - height = getElementHeight(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Height of element 'Object Repository/Page_QRWeb/a_Log in' is '33'.
+
+24-05-2024T10:48:18 - [MESSAGE][PASSED] - Height of element 'Object Repository/Page_QRWeb/a_Log in' is '33'.
+
+24-05-2024T10:48:18 - [TEST_STEP][PASSED] - width = getElementWidth(findTestObject("Object Repository/Page_QRWeb/a_Log in")): Width of element 'Object Repository/Page_QRWeb/a_Log in' is '74'
+
+24-05-2024T10:48:18 - [MESSAGE][PASSED] - Width of element 'Object Repository/Page_QRWeb/a_Log in' is '74'
+
+24-05-2024T10:48:18 - [TEST_STEP][PASSED] - getCSSValue(findTestObject("Object Repository/Page_QRWeb/a_Log in"), "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+24-05-2024T10:48:18 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+24-05-2024T10:48:18 - [TEST_STEP][PASSED] - buttonElement = findTestObject("Object Repository/Page_QRWeb/a_Log in"): null
+
+24-05-2024T10:48:18 - [TEST_STEP][PASSED] - borderRadius = getCSSValue(buttonElement, "border-radius"): Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+24-05-2024T10:48:19 - [MESSAGE][PASSED] - Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+24-05-2024T10:48:19 - [TEST_STEP][PASSED] - assert borderRadius == "100px": null
+
+24-05-2024T10:48:19 - [TEST_STEP][PASSED] - fontWeight = getCSSValue(buttonElement, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '600'.
+
+24-05-2024T10:48:19 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '600'.
+
+24-05-2024T10:48:19 - [TEST_STEP][PASSED] - assert fontWeight == "600": null
+
+24-05-2024T10:48:19 - [TEST_STEP][PASSED] - fontSizeRem = getCSSValue(buttonElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+24-05-2024T10:48:19 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+24-05-2024T10:48:19 - [TEST_STEP][PASSED] - assert fontSizeRem == "13px": null
+
+24-05-2024T10:48:19 - [TEST_STEP][PASSED] - paddingVertical = getCSSValue(buttonElement, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+24-05-2024T10:48:19 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+24-05-2024T10:48:19 - [TEST_STEP][PASSED] - paddingHorizontal = getCSSValue(buttonElement, "padding-right"): Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+24-05-2024T10:48:20 - [MESSAGE][PASSED] - Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+24-05-2024T10:48:20 - [TEST_STEP][PASSED] - assert paddingVertical == "5px" && paddingHorizontal == "16px": null
+
+24-05-2024T10:48:20 - [TEST_STEP][PASSED] - boxShadow = getCSSValue(buttonElement, "box-shadow"): Get CSS 'box-shadow' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(0, 0, 0, 0.15) 2px 3px 15px 0px'.
+
+24-05-2024T10:48:20 - [MESSAGE][PASSED] - Get CSS 'box-shadow' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(0, 0, 0, 0.15) 2px 3px 15px 0px'.
+
+24-05-2024T10:48:20 - [TEST_STEP][PASSED] - assert boxShadow == "rgba(0, 0, 0, 0.15) 2px 3px 15px 0px": null
+
+24-05-2024T10:48:20 - [TEST_STEP][PASSED] - statusIndicatorHeight = getCSSValue(buttonElement, "height"): Get CSS 'height' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '32.7px'.
+
+24-05-2024T10:48:20 - [MESSAGE][PASSED] - Get CSS 'height' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '32.7px'.
+
+24-05-2024T10:48:20 - [TEST_STEP][PASSED] - statusIndicatorWidth = getCSSValue(buttonElement, "width"): Get CSS 'width' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '73.5875px'.
+
+24-05-2024T10:48:21 - [MESSAGE][PASSED] - Get CSS 'width' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '73.5875px'.
+
+24-05-2024T10:48:21 - [TEST_STEP][PASSED] - assert statusIndicatorHeight == "32.7px" && statusIndicatorWidth == "73.5875px": null
+
+24-05-2024T10:48:21 - [TEST_STEP][PASSED] - statusIconBorderRadius = getCSSValue(buttonElement, "border-radius"): Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+24-05-2024T10:48:21 - [MESSAGE][PASSED] - Get CSS 'border-radius' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '100px'.
+
+24-05-2024T10:48:21 - [TEST_STEP][PASSED] - statusIconFontSize = getCSSValue(buttonElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+24-05-2024T10:48:21 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '13px'.
+
+24-05-2024T10:48:21 - [TEST_STEP][PASSED] - statusIconPaddingVertical = getCSSValue(buttonElement, "padding-top"): Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+24-05-2024T10:48:21 - [MESSAGE][PASSED] - Get CSS 'padding-top' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '5px'.
+
+24-05-2024T10:48:21 - [TEST_STEP][PASSED] - statusIconPaddingHorizontal = getCSSValue(buttonElement, "padding-right"): Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+24-05-2024T10:48:22 - [MESSAGE][PASSED] - Get CSS 'padding-right' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: '16px'.
+
+24-05-2024T10:48:22 - [TEST_STEP][PASSED] - assert statusIconBorderRadius == "100px" && statusIconFontSize == "13px" && statusIconPaddingVertical == "5px" && statusIconPaddingHorizontal == "16px": null
+
+24-05-2024T10:48:22 - [TEST_STEP][PASSED] - backgroundColor = getCSSValue(buttonElement, "background-color"): Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+24-05-2024T10:48:22 - [MESSAGE][PASSED] - Get CSS 'background-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(56, 131, 200, 1)'.
+
+24-05-2024T10:48:22 - [TEST_STEP][PASSED] - borderColor = getCSSValue(buttonElement, "border-color"): Get CSS 'border-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgb(56, 131, 200)'.
+
+24-05-2024T10:48:22 - [MESSAGE][PASSED] - Get CSS 'border-color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgb(56, 131, 200)'.
+
+24-05-2024T10:48:22 - [TEST_STEP][PASSED] - textColor = getCSSValue(buttonElement, "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+24-05-2024T10:48:22 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/a_Log in' successfully: 'rgba(255, 255, 255, 1)'.
+
+24-05-2024T10:48:22 - [TEST_STEP][PASSED] - assert backgroundColor == "rgba(56, 131, 200, 1)" && borderColor == "rgb(56, 131, 200)" && textColor == "rgba(255, 255, 255, 1)": null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/non-functional/list" time="6.638" classname="Test Cases/non-functional/list" status="FAILED">
+         <failure type="FAILED" message="Test Cases/non-functional/list FAILED.&#xa;Reason:&#xa;Assertion failed: &#xa;&#xa;assert lineHeight == '25.65px'&#xa;       |          |&#xa;       '24.3px'   false&#xa;&#xa;	at list.run(list:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[24-05-2024T10:48:22 - [TEST_CASE][FAILED] - Test Cases/non-functional/list: Test Cases/non-functional/list FAILED.
+Reason:
+Assertion failed: 
+
+assert lineHeight == '25.65px'
+       |          |
+       '24.3px'   false
+
+	at list.run(list:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-05-2024T10:48:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-05-2024T10:48:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-05-2024T10:48:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+24-05-2024T10:48:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-05-2024T10:48:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-05-2024T10:48:23 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:29 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:29 - [TEST_STEP][PASSED] - paragraphElement = findTestObject("Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a"): null
+
+24-05-2024T10:48:29 - [TEST_STEP][PASSED] - lineHeight = getCSSValue(paragraphElement, "line-height"): Get CSS 'line-height' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '24.3px'.
+
+24-05-2024T10:48:29 - [MESSAGE][PASSED] - Get CSS 'line-height' value on 'Object Repository/Page_QRWeb/p_Experience effortless website creation wi_b8022a' successfully: '24.3px'.
+
+24-05-2024T10:48:29 - [TEST_STEP][FAILED] - assert lineHeight == "25.65px": Test Cases/non-functional/list FAILED.
+Reason:
+Assertion failed: 
+
+assert lineHeight == '25.65px'
+       |          |
+       '24.3px'   false
+
+	at list.run(list:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-05-2024T10:48:29 - [MESSAGE][FAILED] - Test Cases/non-functional/list FAILED.
+Reason:
+Assertion failed: 
+
+assert lineHeight == '25.65px'
+       |          |
+       '24.3px'   false
+
+	at list.run(list:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[24-05-2024T10:48:22 - [TEST_CASE][FAILED] - Test Cases/non-functional/list: Test Cases/non-functional/list FAILED.
+Reason:
+Assertion failed: 
+
+assert lineHeight == '25.65px'
+       |          |
+       '24.3px'   false
+
+	at list.run(list:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/non-functional/navbar" time="7.202" classname="Test Cases/non-functional/navbar" status="FAILED">
+         <failure type="FAILED" message="Test Cases/non-functional/navbar FAILED.&#xa;Reason:&#xa;Assertion failed: &#xa;&#xa;assert fontSize == '13.3px' &amp;&amp; fontWeight == '500'&#xa;       |        |           |&#xa;       '12.6px' false       false&#xa;&#xa;	at navbar.run(navbar:30)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[24-05-2024T10:48:29 - [TEST_CASE][FAILED] - Test Cases/non-functional/navbar: Test Cases/non-functional/navbar FAILED.
+Reason:
+Assertion failed: 
+
+assert fontSize == '13.3px' && fontWeight == '500'
+       |        |           |
+       '12.6px' false       false
+
+	at navbar.run(navbar:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-05-2024T10:48:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-05-2024T10:48:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-05-2024T10:48:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+24-05-2024T10:48:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-05-2024T10:48:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-05-2024T10:48:30 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:36 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:36 - [TEST_STEP][PASSED] - navbarElement = findTestObject("Object Repository/Page_QRWeb/a_About"): null
+
+24-05-2024T10:48:36 - [TEST_STEP][PASSED] - fontSize = getCSSValue(navbarElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_About' successfully: '12.6px'.
+
+24-05-2024T10:48:36 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/a_About' successfully: '12.6px'.
+
+24-05-2024T10:48:36 - [TEST_STEP][PASSED] - fontWeight = getCSSValue(navbarElement, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_About' successfully: '500'.
+
+24-05-2024T10:48:36 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/a_About' successfully: '500'.
+
+24-05-2024T10:48:36 - [TEST_STEP][FAILED] - assert fontSize == "13.3px" && fontWeight == "500": Test Cases/non-functional/navbar FAILED.
+Reason:
+Assertion failed: 
+
+assert fontSize == '13.3px' && fontWeight == '500'
+       |        |           |
+       '12.6px' false       false
+
+	at navbar.run(navbar:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-05-2024T10:48:36 - [MESSAGE][FAILED] - Test Cases/non-functional/navbar FAILED.
+Reason:
+Assertion failed: 
+
+assert fontSize == '13.3px' && fontWeight == '500'
+       |        |           |
+       '12.6px' false       false
+
+	at navbar.run(navbar:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[24-05-2024T10:48:29 - [TEST_CASE][FAILED] - Test Cases/non-functional/navbar: Test Cases/non-functional/navbar FAILED.
+Reason:
+Assertion failed: 
+
+assert fontSize == '13.3px' && fontWeight == '500'
+       |        |           |
+       '12.6px' false       false
+
+	at navbar.run(navbar:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/non-functional/text_body" time="6.966" classname="Test Cases/non-functional/text_body" status="FAILED">
+         <failure type="FAILED" message="Test Cases/non-functional/text_body FAILED.&#xa;Reason:&#xa;Assertion failed: &#xa;&#xa;assert actualFontSizeRem == expectedFontSizeRem&#xa;       |                 |  |&#xa;       0.84375           |  0.890625&#xa;                         false&#xa;&#xa;	at text_body.run(text_body:46)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[24-05-2024T10:48:36 - [TEST_CASE][FAILED] - Test Cases/non-functional/text_body: Test Cases/non-functional/text_body FAILED.
+Reason:
+Assertion failed: 
+
+assert actualFontSizeRem == expectedFontSizeRem
+       |                 |  |
+       0.84375           |  0.890625
+                         false
+
+	at text_body.run(text_body:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-05-2024T10:48:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-05-2024T10:48:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-05-2024T10:48:37 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+24-05-2024T10:48:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-05-2024T10:48:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-05-2024T10:48:37 - [TEST_STEP][PASSED] - navigateToUrl("https://qr-web-h1fi.onrender.com/"): Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:42 - [MESSAGE][PASSED] - Navigate to 'https://qr-web-h1fi.onrender.com/' successfully
+
+24-05-2024T10:48:42 - [TEST_STEP][PASSED] - bodyElement = findTestObject("Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d"): null
+
+24-05-2024T10:48:42 - [TEST_STEP][PASSED] - getCSSValue(bodyElement, "color"): Get CSS 'color' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: 'rgba(0, 0, 0, 0.5)'.
+
+24-05-2024T10:48:42 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: 'rgba(0, 0, 0, 0.5)'.
+
+24-05-2024T10:48:42 - [TEST_STEP][PASSED] - fontFamily = getCSSValue(bodyElement, "font-family"): Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: 'Poppins, sans-serif'.
+
+24-05-2024T10:48:43 - [MESSAGE][PASSED] - Get CSS 'font-family' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: 'Poppins, sans-serif'.
+
+24-05-2024T10:48:43 - [TEST_STEP][PASSED] - assert fontFamily.contains("Poppins") || fontFamily.contains("sans-serif"): null
+
+24-05-2024T10:48:43 - [TEST_STEP][PASSED] - fontWeight = getCSSValue(bodyElement, "font-weight"): Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: '400'.
+
+24-05-2024T10:48:43 - [MESSAGE][PASSED] - Get CSS 'font-weight' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: '400'.
+
+24-05-2024T10:48:43 - [TEST_STEP][PASSED] - assert fontWeight == "400": null
+
+24-05-2024T10:48:43 - [TEST_STEP][PASSED] - expectedFontSizeRem = 14.25 / 16: null
+
+24-05-2024T10:48:43 - [TEST_STEP][PASSED] - fontSize = getCSSValue(bodyElement, "font-size"): Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: '13.5px'.
+
+24-05-2024T10:48:43 - [MESSAGE][PASSED] - Get CSS 'font-size' value on 'Object Repository/Page_QRWeb/p_QRWeb offers a hassle-free solution for w_42d83d' successfully: '13.5px'.
+
+24-05-2024T10:48:43 - [TEST_STEP][PASSED] - actualFontSizeRem = replace("px", "").toBigDecimal() / 16: null
+
+24-05-2024T10:48:43 - [TEST_STEP][FAILED] - assert actualFontSizeRem == expectedFontSizeRem: Test Cases/non-functional/text_body FAILED.
+Reason:
+Assertion failed: 
+
+assert actualFontSizeRem == expectedFontSizeRem
+       |                 |  |
+       0.84375           |  0.890625
+                         false
+
+	at text_body.run(text_body:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+24-05-2024T10:48:43 - [MESSAGE][FAILED] - Test Cases/non-functional/text_body FAILED.
+Reason:
+Assertion failed: 
+
+assert actualFontSizeRem == expectedFontSizeRem
+       |                 |  |
+       0.84375           |  0.890625
+                         false
+
+	at text_body.run(text_body:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[24-05-2024T10:48:36 - [TEST_CASE][FAILED] - Test Cases/non-functional/text_body: Test Cases/non-functional/text_body FAILED.
+Reason:
+Assertion failed: 
+
+assert actualFontSizeRem == expectedFontSizeRem
+       |                 |  |
+       0.84375           |  0.890625
+                         false
+
+	at text_body.run(text_body:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-05-2024T10:48:01 - [TEST_SUITE][FAILED] - Non_functional_Test: Test Cases/non-functional/list FAILED.
+Reason:
+Assertion failed: 
+
+assert lineHeight == '25.65px'
+       |          |
+       '24.3px'   false
+
+	at list.run(list:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[24-05-2024T10:48:01 - [TEST_SUITE][FAILED] - Non_functional_Test: Test Cases/non-functional/list FAILED.
+Reason:
+Assertion failed: 
+
+assert lineHeight == '25.65px'
+       |          |
+       '24.3px'   false
+
+	at list.run(list:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1716536876194.run(TempTestSuite1716536876194.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

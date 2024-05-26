@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>2e991bba-9aa3-4e0b-be8b-30baa334b7b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.tc-popover__item.tc-popover__item--confirm > div.tc-popover__item-icon > svg > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.tc-add-column > svg > path</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>01d32712-9e5d-41f6-8177-66bb28458e01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>d94e27a2-5caa-43c2-a3f7-7345ec910cd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linecap</name>
+      <type>Main</type>
+      <value>round</value>
+      <webElementGuid>ba93a275-056c-4e2c-93b0-d0574b4ee8da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-width</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>f4731d2a-f662-4299-9da0-d61d2dabd147</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M8 8L12 12M12 12L16 16M12 12L16 8M12 12L8 16</value>
+      <webElementGuid>bc7d364f-b54c-456e-ae69-f75bab80e199</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;id_content_editorjs_holder&quot;)/div[@class=&quot;codex-editor&quot;]/div[@class=&quot;codex-editor__redactor&quot;]/div[@class=&quot;ce-block ce-block--focused&quot;]/div[@class=&quot;ce-block__content&quot;]/div[@class=&quot;cdx-block&quot;]/div[@class=&quot;tc-wrap&quot;]/div[@class=&quot;tc-toolbox tc-toolbox--row tc-toolbox--showed&quot;]/div[@class=&quot;tc-popover tc-popover--opened&quot;]/div[@class=&quot;tc-popover__item tc-popover__item--confirm&quot;]/div[@class=&quot;tc-popover__item-icon&quot;]/svg[1]/path[1]</value>
+      <webElementGuid>ca580308-4840-40fd-88a5-963cc1083f17</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
