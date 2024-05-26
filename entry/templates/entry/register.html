@@ -3,25 +3,29 @@
 {% load crispy_forms_filters %}
 {% block content %}
 
-<div class="container bg-light shadow-md p-5 form-layout" >
-    <h3>Create your account</h3>
-    <hr>
-    <div>
-        <form method = "POST" autocomplete="off" >
-            {% csrf_token %}<!--prevents any csrf attacks-->
-            {{form|crispy}}<!-- allow form to look a little bit cleaner-->
-            <br>
-            <button type="submit" class="btn btn-primary w-100 btn-block p-2">Create account</button>
-        </form>
-    </div>
+<section class="ts-block ts-separate-bg-element"  style="background-image: linear-gradient(to bottom, #81b5e5, #f0f5fa)" >
 
-    <div class="text-center">
-        <br>
-        <a href="{% url "social:begin" "google-oauth2" %}" class="icon">
-            <i class="fa-brands fa-google-plus-g"></i>
-        </a>
-        <p>Already have an account?</p><a href="{% url 'login'%}">Login</a>
-    </div>
+        <div class="container bg-light shadow-md p-5 form-layout" >
+            <h3>Create your account</h3>
+            <hr>
+            <div>
+                <form method = "POST" autocomplete="off" >
+                    {% csrf_token %}<!--prevents any csrf attacks-->
+                    {{form|crispy}}<!-- allow form to look a little bit cleaner-->
+                    <br>
+                    <button type="submit" class="btn btn-primary w-100 btn-block p-2">Create account</button>
+                </form>
+            </div>
 
-</div>
+            <div class="text-center">
+                <br>
+                <a href="{% url "social:begin" "google-oauth2" %}" class="icon">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+                <p>Already have an account?</p><a href="{% url 'login'%}">Login</a>
+            </div>
+
+        </div>
+
+</section>
 {% endblock %}
