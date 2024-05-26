@@ -6,11 +6,12 @@
    <elementGuidId>c49ea1db-12e5-4efc-8e4e-6c47fb0c8453</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarNavAltMarkup']/div/a[2]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='navbarNavAltMarkup']/div/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>37ed5bde-df55-4426-b00f-29ca99f4f7cf</webElementGuid>
+      <webElementGuid>9eeb4d45-33f3-4599-a4b5-634e287b874b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-link ts-scroll</value>
-      <webElementGuid>1e0e3628-77e6-4346-b5fb-2d19e87ca544</webElementGuid>
+      <webElementGuid>a6712dc5-60ee-4a9a-b2ee-3f04a7603c73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#what-is-qrweb</value>
-      <webElementGuid>5992fc11-582d-4981-ac55-fef8da8e1b06</webElementGuid>
+      <webElementGuid>3633724e-5d57-4bad-b1c2-fef90199fe68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>About</value>
-      <webElementGuid>5d22dd2e-96a5-41dc-9536-be8261cd3b8c</webElementGuid>
+      <webElementGuid>bfabc339-6a70-4906-b054-76a7064c4d6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarNavAltMarkup&quot;)/div[@class=&quot;navbar-nav ml-auto&quot;]/a[@class=&quot;nav-item nav-link ts-scroll&quot;]</value>
-      <webElementGuid>eff65156-d82e-40bd-9f67-a34c6a4fd55b</webElementGuid>
+      <webElementGuid>6d967170-6a2b-4fe1-bdb4-527da527ec1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarNavAltMarkup']/div/a[2]</value>
-      <webElementGuid>6889a5eb-f93d-41ce-a3be-4049efa53465</webElementGuid>
+      <webElementGuid>a87592e2-dbd6-4ea7-8925-f5f2c1c96985</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'About')]</value>
-      <webElementGuid>0d358cea-3c32-488b-b5e6-fe3b0cd60689</webElementGuid>
+      <webElementGuid>557b3e12-0de9-4a80-93ea-f8345f6e8396</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[1]</value>
-      <webElementGuid>ff4fda56-ffa1-462a-b8ef-ba95c970944d</webElementGuid>
+      <webElementGuid>5ef8a9fe-92af-41c9-9ae9-938ca5e9e4f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pricing'])[1]/preceding::a[1]</value>
-      <webElementGuid>90f784b6-0173-4847-a0f7-5b661a8e9492</webElementGuid>
+      <webElementGuid>7598b3bc-d958-4f67-ac8b-fe839130e3ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/preceding::a[2]</value>
-      <webElementGuid>5ebb5458-b15a-48f3-9188-78992cd1bfd1</webElementGuid>
+      <webElementGuid>d67fd000-a972-45fa-a06b-693eb30065d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='About']/parent::*</value>
-      <webElementGuid>6e8e496c-a39d-4854-ab66-f1ffe7b2159d</webElementGuid>
+      <webElementGuid>aa7c4e42-5a99-4a2d-9e23-a05e06b0be8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#what-is-qrweb')]</value>
-      <webElementGuid>ec981a15-cbb5-408a-8151-641193902d3d</webElementGuid>
+      <webElementGuid>6d8f4335-6e1b-4368-bd05-cae8d560a7c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a[2]</value>
-      <webElementGuid>dd150ba3-0ad2-43d8-846a-1bbe1818d733</webElementGuid>
+      <webElementGuid>d2e4accb-3b00-4747-b85c-0e64163bf3c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +133,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#what-is-qrweb' and (text() = 'About' or . = 'About')]</value>
-      <webElementGuid>e4f7bb15-e95f-4a21-87e6-47e7fffdf684</webElementGuid>
+      <webElementGuid>b3eda9dd-afd1-49b3-853d-20dc7670a145</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +141,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>9b5ce388-4b76-4df1-b235-5e20034d26cb</webElementGuid>
+      <webElementGuid>34fbae07-487d-47ba-82de-db3260e7c31a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

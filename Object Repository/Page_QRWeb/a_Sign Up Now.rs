@@ -6,12 +6,12 @@
    <elementGuidId>fa0eeefd-b33e-4609-982e-f71ef8e633e0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='what-is-qrweb']/div/div[2]/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.btn-primary.mb-4.ts-scroll</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='what-is-qrweb']/div/div[2]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>67f23ee1-183c-44d9-984f-50f8f1caf79d</webElementGuid>
+      <webElementGuid>540a3daf-f5db-44b0-8368-555ff539b861</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/register/</value>
-      <webElementGuid>21f7c90b-a96e-49e1-8b63-150ff93d3f2a</webElementGuid>
+      <webElementGuid>3e8e80a3-4274-4ae6-adef-2b7d9897b9b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary mb-4 ts-scroll</value>
-      <webElementGuid>8e375bcf-014d-470d-bec9-81e0a4273933</webElementGuid>
+      <webElementGuid>764c29dd-cc30-41f2-bade-7f1930c4c788</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign Up Now!</value>
-      <webElementGuid>a3722316-88cd-4f6b-b35a-7a33891c7285</webElementGuid>
+      <webElementGuid>4a057a09-9754-49b1-bd3f-92a3affdb7be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;what-is-qrweb&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5 col-xl-5 ts-fadeInUp animated&quot;]/a[@class=&quot;btn btn-primary mb-4 ts-scroll&quot;]</value>
-      <webElementGuid>57e77a43-8782-454c-9854-895b06ce3541</webElementGuid>
+      <webElementGuid>52db32c1-bf27-4c33-a1a8-a9727918fec7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='what-is-qrweb']/div/div[2]/div/a</value>
-      <webElementGuid>250b1252-9399-45e9-8dd3-ac38c9d402c9</webElementGuid>
+      <webElementGuid>657b5178-7033-4fa0-b59c-986e4eb11a90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign Up Now!')]</value>
-      <webElementGuid>6802ca54-ffcc-462a-b753-c3be30ee8525</webElementGuid>
+      <webElementGuid>2f195df7-e7df-459e-887d-d8feec69e5d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='What Is QRWeb?'])[1]/following::a[1]</value>
-      <webElementGuid>2970b097-e8fd-4b84-ac15-7d033da1328d</webElementGuid>
+      <webElementGuid>f5e9d668-6ccf-4d69-aeaf-88dca7e8dc61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share It'])[1]/following::a[1]</value>
-      <webElementGuid>444972e4-6ee0-4e3e-be42-d9e9289f3b17</webElementGuid>
+      <webElementGuid>01e904cd-6cdd-4683-b60d-ccef8ff69f84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Features'])[1]/preceding::a[1]</value>
-      <webElementGuid>78985d17-e5e5-4153-b51c-6adff8ca2e6f</webElementGuid>
+      <webElementGuid>4f45c284-6ee2-4af3-bf6b-341bef76e0bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Simple To Use'])[1]/preceding::a[1]</value>
-      <webElementGuid>75ec56ba-4c4d-4ced-a72c-6e96fd283441</webElementGuid>
+      <webElementGuid>b5af3105-499f-4df5-a8ee-edacae256fa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign Up Now!']/parent::*</value>
-      <webElementGuid>84a60420-cc6e-4f25-9d63-e0d57edd6733</webElementGuid>
+      <webElementGuid>ec418986-2f6b-48c7-8935-474c1c8b8fa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/register/')]</value>
-      <webElementGuid>cb644af3-d9eb-4be4-8551-6f7a7cf00641</webElementGuid>
+      <webElementGuid>567f0d5b-fec3-4818-8bbb-60bb7125d877</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a</value>
-      <webElementGuid>b14b5868-67da-48b9-acd2-dd9364ba4a9d</webElementGuid>
+      <webElementGuid>aba52f56-a97b-41f1-a156-16d52b057ed3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/register/' and (text() = 'Sign Up Now!' or . = 'Sign Up Now!')]</value>
-      <webElementGuid>60535b9e-48cd-4fda-ad04-72ec8a2267c9</webElementGuid>
+      <webElementGuid>51fdd8a9-4b9b-4d4d-a5da-f8c92289bcb8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

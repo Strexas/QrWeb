@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://qr-web-h1fi.onrender.com/')
@@ -34,53 +35,63 @@ width = WebUI.getElementWidth(findTestObject('Object Repository/Page_QRWeb/a_Log
 
 WebUI.getCSSValue(findTestObject('Object Repository/Page_QRWeb/a_Log in'), 'color')
 
-
 // Define Test Object for the button element
 TestObject buttonElement = findTestObject('Object Repository/Page_QRWeb/a_Log in')
 
 // Verify border radius of the button
 String borderRadius = WebUI.getCSSValue(buttonElement, 'border-radius')
+
 assert borderRadius == '100px' //6.25rem*16px
 
 // Verify font weight of button text
 String fontWeight = WebUI.getCSSValue(buttonElement, 'font-weight')
+
 assert fontWeight == '600'
 
 // Verify font size of button text
 String fontSizeRem = WebUI.getCSSValue(buttonElement, 'font-size')
+
 assert fontSizeRem == '13px' // 0.9375rem * 16px = 15px
 
 // Verify padding of button
 // Verify padding of button
 String paddingVertical = WebUI.getCSSValue(buttonElement, 'padding-top')
+
 String paddingHorizontal = WebUI.getCSSValue(buttonElement, 'padding-right')
-assert paddingVertical == '5px' && paddingHorizontal == '16px'
+
+assert (paddingVertical == '5px') && (paddingHorizontal == '16px')
 
 // Verify box shadow of button
 String boxShadow = WebUI.getCSSValue(buttonElement, 'box-shadow')
+
 assert boxShadow == 'rgba(0, 0, 0, 0.15) 2px 3px 15px 0px'
 
 // Verify status indicator height and width
 String statusIndicatorHeight = WebUI.getCSSValue(buttonElement, 'height')
+
 String statusIndicatorWidth = WebUI.getCSSValue(buttonElement, 'width')
-assert statusIndicatorHeight == '32.7px' && statusIndicatorWidth == '73.5875px'
+
+assert (statusIndicatorHeight == '32.7px') && (statusIndicatorWidth == '73.5875px')
 
 // Verify status icon border radius, font size, and padding
 String statusIconBorderRadius = WebUI.getCSSValue(buttonElement, 'border-radius')
+
 String statusIconFontSize = WebUI.getCSSValue(buttonElement, 'font-size')
+
 String statusIconPaddingVertical = WebUI.getCSSValue(buttonElement, 'padding-top')
+
 String statusIconPaddingHorizontal = WebUI.getCSSValue(buttonElement, 'padding-right')
-assert statusIconBorderRadius == '100px' && statusIconFontSize == '13px' && statusIconPaddingVertical == '5px' && statusIconPaddingHorizontal == '16px'
+
+assert (((statusIconBorderRadius == '100px') && (statusIconFontSize == '13px')) && (statusIconPaddingVertical == '5px')) && 
+(statusIconPaddingHorizontal == '16px')
 
 // Verify background color, border color, and text color of primary button
 String backgroundColor = WebUI.getCSSValue(buttonElement, 'background-color')
+
 String borderColor = WebUI.getCSSValue(buttonElement, 'border-color')
+
 String textColor = WebUI.getCSSValue(buttonElement, 'color')
-assert backgroundColor == 'rgba(56, 131, 200, 1)' && borderColor == 'rgb(56, 131, 200)' && textColor == 'rgba(255, 255, 255, 1)'
 
-
-
-
-
+assert ((backgroundColor == 'rgba(56, 131, 200, 1)') && (borderColor == 'rgb(56, 131, 200)')) && (textColor == 'rgba(255, 255, 255, 1)')
 
 
