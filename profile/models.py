@@ -3,7 +3,7 @@ import uuid
 
 from django.db import models
 from django.contrib.auth import models as auth_models
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 from PIL import Image
 from django_editorjs_fields import EditorJsJSONField
 
@@ -40,27 +40,31 @@ class Page(models.Model):
             '@editorjs/image',
             '@editorjs/header',
             '@editorjs/list',
-            '@editorjs/code',
             '@editorjs/inline-code',
             '@editorjs/embed',
             '@editorjs/link',
             '@editorjs/marker',
             '@editorjs/table',
+            '@editorjs/raw',
             '@editorjs/underline',
             'editorjs-undo',
         ],
         tools={
-            "Image": {
-                'class': 'ImageTool',
-                "config": {
-                    "endpoints": {
-                        "byFile": "/editorjs/image_upload/",
-                    }
+            'Raw': {'class': 'RawTool'},
+            'Embed': {'class': 'Embed'},
+            'LinkTool': {
+                'class': 'LinkTool',
+                'config': {
+                    'endpoint': reverse_lazy('editorjs_linktool'),
                 }
+            },
+            'paragraph': {
+                'class': 'Paragraph',
+                'inlineToolbar': True,
             },
             'underline': {
                 'class': 'Underline'
-            },
+            }
         },
         null=True,
         blank=True,

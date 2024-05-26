@@ -13,8 +13,13 @@ venv
 media/profile_pics/*
 */migrations/*
 !*/migrations/__init__.py
+
 /bin/
 /Libs/
 /.settings/
 /.classpath
 .svn/
+
+
+staticfiles
+media/constructor

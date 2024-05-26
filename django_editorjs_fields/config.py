@@ -95,6 +95,8 @@ PLUGINS = getattr(
         '@editorjs/marker',
         '@editorjs/table',
         '@editorjs/underline',
+        'editorjs-paragraph-with-alignment',
+        'editorjs-header-with-alignment'
     )
 )
 
@@ -117,7 +119,7 @@ CONFIG_TOOLS = getattr(
                 'placeholder': 'Enter a header',
                 'levels': [1, 2, 3, 4],
                 'defaultLevel': 2,
-            }
+            },
         },
         'paragraph': {
             'class': 'Paragraph',
