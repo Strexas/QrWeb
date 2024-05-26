@@ -95,7 +95,8 @@ PLUGINS = getattr(
         '@editorjs/marker',
         '@editorjs/table',
         '@editorjs/underline',
-        'editorjs-text-alignment-blocktune'
+        'editorjs-paragraph-with-alignment',
+        'editorjs-header-with-alignment'
     )
 )
 
@@ -113,28 +114,16 @@ CONFIG_TOOLS = getattr(
         },
         'Header': {
             'class': 'Header',
-            'tunes': ['BlockTune'],
             'inlineToolbar': True,
             'config': {
                 'placeholder': 'Enter a header',
-                'levels': [2, 3, 4],
+                'levels': [1, 2, 3, 4],
                 'defaultLevel': 2,
-            },
-        },
-        'BlockTune': {
-            'class': 'AlignmentBlockTune',
-            'config': {
-                'default': "right",
-                'blocks': {
-                    'header': 'center',
-                    'list': 'left'
-                }
             },
         },
         'paragraph': {
             'class': 'Paragraph',
             'inlineToolbar': True,
-            'tunes': ['BlockTune'],
         },
         'Checklist': {'class': 'Checklist', 'inlineToolbar': True},
         'List': {'class': 'List', 'inlineToolbar': True},

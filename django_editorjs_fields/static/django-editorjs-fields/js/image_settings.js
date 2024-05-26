@@ -956,24 +956,24 @@
 
     static get tunes() {
         return [
-            {
-            name: "withBorder",
-            icon: D,
-            title: "With border",
-            toggle: !0
-        },
+        //     {
+        //     name: "withBorder",
+        //     icon: D,
+        //     title: "With border",
+        //     toggle: !0
+        // },
         //     {
         //     name: "stretched",
         //     icon: x,
         //     title: "Stretch",
         //     toggle: !0
         // },
-            {
-            name: "withBackground",
-            icon: O,
-            title: "With background",
-            toggle: !0
-        }
+        //     {
+        //     name: "withBackground",
+        //     icon: O,
+        //     title: "With background",
+        //     toggle: !0
+        // }
         ];
     }
 

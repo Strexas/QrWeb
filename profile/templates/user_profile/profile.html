@@ -1,35 +1,37 @@
 {% extends 'entry/base.html' %}
-
 {% block content %}
-    <div >
-        <h3><strong>User:</strong> {{ username }} <br> <strong>Email:</strong> {{ email }}</h3>
-        <form method="get" action="{% url 'change_password' %}">
-            {% csrf_token %}
-            {{ password_change_form.as_p }}
-            {% if not user_logged_in_with_google %}
-                <button type="submit" class="btn btn-primary">Change Password</button>
-        {% endif %}
-    </form>
-    </div>
-
-
+<div >
+   <h3><strong>User:</strong> {{ username }} <br> <strong>Email:</strong> {{ email }}</h3>
+   <form method="get" action="{% url 'change_password' %}">
+      {% csrf_token %}
+      {{ password_change_form.as_p }}
+      {% if not user_logged_in_with_google %}
+         <button type="submit" class="btn btn-primary">Change Password</button>
+      {% endif %}
+   </form>
+  <form id="delete-account-form" method="post" action="{% url 'delete_account' %}" style="margin-top: 10px;">
+      {% csrf_token %}
+      <button type="button" class="btn btn-danger" onclick="confirmDeleteAccount()">Delete Account</button>
+  </form>
+</div>
 <div class="page-list">
-    <br>
-    <h1>Your Pages:</h1>
-    <ul>
-        {% for page in user_pages %}
-            <li>
-                    Title: {{ page.title }} - Created on {{ page.created_at|date }}
-                    <a href="{% url 'view_page' page.upid %}" class="btn btn-primary">Open</a>
-                    <a href="{% url 'delete_page' page.upid %}" class="btn btn-danger">Delete</a>
-            </li>
-        {% endfor %}
-    </ul>
-    {% if user_pages|length == 0 %}
-        <h2>You don't have anything yet</h2>
-    {% endif %}
-        <a href="{% url 'create_page' %}" class="btn btn-primary">Create New Page</a>
-
-
+   <br>
+   <h1>Your Pages:</h1>
+   <ul>
+      {% for page in user_pages %}
+      <li>
+         Title: {{ page.title }} - Created on {{ page.created_at|date }}
+         <a href="{% url 'view_page' page.upid %}" class="btn btn-primary">Open</a>
+         <form action="{% url 'delete_page' page.upid %}" method="post" style="display:inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger">Delete</button>
+         </form>
+      </li>
+      {% endfor %}
+   </ul>
+   {% if user_pages|length == 0 %}
+      <h2>You don't have anything yet</h2>
+   {% endif %}
+   <a href="{% url 'create_page' %}" class="btn btn-primary">Create New Page</a>
 </div>
 {% endblock content %}

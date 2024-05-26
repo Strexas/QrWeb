@@ -10,4 +10,5 @@ urlpatterns = [
     path('create_page/', views.create_page, name='create_page'),
     path('view/<str:page_id>/', views.view_page, name='view_page'),
     path('delete_page/<str:page_id>/', views.delete_page, name='delete_page'),
+    path('delete_account/', views.delete_account, name='delete_account'),
 ]
