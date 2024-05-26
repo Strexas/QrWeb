@@ -33,4 +33,5 @@ jobs:
                --load-plugins=pylint_django \
                --django-settings-module=qr_web.settings \
                --max-parents='14' \
+               --ignore=venv \
                $(git ls-files '*.py')
