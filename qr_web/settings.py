@@ -15,7 +15,7 @@ from pathlib import Path
 import mimetypes
 import environ  # type: ignore[import-untyped]
 
-from google.oauth2 import service_account
+from google.oauth2 import service_account # type: ignore[import-untyped]
 
 
 
