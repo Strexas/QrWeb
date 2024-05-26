@@ -25,7 +25,7 @@ Migrate:
 
 3.)Click Server and right click Databases, create new Database
 
-4.)For keeping sensitive information about database, create .env file in your repository, add it to .gitignore.
+4.)For keeping sensitive information about database, create .env file in your repository.
 
 5.) Your .env file should look like this:
 `SECRET_KEY=django-insecure-728k0bs%91o$^sp%aa_ji@2fmtwpdk7r1na#*$%l2+%)7tnpo3
