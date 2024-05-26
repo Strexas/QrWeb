@@ -9,22 +9,67 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
+<<<<<<< HEAD
 
 import os.path
 from pathlib import Path
 import environ  # type: ignore[import-untyped]
+=======
+import os
+import os.path
+from pathlib import Path
+import mimetypes
+from google.oauth2 import service_account
+
+
+
+mimetypes.add_type("text/css", ".css", True)
+>>>>>>> 5ad9ff8832b83df361bd26bc158216ce423e0914
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5ad9ff8832b83df361bd26bc158216ce423e0914
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'RENDER' not in os.environ
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/5.0/howto/static-files/
+
+# This setting informs Django of the URI path from which your static files will be served to users
+# Here, they well be accessible at your-domain.onrender.com/static/...
+# or yourcustomdomain.com/static/...
+STATIC_URL = '/static/'
+# This production code might break development mode,
+# so we check whether we're in DEBUG mode
+
+if not DEBUG:
+    # Tell Django to copy static assets into a path `staticfiles` (this is specific to Render)
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+    # Enable the WhiteNoise storage backend, which compresses static files to reduce disk use
+    # and renames the files with unique names for each version to support long-term caching
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 ALLOWED_HOSTS: list[str] = []
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+if RENDER_EXTERNAL_HOSTNAME:
+    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+
+GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
+    os.path.join(BASE_DIR, 'credential.json')
+)
+
+GS_BUCKET_NAME = 'qr_web_image_bucket'
+GS_DEFAULT_ACL = 'publicRead'
 
 # Application definition
 
@@ -42,10 +87,12 @@ INSTALLED_APPS = [
     'profile',
     'django_editorjs_fields',
     'constructor',
+    'storages',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -160,7 +207,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -184,5 +230,8 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ('951729000938-jr93mh2el80iko1g7a68qh1'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
 EDITORJS_VERSION = '2.27.0'
+<<<<<<< HEAD
 EDITORJS_IMAGE_UPLOAD_PATH = MEDIA_ROOT + '/constructor/'
 EDITORJS_IMAGE_UPLOAD_PATH_DATE = '%Y/%m/%d/%I_%M_%S'
+=======
+>>>>>>> 5ad9ff8832b83df361bd26bc158216ce423e0914
