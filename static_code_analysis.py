@@ -1,4 +1,4 @@
-"""File to run static code analysis mypy and pylint"""
+"""File to run static code analysis for mypy and pylint"""
 import subprocess
 
 # MyPy
