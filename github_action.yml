@@ -1,28 +1,19 @@
-name: Katalon Report Upload
-
+name: CI
 on:
   push:
-    branches:
-      - main
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
-  upload-katalon-report:
-    runs-on: ubuntu-latest
-
+  build:
+    runs-on: windows-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Run Katalon Tests
-      uses: katalon-studio/katalon-action@v3.2.1
+    - name: Checkout
+      uses: actions/checkout@v2.1
+    - name: Katalon Studio Github Action
+      uses: katalon-studio/katalon-studio-github-action@v2
       with:
-        version: '7.9.1'
-        args: '-noSplash -runMode=console -projectPath="<path-to-your-project>.prj" -reportFolder="Reports"'
-
-    - name: Katalon Report Uploader
-      uses: katalon-studio/report-uploader@v0.0.8
-      env:
-        PASSWORD: ${{ secrets.KATALON_API_KEY }}
-        PROJECT_ID: 1432391
-        TYPE: katalon
-        REPORT_PATH: 'Reports'
+          version: '7.5.5'
+          projectPath: '${{ github.workspace }}'
+          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Simple Test Suite Collection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
