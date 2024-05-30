@@ -124,8 +124,9 @@ def create_page(request):
                 data.append([])
                 for j in i:
                     data[-1].append(j)
-
-            image = Image.fromarray(numpy.uint8(numpy.array(data)) * 255).resize((image.width * 8, image.width * 8), PIL.Image.NONE)
+            # pylint: disable=no-member
+            image = (Image.fromarray(numpy.uint8(numpy.array(data)) * 255).
+                     resize((image.width * 8, image.width * 8), PIL.Image.NONE))
             image_file = BytesIO()
             image.save(image_file, format='WEBP')
             image_file.seek(0)
