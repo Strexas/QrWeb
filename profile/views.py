@@ -2,15 +2,14 @@
 import os
 from io import BytesIO
 
-import PIL.Image
+import PIL
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
 from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth.decorators import login_required
-
+from django.conf import settings
 from django.shortcuts import render, redirect, get_object_or_404
 from social_django.models import UserSocialAuth  # type: ignore
-from django.conf import settings
 
 import numpy
 from PIL import Image
@@ -117,9 +116,8 @@ def create_page(request):
             user = request.user
             page = Page.objects.create(title=title, content=content, user=user)
 
-            upid = str(page.upid)
-            HOST = os.environ.get("HOST", default="http://localhost:8000/")
-            image = make_qr(HOST + 'profile/view/' + upid)
+            host = os.environ.get("HOST", default="http://localhost:8000/")
+            image = make_qr(host + 'profile/view/' + str(page.upid))
 
             data = []
             for i in image.matrix:
@@ -127,16 +125,14 @@ def create_page(request):
                 for j in i:
                     data[-1].append(j)
 
-            image = Image.fromarray(numpy.uint8(numpy.array(data)) * 255)
-            image = image.resize((image.width * 8, image.width * 8), PIL.Image.NONE)
+            image = Image.fromarray(numpy.uint8(numpy.array(data)) * 255).resize((image.width * 8, image.width * 8), PIL.Image.NONE)
             image_file = BytesIO()
             image.save(image_file, format='WEBP')
             image_file.seek(0)
-            filename = upid + '.webp'
 
             client = gcs_storage.Client(credentials=settings.GS_CREDENTIALS)
             bucket = client.bucket(settings.GS_BUCKET_NAME)
-            blob = bucket.blob(f"{request.user.username}/{filename}")
+            blob = bucket.blob(f"{request.user.username}/{str(page.upid) + '.webp'}")
 
             blob.upload_from_file(image_file, content_type='image/webp')
             blob.make_public()
