@@ -32,6 +32,9 @@ SECRET_KEY = 'django-insecure-69mez*=oxw)h+a60&8-15kxz&xh%dh@&6k^mt&zre^g507aqt_
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'RENDER' not in os.environ
+HOST = 'http://localhost:8000/'
+if not DEBUG:
+    HOST = 'https://qr-web-h1fi.onrender.com/'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
