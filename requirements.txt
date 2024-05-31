@@ -13,3 +13,5 @@ google~=3.0.0
 config~=0.5.1
 django-storages~=1.14.3
 google-cloud-storage~=2.16.0
+segno~=1.6.1
+numpy
