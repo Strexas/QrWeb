@@ -1,5 +1,4 @@
 """Views for profile page"""
-import os
 from io import BytesIO
 
 import PIL
