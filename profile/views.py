@@ -1,5 +1,4 @@
 """Views for profile page"""
-import os
 from io import BytesIO
 
 import PIL
@@ -116,8 +115,7 @@ def create_page(request):
             user = request.user
             page = Page.objects.create(title=title, content=content, user=user)
 
-            host = os.environ.get("HOST", default="http://localhost:8000/")
-            image = make_qr(host + 'profile/view/' + str(page.upid))
+            image = make_qr(settings.HOST + 'profile/view/' + str(page.upid))
 
             data = []
             for i in image.matrix:
